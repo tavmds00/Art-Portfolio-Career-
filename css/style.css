@@ -4736,7 +4736,12 @@ ins {
 		padding-right: var(--main-fluid-padding-lr, 60px)!important;
 		max-width: var(--main-fluid-max-width, none );
 	}
-
+	/* Filter */
+.filters-top-spacing,
+.filters-top-spacing .filters-ul {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
 	.header-main.container-fluid, 
 	#footer .container-fluid {
 		padding-left: var(--header-fluid-padding-lr, 60px)!important;
