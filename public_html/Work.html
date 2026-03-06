@@ -185,6 +185,90 @@
 													
 												<div class="container-masonry ux-portfolio-4col  ux-portfolio-full  ux-ratio-169 filter-left " data-ratio="0.5625" data-col="4" data-found="10" data-number="999" data-mod="grid">
 													
+													Filter>>
+<style>
+.filters-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.filters-li {
+    display: inline-block;
+}
+.filters-a {
+    display: inline-block;
+    padding: 5px 14px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #777;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.filters-a::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #666;
+    transition: width 0.3s ease;
+}
+.filters-a:hover,
+.filters-li.active .filters-a {
+    color: #000;
+}
+.filters-a:hover::after,
+.filters-li.active .filters-a::after {
+    width: calc(100% - 14px);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .filters-ul {
+        justify-content: flex-start;
+        gap: 5px;
+    }
+    .filters-a {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+}
+</style>
+
+<div class="filters clearfix" style="margin-bottom: 30px; margin-top: 20px;">
+    <ul class="filters-ul">
+        <li class="filters-li active">
+            <a id="all" class="filters-a" href="#" data-filter="*">All</a>
+        </li>
+        <li class="filters-li">
+            <a class="filters-a" href="#" data-filter=".filter_Drawing">Drawing</a>
+        </li>
+        <li class="filters-li">
+            <a class="filters-a" href="#" data-filter=".filter_iInstallation">Installation</a>
+        </li>
+        <li class="filters-li">
+            <a class="filters-a" href="#" data-filter=".filter_Performance">Performance</a>
+        </li>
+        <li class="filters-li">
+            <a class="filters-a" href="#" data-filter=".filter_Mixed-Media">Mixed-Media</a>
+        </li>
+        <li class="filters-li">
+            <a class="filters-a" href="#" data-filter=".filter_Sculpture">Sculpture</a>
+        </li>
+        <li class="filters-li">
+            <a class="filters-a" href="#" data-filter=".filter_Video">Video</a>
+        </li>
+    </ul>
+</div>
+													
+													
 														<div class="masonry-list grid-list clearfix grid-list-1573192737761 grid-list-tit-shown     mouseover-no-effect "  data-unique="1573192737761" data-source="ux-portfolio">
 															<section class="grid-item sea-grid-item filter_allfilter_Archive filter_Drawing filter_iInstallation" data-postid="1500">
 																<div class="grid-item-inside   " data-animationend="fadeined">
