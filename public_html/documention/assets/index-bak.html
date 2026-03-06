@@ -1,0 +1,2919 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Documentation - ART. HTML5 Template version 2.0</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Bwsm/UIUEUX Studio">
+	<meta name="copyright" content="Bwsm/UIUEUX Studio">
+	<meta name="generator" content="Documenter v1.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-04-12T00:00:00+02:00">
+	<link href="assets/css/bootstrap4.min.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/lightbox/themes/default/jquery.lightbox.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+	 
+	
+	<style>
+		html{background-color:#fff;color:#666;}
+        img{max-width: 100%;}
+        h1,h2,h3,h4,h5,h6{ color:#28282e;}
+        ::-moz-selection{background:#204E5E;color:#ccc;}
+        ::selection{background:#204E5E;color:#ccc;}
+        #documenter_sidebar #documenter_logo{ display: none; position: absolute; background-image:url(assets/logo.png); 
+    width: 100%;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 133px 0; }
+        .btn {color:#666; border-color:#ddd; }
+        hr{border-top:1px solid #111111;border-bottom:1px solid #313139;}
+        #documenter_sidebar, #documenter_sidebar nav a { background-color:#313139; text-shadow:none; } 
+        #documenter_sidebar nav a { font-weight:300; border-bottom:1px solid #313139; border-top:none; color:#ccc; box-shadow: none;}
+        #documenter_sidebar nav a:hover,
+        #documenter_sidebar nav a.active , a, a:hover, a:focus, a:active { color:#ea735f; opacity: 1; }
+        #documenter_copyright{display:block !important;visibility:visible !important; color:#ccc;}
+        .red { color: #ff8571; }
+        .right,.right a{ margin-top:0; font-size:10px; color:#666; }
+        #documenter_content section{ font-size:14px; font-weight: 300;}
+        #documenter_content > section {
+            padding-top: 60px;
+            margin-top: 240px;
+        }
+        #documenter_content > #documenter_cover {
+            padding-top: 35vh;
+            margin-top: 0;
+        }
+        .ima-wrap { 
+            position: relative; display: inline-block; 
+            -webkit-transform: opacity .5s;
+            -moz-transform: opacity .5s;
+            transform: opacity .5s;
+        }
+        .lightbox { display: block; width: 100%; height: 100%; }
+        .lightbox:before { content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.3); opacity: 0; }
+        .lightbox:hover:before{ opacity: 1; }
+        .quick_links_container{width:30%;} 
+        .image-border {border: 1px solid #eee; }
+        #documenter_content {padding-bottom: 1200px;}
+        #documenter_cover {height: 1200px;}
+        .prettyprint.linenums { border-radius: 0; font-size: 11px;}
+        .file-name { color: #a2a2a2; font-weight: 600; }
+        .sub-wrap { padding-left: 20px; }
+        .pre { color: #11348a; background-color: #f0f0f0; }
+        .img-border { border: 1px solid #eee; }
+        /*.sub-menu {display: none;}
+        .active .sub-menu {display: block;}*/
+        #documenter_sidebar .nav { 
+            overflow: initial;
+            margin-right: 0;
+        }
+        .navbar {
+            align-items: start;
+        }
+        #documenter_sidebar > .nav {
+            padding-top: 35vh;
+        }
+        #documenter_content h1 { 
+            padding-top: 7px;
+        }
+       /* .navbar .nav li {
+            position: relative;
+        }
+        .navbar .nav li ul { 
+            position: absolute;
+            top: -10px;
+            right: -145px;
+            min-width: 120px;
+            text-align: left;
+            padding: 10px 30px 10px 0;
+            z-index: 999;
+            margin: 0; 
+            box-shadow: none;
+            background-color: #313139;
+        }
+        #documenter_sidebar ul ul a {
+            padding-left: 10px;
+        }*/
+        #documenter_sidebar .nav-link {
+            padding-top: 3px; padding-bottom: 3px; text-align: right;
+        }
+        #documenter_sidebar .nav-sub .nav-link {
+            font-size: 11px;
+        }
+        #documenter_sidebar .nav-sub .nav-link:not(.active) {
+            opacity: .6;
+        }
+        #documenter_sidebar .nav-sub .nav-link:not(.active):hover {
+            opacity: 1;
+        }
+        .nav-sub {
+            display: none;
+        }
+        .nav-link.active + .nav-sub {
+            display: block;
+        }
+        section table.value td {
+            padding-right: 15px;
+        }
+        body {
+            position: relative;
+        } 
+        section h4 {
+            padding-top: 20px;
+        }
+        section ol {
+            padding-left: 0;
+        }
+        /*html, body { 
+            scroll-behavior:smooth; 
+        }*/
+	</style>
+	
+</head>
+<body data-spy="scroll" data-target="#documenter_sidebar" id="top">
+	<nav id="documenter_sidebar" class="navbar" >
+         
+		<a href="#documenter_cover" id="documenter_logo"></a>
+         
+		<nav class="nav nav-pills flex-column">
+			<a class="nav-link" href="#documenter_cover">Start</a>
+            <a class="nav-link" href="#unzip">Extract the zip file</a>    
+            <a class="nav-link" href="#html_structure" title="HTML Structure">HTML Structure</a>
+                <nav class="nav nav-pills flex-column nav-sub"> 
+                    <a class="nav-link" href="#header">Header</a>
+                    <a class="nav-link" href="#footer">Footer</a>
+                    <a class="nav-link" href="#main-content">Content</a>
+                </nav>
+            <a class="nav-link" href="#pages" title="Pages">Pages</a> 
+                <!-- <nav class="nav nav-pills flex-column nav-sub">
+                    <a class="nav-link" href="#home" title="Home">Home</a> 
+                    <a class="nav-link" href="#portfolio" title="Portfolio">Portfolio</a> 
+                    <a class="nav-link" href="#blog" title="Blog">Blog</a> 
+                </nav>   -->  
+            <a class="nav-link" href="#project" title="Project">Project Item</a> 
+            <a class="nav-link" href="#modules" title="Modules">Modules</a>
+                <nav class="nav nav-pills flex-column nav-sub"> 
+                    <a class="nav-link" href="#module-general">General</a>
+                    <a class="nav-link" href="#text-block">Text Block</a>
+                    <a class="nav-link" href="#single-image">Single Image</a>
+                    <a class="nav-link" href="#slider">Slider</a>
+                    <a class="nav-link" href="#grid">Grid</a>
+                    <a class="nav-link" href="#masonry-grid">Masonry Grid</a>
+                    <a class="nav-link" href="#group">Group</a>
+                </nav>
+            
+            <a class="nav-link" href="#css-fonts" title="CSS and Fonts">CSS &amp; Fonts</a>
+            <a class="nav-link" href="#javascript" title="JavaScript">JavaScript</a> 
+
+		</nav>
+
+        <div id="documenter_copyright">Copyright <a href="https://uiueux.com" target="_blank" rel="nofollow">SeaTheme</a> 2020<p class="right">
+            made with the <a href="http://rxa.li/documenter" target="_blank" rel="nofollow">Documenter v2.0</a></p>
+        </div>
+        
+	</nav>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>ART. HTML5 Template v2.0 Documentation</h1>
+	
+	<div id="documenter_buttons">
+		<a href="https://seatheme.net/forums/" class="btn btn-primary btn-large">Support Forum</a> <a href="https://twitter.com/Sea_Theme" class="btn btn-large">Follow Us</a> 
+	</div>
+	<hr>
+
+	<ul>
+	<li>Created: 11/22/2017</li>
+	<li>Latest Update: 11/12/2020</li>
+	<li>By: SeaTheme.net</li> 
+	</ul>
+
+
+	<p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to publish your question <a href="https://seatheme.net/forums/">here</a>. <br>Thanks so much!</p>
+
+    
+
+    <p><br><br></p>
+
+
+	</section>
+
+    
+	
+	<section id="unzip">
+    <h3>Extract the zip file</h3><hr class="notop">
+    <p> After extract the main zip file, you'll see these folders and files: </p>
+
+        <ul>
+            <li><strong>html</strong> - Main theme files
+                <ol>
+                    <li>img - UI images folder</li>
+                    <li>js - javascript files folder</li>
+                    <li>css - css file folder</li>
+                </ol>
+            </li>
+            <li><strong>Documentation</strong> - help file</li>
+        </ul>
+        
+        <p>We provide 88 HTMLs:</p>
+        <ol>
+            <li><strong>index.html</strong> - Slider Hero / Slogan / Masonry Grid portfolio list</li>
+            <li><strong>home-fullscreen.html</strong> - Fullscreen Grid</li>
+            <li><strong>home-boxed-marsonry-grid.html</strong> - Boxed Masonry Grid Portfolio</li>
+            <li><strong>home-irregular.html</strong> - Irregular Portfolio </li>
+            <li><strong>home-minimal-slider.html</strong> - Minimal Slider and Menu</li>
+            <li><strong>home-photo-gallery.html</strong> - Pohto Gallery </li>
+            <li><strong>home-art-design-agency.html</strong> - Agency</li>
+            <li><strong>home-fine-art-photography.html</strong> - Fine art Photography</li>
+            <li><strong>404.html</strong> - 404 </li>
+            <li><strong>page-info.html</strong></li>
+            <li><strong>page-about.html</strong></li>
+            <li><strong>page-map.html</strong> - Show Google Map</li>
+            <li><strong>blog.html</strong> - Blog archive list</li>
+            <li><strong>blog-archive.html</strong> - Blog archive list with sidebar</li>
+            <li><strong>blog-columns-2.html</strong> - Masonry Blog with 2 columns</li>
+            <li><strong>blog-mixed.html</strong> - Hero Slogan text and Masonry Blog with 4 columns</li>
+            <li><strong>content-no-sidebar.html</strong> - Single Post - without sidebar</li>
+            <li><strong>content-right-sidebar.html</strong> - Single Post - right sidebar layout</li>
+            <li><strong>content-left-sidebar.html</strong> - Single Post - left sidebar layout</li>
+            <li><strong>content-audio-post-mp3.html</strong> - Single Post - self-hosted audio file</li>
+            <li><strong>content-audio-soundcloud.html</strong> - Single Post - autio hosted on soundcloud</li>
+            <li><strong>content-video-youtube.html</strong> - Single Post - embed video</li> 
+            <li><strong>content-video-vimeo.html</strong> - Single Post - embed video</li> 
+            <li><strong>content-gallery.html</strong> - Single Post - image gallery</li>
+            <li><strong>content-link.html</strong> - Single Post - Links</li> 
+            <li><strong>content-quote.html</strong> - Single Post - Quote</li> 
+            <li><strong>project-gallery-on-right.html</strong> - Single Project - gallery on left / text on right </li>
+            <li><strong>project-gallery-on-left.html</strong> - Single Project - gallery on right / text on left, with filled style </li>  
+            <li><strong>project-no-title.html</strong> - Single Project - No title </li>
+            <li><strong>project-title-with-a-image-mask.html</strong> - Single Project - title with mask   </li> 
+            <li><strong>project-start-with-text.html</strong> - Single Project - start with text  </li>
+            <li><strong>project-start-with-slider.html </strong> - Project item - start with slider </li>
+            <li><strong>project-carousel.html</strong> - Project item - carousel</li>
+            <li><strong>project-irregular-gallery.html</strong> - Project item - irregular gallery</li> 
+            <li><strong>project-classic.html</strong> - Project item - classic</li>
+            <li><strong>portfolio-2-columns-filter.html</strong> - Standard grid - 2 columns, with filters</li>
+            <li><strong>portfolio-2-columns-masonry-loadmore.html</strong> - Masonry Waterfall list 2 columns, with loadmore</li> 
+            <li><strong>portfolio-2-columns-masonry-no-gap.html</strong> - Masonry Waterfall list 2 columns, without item spacing</li>
+            <li><strong>portfolio-2-columns-masonry-title.html</strong> - Masonry Waterfall list 2 columns, show title by default</li>
+            <li><strong>portfolio-2-columns-title.html</strong> - Standard grid - 2 columns, show title by default</li>
+            <li><strong>portfolio-3-columns.html</strong> - Standard grid - 3 columns</li>
+            <li><strong>portfolio-3-columns-title.html</strong> - Standard grid - 3 columns show title by default</li>
+            <li><strong>portfolio-3-columns-no-gap.html</strong> - Standard grid - 3 columns, without item spacing</li>
+            <li><strong>portfolio-3-columns-marsonry.html</strong> - Masonry Waterfall list 3 columns</li>
+            <li><strong>portfolio-3-columns-marsonry-no-gap.html</strong> - Masonry Waterfall list 3 columns without gap</li>
+            <li><strong>portfolio-3-columns-marsonry-title.html</strong> - Masonry Waterfall list 3 columns showing title by default</li>
+            <li><strong>portfolio-4-columns-marsonry-title.html</strong> - Masonry Waterfall list 4 columns showing title by default</li>
+            <li><strong>portfolio-6-columns.html</strong> - Standard grid - 6 columns</li>
+            <li><strong>portfolio-6-columns-no-gap-lightbox.html</strong> - Standard grid - 6 columns, open lightbox</li>
+            <li><strong>portfolio-marsonry-grid.html</strong> - Masonry grid</li>
+            <li><strong>portfolio-marsonry-grid-no-gap.html</strong> - Masonry grid, withou gap</li>
+            <li><strong>portfolio-marsonry-grid-title.html</strong> - Standard grid - 6 cols, showing title by default</li>
+            <li><strong>portfolio-video-grid.html</strong> - Standard grid - video grid</li>
+            <li><strong>slider-tab-text-normal.html</strong> - Tab text slider </li>
+            <li><strong>slider-bold-font-style.html</strong> - Tab text slider - Bold font style slider </li>
+            <li><strong>slider-classic.html</strong> - Classic slider</li>
+            <li><strong>slider-clean.html</strong> - Classic slider - Text under image</li>
+            <li><strong>slider-carousel.html</strong> - Carousel slider</li>
+            <li><strong>tagline-after-logo.html</strong> - Show tagline, after logo</li>
+            <li><strong>tagline-below-logo.html</strong> - Show tagline, below logo</li>
+            <li><strong>header-show-menu-items-default.html</strong> - Header layout: show menus by default</li>
+            <li><strong>header-show-menu-items-default-logo-right.html</strong> - Header layout: show menus, logo on right</li>
+            <li><strong>header-show-menu-items-default-b.html</strong> - Header layout: show menus by default, layout B</li>
+            <li><strong>header-show-menu-items-default-logo-right.html</strong> - Header layout: show menus, logo on right</li>
+            <li><strong>header-show-icon-horizontal-menus-on-header.html</strong> - Header layout: show humber icon, menu items shown on header when click humbar icon</li> 
+            <li><strong>header-show-icon-horizontal-menus-on-header-logo-right.html</strong> - Header layout: show humber icon, menu items shown on header when click humbar icon, logo on right</li> 
+            <li><strong>header-horizontal-menus-overlay-panel.html</strong> - Header layout: show humber icon, overlay menu panel</li>
+            <li><strong>header-horizontal-menus-overlay-panel-logo-right.html</strong> - Header layout: show humber icon, overlay menu panel, logo on right</li>
+            <li><strong>header-menus-corner.html</strong> - Header layout: corner menus layout</li>
+            <li><strong>header-menus-corner-logo-right.html</strong> - Header layout: corner menus layout, logo on right</li>
+            <li><strong>header-menu-justify.html</strong> - Header layout: menu item justify</li>
+            <li><strong>header-menus-justify-logo-right.html</strong> - Header layout: menu item justify, logo on right</li>
+            <li><strong>header-menus-centered.html</strong> - Header layout: logo and menu centered</li>
+            <li><strong>header-right-navigation.html</strong> - Navigation on right</li>
+            <li><strong>header-left-navigation.html</strong> - Navigation on left</li>
+            <li><strong>header-top-navigation.html</strong> - Navigation on shown on top</li>
+            <li><strong>header-top-navigation-logo-right.html</strong> - Navigation on shown on top, Logo on right</li>
+            <li><strong>menu-mouseover-underline.html</strong> - Menu mouseover effect: underline</li>
+            <li><strong>menu-mouseover-crossline.html</strong> - Menu mouseover effect: crossline</li>
+            <li><strong>menu-mouseover-shot.html</strong> - Menu mouseover effect: shot</li>
+            <li><strong>sub-menu-header.html</strong> - Sub Menu on the header bar</li>
+            <li><strong>sub-menu-expanded-panel.html</strong> - Sub Menu on the expanded panel</li>
+            <li><strong>footer-horizon-center.html</strong> - Footer columns layout - center alignment</li>
+            <li><strong>footer-horizon-lfet.html</strong> - Footer columns layout - lfet alignment</li>
+            <li><strong>footer-horizon-right.html</strong> - Footer columns layout - right alignment</li>
+            <li><strong>footer-vertical-center.html</strong> - Footer vertical layout: center alignment</li>
+            <li><strong>footer-vertical-left.html</strong> - Footer vertical layout: left alignment</li>
+            <li><strong>footer-vertical-right.html</strong> - Footer vertical layout: right alignment</li>
+            <li><strong>with-back-to-top.html</strong> - With Back top top button on the footer bar</li>
+            <li><strong>pageloading-index.html</strong> - Page Loading demo</li>
+            <li><strong>pageloading-blog.html</strong> - Page Loading demo</li>
+            <li><strong>pageloading-pageloading-page-info.html</strong> - Page Loading demo</li>
+        </ol>
+
+        <h4 id="custom">Customization</h4>
+        <div class="sub-wrap">
+            <p>We don’t suggest you edit the original css and js files. Because the template update will cover the original files.  You could add a new css or js file. Add the customized codes into the files. <br>
+            You could find the <code>custom.css</code> in the <code>css</code> folder, we suggest you clone it as your own CSS file. Edit the new CSS file. </p>
+        </div>
+    </section>
+    
+    <section id="html_structure">
+    <div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+    
+    <h4>Introduction</h4>
+    <div class="sub-wrap">
+    <p>All of the information within the main content area is nested within a div with an id of &quot;wrap-all&quot;. 
+        Here is the general structure. <br>
+        All <span class="file-name">style.css</span> are put before <span class="pre">&lt;/head&gt;</span>, put all js files(In addition to <span class="file-name">jquery.js</span>) before <span class="pre">&lt;/body&gt;</span>.</p>
+    
+<pre class="prettyprint lang-css linenums">
+&lt;div id="wrap-all"&gt;
+    &lt;!-- Page Loading --&gt;
+    &lt;div class="page-loading fullscreen-wrap visible"...&gt;...&lt;/div&gt;
+    &lt;!-- Audio Player --&gt;
+    &lt;div id="jquery_jplayer" class="jp-jplayer"...&gt;...&lt;/div&gt;
+    &lt;div id="wrap-outer"&gt;
+        &lt;!--Header--&gt;
+        &lt;header...&gt;...&lt;/header&gt;
+        &lt;!-- Navigation for menu hide layout --&gt;
+        &lt;div id="menu-panel"...&gt;...&lt;/div&gt;
+        &lt;div  id="portfolio-panel" class="portfolio-panel"&gt;...
+        &lt;/div&gt; &lt;!--End End #portfolio-panel--&gt;
+        &lt;!--#main-wrap--&gt;
+        &lt;div id="wrap"&gt;...
+        &lt;/div&gt; &lt;!--End #wrap--&gt;
+        &lt;!--Popup for Header Icon on Header--&gt;
+        
+    &lt;/div&gt;&lt;!--End #wrap-outer--&gt;
+    &lt;!-- Lightbox --&gt;
+    &lt;div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"...&gt;...&lt;/div&gt;
+    &lt;footer...&gt;...&lt;/footer&gt;
+&lt;/div&gt;&lt;!--End #wrap-all--&gt;    
+</pre>
+<br><br>
+</div>
+
+<h4>Meta</h4>
+<div class="sub-wrap">
+<p>Within each HTML file, there is meta data in <span class="pre">&lt;head&gt;</span> wrap</p>
+
+<pre class="prettyprint lang-css linenums">&lt;meta property="og:title" content="Art. Simple Clean Portfolio HTML5 Template" /&gt;
+&lt;meta property="og:description" content="The landing page of Art. Simple Clean Portfolio HTML5 Template, designed by BWSM" /&gt;
+&lt;meta property="og:url" content="https://html5.seatheme.net/art/entry/" /&gt;
+&lt;meta property="og:site_name" content="Art. Simple Clean Portfolio HTML5 Template Live Demo Site" /&gt;
+&lt;meta property="og:image" content="https://html5.seatheme.net/art/art-cover.jpg" /&gt;
+...</pre>
+<p>The meta data is for search site or social media site and SEO, you need change it as  yourself's infomation.</p>
+<p>You also replace the shortcut icon images url here:</p>
+<pre class="prettyprint lang-css linenums">&lt;link rel="icon" href="img/favicon-32x32.png" sizes="32x32" /&gt;
+&lt;link rel="icon" href="img/favicon-192x192.png" sizes="192x192" /&gt;
+&lt;link rel="apple-touch-icon" href="img/favicon-180x180.png" /&gt;
+&lt;meta name="msapplication-TileImage" content="img/favicon-270x270.png" /&gt;</pre>
+<br><br>
+</div>
+
+<h4>Body</h4>
+<div class="sub-wrap">
+<p>The necessary class names should be added into body tag.</p>
+
+<h5>Header Layout</h5>
+<div class="sub-wrap">
+<p>For different header layouts, the class names <code>navi-xxx</code>, <code>hide-menu-xxx</code>, <code>menu-icon-xxx</code>, <code>logo-on-right</code> are different. Please refer to the <a href="header-layouts">header layout</a> section.</p>
+</div>
+
+<h5>Header Sticky</h5>
+  <div class="sub-wrap">
+      <p>You could add the class name to define the <a href="#header-sticky">header sticky</a>.</p>
+    </div>
+
+<h5>Logo and Menu Color rule</h5>
+<div class="sub-wrap">
+<p>For the dark or alt logo color, the class name should be:<br></p>
+        <table class="value">
+            <thead>
+              <tr>
+                <th class=""></th>
+                <th class="">Default</th>
+                <th class="">Alternative</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="">To show which Logo color on header</td>
+                <td class=""><code>default-logo</code></td>
+                <td class=""><code>alt-logo</code></td>
+              </tr>
+              <tr>
+                <td class="">To show which Menu color on header</td>
+                <td class=""><code>default-menu</code></td>
+                <td class=""><code>alt-menu</code></td>
+              </tr>
+              <tr>
+                <td class="">To show which Logo/Menu color on the menu panel</td>
+                <td class=""><code>default-logo-menu-expand</code></td>
+                <td class=""><code>alt-logo-menu-expand</code></td>
+              </tr>
+              <tr>
+                <td class="">To show which Logo color/Menu(header) for mobile</td>
+                <td class=""><code>default-logo-menu-mobile</code></td>
+                <td class=""><code>alt-logo-menu-mobile</code></td>
+              </tr>
+          </tbody>
+      </table>
+
+      <p>
+        <i>If you want to show default color logo, please add class name <code>default-logo</code> into <code>body</code> node, otherwise, add class name <code>alt-logo</code> instead of <code>default-logo</code>. </i><br>
+        You should add the alt image logo(<a href="#alt-logo-html">learnmore</a>), The text logo and menu default and alternative color value is in the custom.css(search "Logo text color").</p>
+  </div>
+
+<h5 id="page_from_top">Page from top</h5>
+<div class="sub-wrap">
+    <p>The content area will start from the page top edge instead of the header bar if the class name <code>page_from_top</code> is added to the <code>body</code> node. It is suitable to a page with hero section.</p>
+    <p>The class name <code>non_bg_header</code>(on body node) will force remove the background color from the header bar.</p>
+    <img src="assets/content-from-top.jpg" alt="" width="300" class="image-border">
+</div>
+  
+  <h5>Lightbox Skin</h5>
+  <div class="sub-wrap">
+      <p>The <a href="lightbox-skin">lightbox skin</a> should be defined by the class name <code>pswp-light-skin</code>.</p>
+  </div>
+
+  
+</div>
+
+<h4 id="header">Header</h4>
+<div class="sub-wrap">
+<p>Header is for showing the logo, navigation, social links, and etc. Open <span class="file-name">index.html</span> with editor, you'll find the code: </p>
+<pre class="prettyprint lang-css linenums">
+&lt;!--header--&gt;
+&lt;header id="header"&gt;...&lt;header&gt;
+</pre>
+
+<h5>Container width</h5>
+
+<div class="sub-wrap">
+    <h6>Fixed width</h6>
+<div class="sub-wrap"><p>Add class name "container" into header-main tag:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;!--header--&gt;
+&lt;header id="header"&gt;...&lt;header&gt;
+    &lt;div id="header-main" class="header-main container"&gt;...&lt;header&gt;
+</pre>
+</div>
+
+<h6>Fluid width</h6>
+<div class="sub-wrap">
+    <p>Add className "container-fluid" into header-main tag:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;!--header--&gt;
+&lt;header id="header"&gt;...&lt;header&gt;
+    &lt;div id="header-main" class="header-main container-fluid"&gt;...&lt;header&gt;
+</pre>
+</div>
+</div>
+
+<h5>Background Color</h5>
+<div class="sub-wrap">
+    <p>There is not the backgroud color for the header bar, you could define the background color by the CSS:</p>
+<pre class="prettyprint lang-css linenums">
+#header,
+.page_from_top.header-scrolled #header,
+.navi-show-h .navi-header .sub-menu {
+    background-color: #ffffff;
+}
+</pre>    
+</div>
+
+
+<h5 id="menu-icon">Menu Icon Style(hamburg)</h5>
+<div class="sub-wrap">
+
+    <h6>Hamburg menu icon</h6>
+    <p>To use the 3-lines style menu icon, please link the <code>menuicon-hamburg.css</code> instead of <code>menuicon-default.css</code> in <code>head</code>. </p>
+    <p>Paste the svg codes into <code>navi-trigger</code> tag:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;a href="javascript:;" id="navi-trigger" class="navi-trigger"&gt;
+    &lt;svg class="navi-trigger-svg svg-style01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380"&gt;
+        &lt;rect class="svg-style01-line svg-style01-line1" width="380" height="50"&gt;&lt;/rect&gt;
+        &lt;rect class="svg-style01-line svg-style01-line2" width="380" height="50"&gt;&lt;/rect&gt;
+        &lt;rect class="svg-style01-line svg-style01-line3" width="380" height="50"&gt;&lt;/rect&gt;
+    &lt;/svg&gt;
+&lt;/a&gt;</pre>
+
+    <h6>Head icon</h6>
+    <p>To use the 9-dots style head icon, please link the <code>headericon-classic.css</code> instead of <code>headericon-default.css</code> in <code>head</code>. </p>
+    <p>Paste the svg codes into <code>portfolio-icon</code> tag:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;a class="portfolio-icon" href="javascript:;" data-postid="8"&gt; 
+    &lt;svg class="header-icon-svg header-icon-svg-9dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380"&gt;
+        &lt;g class="header-dot1"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot2"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot3"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot4"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot5"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot6"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot7"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot8"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+        &lt;g class="header-dot9"&gt;&lt;rect class="headericon-rect" width="380" height="50"&gt;&lt;/rect&gt;&lt;/g&gt;
+    &lt;/svg&gt;
+&lt;/a&gt;</pre>
+
+    <h6>Icon Size</h6>
+    <p>Please define the icon size by the CSS codes:</p>
+<pre class="prettyprint lang-css linenums">    
+body{
+    --menuicon-height: 26px;  /* Menu icon size for desktop */
+    --headericon-height: 26px;  /* Head icon size for desktop */
+    --menuicon-height-m: 16px; /* Menu icon size for mobile */
+    --headericon-height-m: 16px; /* Head icon size for mobile */
+}</pre>
+
+</div>
+
+
+<h5 id="menu-mouseover">Menu Mouseover Effect</h5>
+<div class="sub-wrap"> 
+    <p>The class name of default menu mouseover effect is <code>menu_hover_defaul</code> in the <code>body</code> tag. <br>
+        Please use the class name(replace menu_hover_default) for other 3 effects:</p>
+    <table class="value">
+            <thead>
+              <tr>
+                <th class="">Effect</th>
+                <th class="">Class name</th>
+                <th class="">Demo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="">Default</td>
+                <td class="">menu_hover_defaul</td>
+                <td class=""> </td>
+              </tr>
+              <tr>
+                <td class="">Underline</td>
+                <td class="">menu-hover-underline1</td>
+                <td class=""><a href="https://html5.seatheme.net/art/menu-mouseover-underline.html" title="Underline">menu-mouseover-underline.html</a></td>
+              </tr>
+              <tr>
+                <td class="">Crossline</td>
+                <td class="">menu-hover-diagonalline</td>
+                <td class=""><a href="https://html5.seatheme.net/art/menu-mouseover-crossline.html" title="Crossline">menu-mouseover-crossline.html</a></td>
+              </tr>
+              <tr>
+                <td class="">Shot</td>
+                <td class="">menu-hover-camera</td>
+                <td class=""><a href="https://html5.seatheme.net/art/menu-mouseover-shot.html" title="Crossline">menu-mouseover-shot.html</a></td>
+              </tr>
+          </tbody>
+      </table> 
+</div>
+
+
+<h5 id="header-sticky">Header Sticky</h5>
+<div class="sub-wrap">
+    
+    <h6>Always Sticky</h6>
+    <p>The header could be stayed on the top of the windown when the page is scrolling to the bottom. <br>
+    Please add class name <code>header-sticky</code> to the <code>body</code> node.</p>
+
+    <h6>Sticky when scrolling back</h6>
+    <p>The header could be stayed on the top of the windown when the page is scrolling to top. <br>
+    Please add class name <code>header-sticky-back</code> to the <code>body</code> node.</p>
+
+    <p>Please don't forget to remove the class name <code>header-sticky-none</code> from the <code>body</code> node.</p>
+</div>
+
+
+<h5 id="header-layouts">Header layouts</h5>
+<div class="sub-wrap">
+<p>There are 19 header layout options for the desktop, including "logo on right" layouts</p>
+
+<ol>
+    <li>
+<h6>Show menu items by default</h6>
+
+<div class="sub-wrap">
+<p>It is a classic layout, the menu items are shown by default.</p>
+<p><img src="assets/header-layout-1.jpg" alt="Header Layout 1" width="300" class="image-border"><br><br>
+<p>Add className "navi-show navi-show-h" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h logo-on-right ..."&gt;</pre>
+    <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...  
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="header-bar-social"&gt;...&lt;/div&gt; &lt;!-- Social links --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+    <p style="color:#666;"> * The menu icon would be shown on the mobile.</p>
+    <p>Please refer to <span class="file-name">header-show-menu-items-default.html</span></p>
+</div>
+</li>
+
+<li>
+<h6>Show menu items by default, layout B</h6>
+
+<div class="sub-wrap">
+<p>The menu items are shown by default also. But the menus would be more near with the logo.</p>
+<p><img src="assets/header-layout-2.jpg" alt="Header Layout 2" width="300" class="image-border"><br><br>
+<p>Add className "navi-show navi-show-h" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h navi-show-h-left ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h navi-show-h-left logo-on-right ..."&gt;</pre>
+    <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...  
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="header-bar-social"&gt;...&lt;/div&gt; &lt;!-- Social links --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+    <p style="color:#666;"> * The menu icon would be shown on the mobile.</p>
+    <p>Please refer to <span class="file-name">header-show-menu-items-default-b.html</span></p>
+</div>
+</li>
+
+<li>
+<h6>Show menu icon - vertical menus on overlay panel</h6>
+<div class="sub-wrap">
+    <p>The overlay menu panel will be slided out when the menu icon is clicked.</p>
+<p><img src="assets/header-layout-3.jpg" alt="Show menu icon - vertical menus on overlay panel" width="300" class="image-border"><br><br>
+<p>Add className "navi-hide hide-menu-desktop" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide hide-menu-desktop ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide hide-menu-desktop logo-on-right..."&gt;</pre>
+    <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt;
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+    <p>Please refer to <span class="file-name">header-vertical-menus-overlay-panel.html</span></p>
+</div>
+</li>
+
+<li>
+<h6>Show menu icon - horizontal menus on overlay panel</h6>
+<div class="sub-wrap">
+<p>The overlay menu panel will be slided out when the menu icon is clicked. The menus will be horizontally arranged on panel.</p>
+<p><img src="assets/header-layout-4.jpg" alt="Show menu icon - horizontal menus on overlay panel" width="300" class="image-border"><br><br>
+<p>Add className "navi-hide hide-menu-desktop" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide navi-hide-pop2 hide-menu-desktop ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide navi-hide-pop2 hide-menu-desktop logo-on-right ..."&gt;</pre>
+    <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+    <p>Please refer to <span class="file-name">header-horizontal-menus-overlay-panel.html</span></p>
+</div>
+</li>
+
+<li>
+<h6>Show menu icon - horizontal menus on header</h6>
+<div class="sub-wrap">
+<p>The menu items will be shown one on the header bar by one when the menu icon is clicked.  </p>
+<p><img src="assets/header-layout-5.jpg" alt="Show menu icon - horizontal menus on header" width="300" class="image-border"><br><br>
+<p>Add className "navi-hide navi-show-h navi-show-icon menu-icon-horizon-menu" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide navi-show-h navi-show-icon menu-icon-horizon-menu ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide navi-show-h navi-show-icon menu-icon-horizon-menu logo-on-right ..."&gt;</pre>
+    <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="header-bar-social"&gt;...&lt;/div&gt; &lt;!-- Social links --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+    <p>Please refer to <span class="file-name">header-show-icon-horizontal-menus-on-header.html</span></p>
+</div>
+</li>
+
+<li>
+<h6>Show menu items - justify items</h6>
+<div class="sub-wrap">
+<p>Menus and logo will be justified on the header. </p>
+<p><img src="assets/header-layout-6.jpg" alt="Show menu items - justify items" width="300" class="image-border"><br><br>
+<p>Add className "navi-show navi-show-h navi-justified" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h navi-justified ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+     <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h navi-justified logo-on-right ..."&gt;</pre>
+<p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+    <p>Please refer to <span class="file-name">header-menus-justify.html</span></p>     
+</div>
+</li>
+
+<li>
+<h6>Show menu items - items on corner</h6>
+<div class="sub-wrap">
+<p>The logo and menus will be shown on the corners of the window.</p>
+<p><img src="assets/header-layout-7.jpg" alt="Show menu items - items on corner" width="300" class="image-border"><br><br>
+<p>Add className "navi-show navi-show-h navi-corner" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h navi-corner ..."&gt;</pre>
+<p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-h navi-corner logo-on-right ..."&gt;</pre>
+<p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+<p style="color:#666;"> * The menu icon would be shown on the mobile.</p>
+<p>Please refer to <span class="file-name">header-menus-corner.html</span></p>     
+</div>
+</li>
+
+<li>
+<h6 id="menu-panel-top-windeow">Show menu icon - menu panel on top of window</h6>
+<div class="sub-wrap">
+<p>The menu panel will be shown on top of the window when the menu icon is clicked.</p>
+<p><img src="assets/header-layout-8.jpg" alt="Show menu items - menu panel on top of window" width="300" class="image-border"><br><br>
+<p>Add className "navi-hide hide-menu-desktop navi-top-menu" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide hide-menu-desktop navi-top-menu ..."&gt;</pre>
+ <p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+     <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide hide-menu-desktop navi-top-menu logo-on-right ..."&gt;</pre>
+ <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+
+<p>Please refer to <span class="file-name">header-menus-panel-top.html</span>. This layout shoule be with the <a href="#menu-panel-layout2">Layout 2</a> of the menu panel</p>
+</div>
+</li>
+
+<li>
+<h6 id="menu-panel-side-windeow">Show menu icon - menu panel on side of window</h6>
+<div class="sub-wrap">
+<p>The menu panel will be shown on side of the window when the menu icon is clicked.</p>
+<p><img src="assets/header-layout-9.jpg" alt="Show menu items - items on corner" width="300" class="image-border"><br><br>
+<p>Add className "navi-hide hide-menu-desktop navi-right-menu navi-side-menu" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide hide-menu-desktop navi-right-menu navi-side-menu ..."&gt;</pre>
+ <p>If you want to put the logo on the right, add the className "logo-on-right" into <span class="pre">&lt;body&gt;</span> tag: </p>
+     <pre class="prettyprint lang-css linenums">&lt;body class="navi-hide hide-menu-desktop navi-right-menu navi-side-menu logo-on-right ..."&gt;</pre>
+ <p>The header wrap should be: </p>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+<p>Please refer to <span class="file-name">header-menus-panel-side.html</span>. This layout shoule be with the <a href="#menu-panel-layout2">Layout 2</a> of the menu panel</p>  
+
+</div>
+</li>
+ 
+ <li>
+<h6>Show menu items - centered</h6>
+<div class="sub-wrap">
+<p>The logo and menus will be centered on the header.</p>
+<p><img src="assets/header-layout-10.jpg" alt="Show menu items - items on corner" width="150" class="image-border"><br><br>
+<p>Add className "navi-show navi-show-center" into <span class="pre">&lt;body&gt;</span> tag: </p>
+    <pre class="prettyprint lang-css linenums">&lt;body class="navi-show navi-show-center ..."&gt;</pre>
+<pre class="prettyprint lang-css linenums">&lt;header id="header"&gt;
+  &lt;div id="header-main"&gt; 
+    &lt;div id="navi-logo"&gt; 
+  ...
+    &lt;div id="header-meta"&gt;  
+      ...
+      &lt;nav class="navi-header"&gt;...&lt;/nav&gt; &lt;!-- Menu items --&gt;
+      &lt;div class="header-bar-social"&gt;...&lt;/div&gt; &lt;!-- Social links --&gt;
+      &lt;div class="navi-trigger-out"&gt;...&lt;/div&gt; &lt;!-- Menu icon --&gt;</pre>
+<p>Please refer to <span class="file-name">header-menus-centered.html</span></p>
+</div>
+</li>
+</ol>
+</div>
+
+<h5>Social Icons on header:</h5>
+<div class="sub-wrap">
+    <p>The social icons wrap could be in <span class="pre">&lt;header&gt;</span> wrap, refer <span class="file-name">header-show-menu-items-default-b.html</span>: </p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="header-bar-social"&gt;
+    &lt;ul class="socialmeida clearfix"&gt;
+     &lt;li class="socialmeida-li">
+      &lt;a title="Facebook" href="#" class="socialmeida-a"&gt;&lt;span class="fa fa-facebook"&gt;&lt;/span&gt;&lt;/a&gt;
+     &lt;/li&gt;
+     &lt;li class="socialmeida-li">
+      &lt;a title="Twitter" href="#" class="socialmeida-a"&gt;&lt;span class="fa fa-twitter"&gt;&lt;/span&gt;&lt;/a&gt;
+     &lt;/li&gt;
+     ...
+    &lt;/ul&gt;</pre>
+    
+    <p>Change the className here <span class="pre"> &lt;span class="fa fa-facebook"...</span> , you'll find the icons: <a href="https://fontawesome.com/v4.7.0/icons/">Fontawesome</a></p>
+</div>
+
+<h5>Logo:</h5>
+<div class="sub-wrap">
+     <p>The logo could be set Text or Image logo:</p>
+    <h6>Image Logo</h6>
+    <div class="sub-wrap">
+    <pre class="prettyprint lang-css linenums">&lt;!--Logo--&gt;
+&lt;div class="navi-logo"&gt;        
+    &lt;div class="logo-wrap"&gt;
+        &lt;div id="logo" class="logo"&gt;
+            &lt;a href="#" class="logo-a" title="ART"&gt;...
+                &lt;img alt="Art" class="logo-image logo-image-default" src="img/logo.png"&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    </pre>
+
+    <p>It supports PNG, JPG, GIF, SVG formats. The image logo size could be defined the height by css <code>--logo-height: 40px</code> and <code>--logo-height-m: 30px </code>(for mobile) in your own <a href="#custom">custom</a> CSS file. </p>
+    </div>
+
+    <h6 id="alt-logo-html">Alternative Image Logo</h6>
+    <div class="sub-wrap">
+    <p>You could set an alternative logo if the default image logo is not shown clearly on some special pages(e.g. dark logo above dark background)</p>
+    <pre class="prettyprint lang-css linenums">&lt;!--Logo--&gt;
+&lt;div class="navi-logo"&gt;        
+    &lt;div class="logo-wrap"&gt;
+        &lt;div id="logo" class="logo"&gt;
+            &lt;a href="#" class="logo-a" title="ART"&gt;...
+                &lt;img alt="ART logo" class="logo-image logo-image-default" src="img/logo.png"&gt;
+                &lt;span class="logo-image-alt" &gt;
+                    &lt;img alt="ART Alt logo" class="logo-image" src="img/logo-alt.png"&gt;
+                &lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    </pre>
+    </div>
+
+    <h6>Image Logo for mobile</h6>
+    <div class="sub-wrap">
+        <p>You could set a different image as logo for the mobile. Please add a className "logo-has-set-mobile" for <code>&lt;div id="logo" class="logo"&gt;</code> wrap</p>
+        <pre class="prettyprint lang-css linenums">&lt;!--Logo--&gt;
+&lt;div class="navi-logo"&gt;        
+    &lt;div class="logo-wrap"&gt;
+        &lt;div id="logo" class="logo logo-has-set-mobile"&gt;
+            &lt;a href="#" class="logo-a" title="ART"&gt;...
+                &lt;img alt="ART logo" class="logo-image logo-image-default" src="img/logo.png"&gt;
+                &lt;img alt="ART mobile logo" class="logo-image logo-image-default-mobile" src="img/logo-mobile.png"&gt;
+                &lt;span class="logo-image-alt" &gt;
+                    &lt;img alt="ART Alt logo" class="logo-image" src="img/logo-alt.png"&gt;
+                &lt;/span&gt;
+                &lt;span class="logo-image-alt-mobile" &gt;
+                    &lt;img alt="ART Alt mobile logo" class="logo-image" src="img/logo-alt-mobile.png"&gt;
+                &lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    </pre>
+    </div>
+
+    <h6>Text Logo</h6>
+    <div class="sub-wrap">
+        <p>You could set pure text logo instead of image logo</p>
+    <pre class="prettyprint lang-css linenums">&lt;!--Logo--&gt;
+&lt;div class="navi-logo"&gt;        
+    &lt;div class="logo-wrap"&gt;
+        &lt;div id="logo" class="logo"&gt;
+            &lt;a href="#" title="ART"&gt;...
+                &lt;span class="logo-text"&gt;ART.&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    </pre>
+    <p>You could define the text logo size in your own <a href="#custom">custom</a> CSS file. </p>
+    <pre class="prettyprint lang-css linenums">
+.logo-text {
+    font-size: 24px;
+}
+@media (max-width: 767px) {
+    .responsive-ux #header .logo-text {
+        font-size: 16px;
+    }
+}</pre>
+<p id="text-logo-color">Define the text logo default and alternative color in your own <a href="#custom">custom</a> CSS file.</p>
+<pre class="prettyprint lang-css linenums">
+.logo-text {
+    color: #313139; 
+}
+.alt-logo .logo-text {
+    color: #fff;
+}</pre>
+<p>The text logo default and alternative color for the mobile:</p>
+<pre class="prettyprint lang-css linenums">
+.default-logo-menu-mobile .logo-text {
+    color: #313139;
+}
+.alt-logo-menu-mobile .logo-text {
+    color: #fff;
+}</pre>
+    </div>
+</div>
+
+<h6>Tagline</h6>
+<div class="sub-wrap">
+    <p>You could set the tagline below the  <code>&lt;div id="logo"&gt;...&lt;/div&gt;</code> wrap.</p>
+        <pre class="prettyprint lang-css linenums">
+&lt;div class="logo-wrap"&gt;
+    &lt;div id="logo" class="logo"&gt;...&lt;/div&gt;
+    &lt;p class="taglines"&gt;Enter Taglines here&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+<p>Please add className "tagline-below-logo", "tagline-after-logo", "tagline-above-logo" ,or "tagline-beofre-logo" into <code>&lt;header&gt;</code>. It gives the position of the tagline relative to the logo. You coiuld add the className "tagline-hide-mobile" to hide the tagline on the mobile.</p>
+<pre class="prettyprint lang-css linenums">
+&lt;header id="header" class="tagline-below-logo tagline-hide-mobile"&gt;...&lt;/header&gt;
+</pre>
+<p>Please refer to <span class="file-name">tagline-below-logo.html</span>, <span class="file-name">tagline-after-logo.html</span></p>
+<p><b>Font size, color, padding: </b><br>
+    Please define the font size by the CSS: <code>.taglines { font-size: 12px; }</code>. <br>
+    There are 2 colors for the tagline, it is the same as the text logo, please search ".taglines" in the custom.css to find the color CSS. <br>
+    You could define the pading for tagline with the logo: <code>.taglines { margin-top: 10px; margin-left: 10px; }</code>.
+</p>
+</div>
+
+<h5>Menus:</h5>
+<div class="sub-wrap">
+<p>Edit header menu here:</p>
+    <pre class="prettyprint lang-css linenums">&lt;!--Menu--&gt;
+&lt;div id="navi_wrap" &gt;
+    &lt;ul class="menu clearfix"&gt;
+        &lt;li class="menu-item current-menu-item"&gt;&lt;a&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="menu-item menu-item-has-children"&gt;&lt;a href="#"&gt;Works&lt;/a&gt;&lt;/li&gt;
+        &lt;ul class="sub-menu"&gt;
+            &lt;li class="menu-item"&gt;&lt;a href="works-a.html"&gt;Submenu item A&lt;/a&gt;&lt;/li&gt;
+            ...
+        &lt;/ul&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="#"&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+        ...
+    &lt;/ul&gt;
+&lt;/div&gt;
+    </pre>
+    <p>Each <code>&lt;li&gt;</code> tag with class "menu-item" is one menu item, you could edit the text and link. </p>
+    <pre class="prettyprint lang-css linenums">&lt;li class="menu-item"&gt;&lt;a href=&quot;somepage.html&quot;&gt;Menu item&lt;/li&gt;</pre>
+
+    
+    <h6>Menu Item Spacing</h6>
+    <p>You could define the menu items spacing by <code>--spacing-menu-item-header: 40px</code> and <code>--spacing-menu-item-header-m: 10px</code>(for mobile) in your own <a href="#custom">custom</a> CSS file.</p>
+
+    <h6 id="sub-menu">Sub Menu</h6>
+    <p>If you want to add  submenu in Menu item, please insert code in <code>&lt;li&gt;... Menu item ... &lt;/li&gt;</code>, add class name <code>menu-item-has-children</code>: </p>
+    <pre class="prettyprint lang-css linenums">&lt;li class="menu-item menu-item-has-children"&gt;&lt;a href="somepage.html"&gt;Menu item&lt;/a&gt;
+    &lt;ul class="sub-menu"&gt;
+        &lt;li class="menu-item"&gt;&lt;a href="otherpage.html"&gt;Sub menu&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;</pre>
+    <p>Please refer to the demo pages: <a href="https://html5.seatheme.net/art/sub-menu-header.html">sub-menu-header.html</a>, <a href="https://html5.seatheme.net/art/sub-menu-expanded-panel.html">sub-menu-expanded-panel.html</a></p>
+
+    <h6 id="menu-color">Menu Color</h6>
+    <p>You would find the default and alternative menu(on header) color in custom.css(search "Default Menu Color", "Alertnative Menu Color") file, search "Menu Color on Expanded Panel" to find the menu color on the expanded panel.
+
+    </p>
+
+</div>
+<br><br>
+
+
+<h4>Menu Panel</h4>
+
+<div class="sub-wrap">
+    <video src="assets/what-is-menu-panel.mp4" width="300" autoplay loop muted></video>
+<p>The menu panel will be shown when the menu icons is clicked. There are 2 kinds of layout wrap for the different <a href="#header-layouts">header layouts</a>. Please choose one of theme.</p>
+
+<h5 id="menu-panel-layout1">Layout 1</h5>
+<div class="sub-wrap">
+<p>It is for most header layouts except the "Show menu icon - menu panel on top of the window" and "Show menu icon - menu panel on side of window" layouts.</p>
+<p>It should be below the <code>&lt;header&gt;</code> wrap.</p> 
+<pre class="prettyprint lang-css linenums">
+&lt;header id="header" &gt; ... &lt;/header&gt;
+&lt;div id="menu-panel" class="menu-panel menu-panel-align-center menu-panel-bottom-layout-default"&gt;...&lt;/div&gt;
+</pre>
+<p>Please refer to <span class="file-name">header-show-menu-items-default.html</span></p>
+
+<h6>Alignment</h6>
+<p>
+To define the menu items alignment, please add class name to the <code>menu-panel</code> node:  <br>
+Menu items align to center: <code>menu-panel-align-center</code> <br>
+Menu items align to left: <code>menu-panel-align-left</code> <br>
+Menu items align to right: <code>menu-panel-align-right</code> 
+</p>
+
+
+</div>
+
+<h5 id="menu-panel-layout2">Layout 2</h5>
+<div class="sub-wrap">
+<p>It is only for the "<a href="#menu-panel-top-windeow">Show menu icon - menu panel on top of the window</a>" and "<a href="#menu-panel-side-windeow">Show menu icon - menu panel on side of window</a>" header layouts.</p>
+
+<p>It should be above the <code>&lt;div id="jquery_jplayer"&gt;</code> wrap.</p> 
+<pre class="prettyprint lang-css linenums">
+&lt;div id="mobile-panel2" class="menu-panel menu-panel2 menu-panel-align-center menu-panel-bottom-layout-default"&gt;...&lt;/div&gt;
+&lt;div id="jquery_jplayer" class="jp-jplayer"...&gt;...&lt;/div&gt;
+</pre>
+<p>Please refer to <span class="file-name">header-menus-panel-top.html</span></p>
+<p>Please don't forget to add the mask wrap also:</p>
+<pre class="prettyprint lang-css linenums">&lt;div id="hide-menupanel-mask" class="hide-menupanel-mask"&gt; &lt;/div&gt;</pre>
+
+<h6>Alignment</h6>
+<p>
+To define the menu items alignment, please add class name to the <code>menu-panel</code> node:  <br>
+Menu items align to center: <code>menu-panel-align-center</code> <br>
+Menu items align to left: <code>menu-panel-align-left</code> <br>
+Menu items align to right: <code>menu-panel-align-right</code> 
+</p>
+
+</div>
+ 
+
+</div>
+</div>
+
+<h4 id="footer">Footer</h4>
+<div class="sub-wrap">
+    <p>Open <span class='pre'>index.html</span> with editor, find the <code>footer</code> node:</p>
+    <pre class="prettyprint lang-css linenums">
+&lt;footer id="footer"&gt;
+    &lt;div class="footer-info"&gt;
+        &lt;div class="container"&gt; &lt;!-- If you want to use the fluid width, please replace container as container-fluid. --&gt;
+        &lt;!--Footer item--&gt;
+        &lt;!--Footer item--&gt;
+        ...
+&lt;/footer&gt;</pre>
+
+<p>There is top / bottom padding for footer bar, you could define it by the CSS <code>.footer-info { padding-top:25px; padding-bottom:35px; }</code></p>
+
+<h5>Horizon Columns</h5>
+<div class="sub-wrap">
+<p><img src="assets/footer.jpg" alt="Horizon Columns footer" width="500" class="img-border"><br><br>
+    Please add the class names <code>footer-cols-layout footer-cols-layout-mobile</code> on the footer tag. <br><br>
+
+    <b>Footer item:</b><br>
+Each <code>footer-cols-item</code> is one column.</p>
+
+<b>HTML wrap:</b>
+<pre class="prettyprint lang-css linenums">&lt;footer id="footer"  class="footer-cols-layout footer-cols-layout-mobile"&gt;
+    &lt;div class="footer-info footer-horizon-left footer-horizon-left-mobile"&gt;
+        &lt;div class="container"&gt; 
+            &lt;div class="row"&gt;
+                &lt;div class="footer-cols-item footer-cols-item-mobile"&gt; &lt;!--Column 1--&gt;
+                ...
+                &lt;div class="footer-cols-item footer-cols-item-mobile"&gt; &lt;!--Column 2--&gt;
+                ...
+&lt;/footer&gt;</pre>
+
+<p><b>Alignment:</b> <br>
+    Please define the alignment by class name: <code>footer-horizon-left</code>, <code>footer-horizon-center</code>, <code>footer-horizon-right</code>, <code>footer-horizon-equal</code> in the footer-info tag. <br><br>
+
+    Please use the class name to set alignment for the mobile: <code>footer-horizon-left-mobile</code>, <code>footer-horizon-center-mobile</code>, <code>footer-horizon-right-mobile</code>, <code>footer-horizon-equal-mobile</code>. <br><br>
+    <img src="assets/footer-horizon-align.jpg" alt="Horizon Columns footer" width="500" class="img-border"><br><br> 
+
+    <b>Spacing</b><br>
+    Define the colunmns spacing by <code>--column-spacing-footer: 30px; --column-spacing-footer-m: 10px; </code> in the your own <a href="#custom">custom</a> CSS file. Please don't forget to set <code>footer-cols-item-mobile</code> for each footer item, it is for the mobile spacing.<br><br>
+    
+    
+</p>
+<p>Refer to <span class="file-name">footer-horizon-center.html</span>, <span class="file-name">footer-horizon-left.html</span>, <span class="file-name">footer-horizon-right.html</span>, <span class="file-namr">footer-horizon-equal.html</span></p>
+</div>
+
+<h5>Vertical</h5>
+<div class="sub-wrap">
+<p><img src="assets/footer2.jpg" alt="Vertical footer" width="500" class="img-border"><br><br>
+
+    The class name should be <code>foot-one-col footer-cols-layout-mobile</code> instead of <code>footer-cols-layout footer-cols-layout-mobile</code> on the footer tag. <br><br>
+<b>Footer item:</b><br>
+    The is class name should be <code>footer-one-col-item</code> instead of <code>footer-cols-item</code> wrap. <br>
+    Each <code>footer-one-col-item</code> is one row.<br></p>
+    <b>HTMl wrap:</b>
+<pre class="prettyprint lang-css linenums">&lt;footer id="footer"  class="foot-one-col footer-cols-layout-mobile"&gt;
+    &lt;div class="footer-info footer-vertical-left footer-horizon-left-mobile"&gt;
+        &lt;div class="container"&gt; 
+                &lt;div class="footer-one-col-item footer-one-col-item-mobile"&gt; &lt;!--Row 1--&gt;
+                ...
+                &lt;div class="footer-one-col-item footer-one-col-item-mobile"&gt; &lt;!--Row 2--&gt;
+                ...
+&lt;/footer&gt;</pre>
+<p><b>Alignment:</b>  <br>
+    Please define the alignment by class name: <code>footer-vertical-left</code>, <code>footer-vertical-right</code>, <code>footer-vertical-center</code> in the footer-info tag. <br>
+Please use the class name to set alignment for the mobile: <code>footer-vertical-left-mobile</code>, <code>footer-vertical-center-mobile</code>, <code>footer-vertical-right-mobile</code>. <br><br><img src="assets/footer-vertical-align.jpg" alt="Footer vertical elements" width="500" class="img-border"><br><br>
+<b>Spacing:</b><br>
+Define the colunmns spacing by <code>--row-spacing-footer: 20px; --row-spacing-footer-m: 10px;</code> in the your own <a href="#custom">custom</a> CSS file. Please don't forget to set <code>footer-one-col-item-mobile"</code> for each footer item, it is for the spacing on mobile.<br><br>
+</p>
+
+<h5>Social Links on Footer</h5>
+
+<div class="sub-wrap">
+    <p>The social icons wrap could be in the footer item wrap: 
+    </p> 
+    <pre class="prettyprint lang-css linenums">&lt;div class="footer-social"&gt;
+        &lt;ul class="socialmeida clearfix"&gt;
+         &lt;li class="socialmeida-li">
+          &lt;a title="Facebook" href="#" class="socialmeida-a"&gt;&lt;span class="fa fa-facebook"&gt;&lt;/span&gt;&lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="socialmeida-li">
+          &lt;a title="Twitter" href="#" class="socialmeida-a"&gt;&lt;span class="fa fa-twitter"&gt;&lt;/span&gt;&lt;/a&gt;
+         &lt;/li&gt;
+         ...
+        &lt;/ul&gt;</pre>
+    <p>Change the className here <span class="pre"> &lt;span class="fa fa-facebook"...</span> , you'll find the icons: <a href="https://fontawesome.com/v4.7.0/icons/">Fontawesome</a></p>
+    <p>
+        <b>Spacing:</b><br>
+        Please add the <code>--hspacing-social-items-foot: 40px; --hspacing-social-items-foot-m:10px</code> to define the spacing.<br>
+
+        <b>Size:</b><br>
+        Please add the <code>.footer-social .socialmeida-a .fa { font-size: 24px; }</code> to define the social icon size.<br>
+        
+    </p>
+</div>
+
+<h5>Define the font size and color</h5>
+<div class="sub-wrap"> 
+    <p>Please use the CSS <code>.footer-info { font-size: 14px; }</code> to define the font size for the text on the footer.<br>
+    The CSS is for the mobile: <code>@media (max-width: 767px) { .responsive-ux .footer-info { font-size: 12px; } }</code>.</p>
+    <p>Define the footer text color by the CSS: <code>.copyright a, .footer-info a, .footer-info .socialmeida-a { color: #414145; }</code>. </p>
+
+</div>
+
+<h5 id="back-top-top">Back To Top</h5>
+<div class="sub-wrap"> 
+    <p>Please add the codes above <code>&lt;/div&gt;&lt;!--End wrap-all--&gt;</code> into all HTML files:</p>
+    <pre class="prettyprint lang-css linenums">
+&lt;div class="back-top-wrap center-ux container-fluid hidden-xs"&gt;
+    &lt;div id="back-top" class="backtop-shown"&gt;&lt;/div&gt;            
+&lt;/div&gt; </pre>
+<p>Please refer the demo page: <a href="https://html5.seatheme.net/art/with-back-to-top.html">with-back-to-top.html</a></p>
+</div>
+
+</div>
+<br><br>
+</div>
+
+
+
+
+<br><br>
+<h4 id="page-loading">Page Loading</h4>
+<div class="sub-wrap">
+<p>Please add the codes under <code>&lt;div class="wrap-all&gt;</code> into all HTML files:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;div class="page-loading fullscreen-wrap"&gt;
+    &lt;div class="page-loading-inn"&gt;
+        &lt;div class="page-loading-transform"&gt;
+            &lt;div class="site-loading-logo"&gt;
+                &lt;span&gt;Loading...&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;            
+&lt;/div&gt; 
+</pre>
+<p>Please refer the demo page: <a href="https://html5.seatheme.net/art/pageloading-index.html">pageloading-index.html</a></p>
+</div>
+
+
+<h4 id="main-content">Main Content</h4> 
+<div class="sub-wrap">
+    <p>You should put the main content things to the <span class="pre">&lt;div id="wrap"&gt;</span> wrap.</p>
+<pre class="prettyprint lang-css linenums">
+    &lt;div id="wrap"&gt;
+    ...
+    &lt;/div&gt;
+</pre>
+
+<h5 id="sidebar-layout">Sidebar Layout</h5>
+<div class="sub-wrap">
+    <p>The sidebar layout HTML structure should be(refer <span class="file-name">content-right-sidebar.html</span>):</p>
+    <pre class="prettyprint lang-css linenums">
+&lt;div class="content_wrap_outer container container-class two-cols-layout"&gt;
+    &lt;div class="sidebar-layout row"&gt;
+        &lt;div id="content_wrap" class="col-md-9 col-sm-9"&gt;
+        ...
+        &lt;!--Sidebar Widgets--&gt;
+        &lt;aside id="sidebar-widget" class="col-md-3 col-sm-3"&gt;
+        ...</pre>
+        <p>If you set left sidebar, please set the className "pull-right"(refer <span class="file-name">content-left-sidebar.html</span>)</p>
+
+        <h6>Fixed width</h6>
+        <div class="sub-wrap">
+        <p>The class name <code>container</code> into <code>content_wrap_outer</code> node is for the boxed width layout.</p> 
+        </div>
+        <h6>Fluid width</h6>
+        <div class="sub-wrap"><p>Add class name <code>container-fluid</code> instead of <code>container</code> in the <code>content_wrap_outer</code> node.</p> 
+        </div>
+</div>
+
+<h5 id="fullwidth-layout">Fullwidth Layout</h5>
+<div class="sub-wrap">
+    <p>There are 3 kinds of HTML structure, for the single blog pages(content-xxx.html), HTML structure should be(refer to <span class="file-name">content-no-sidebar.html</span>):</p>
+
+    <pre class="prettyprint lang-css linenums">
+&lt;div class="content_wrap_outer fullwrap-layout container-fluid container-class"&gt;
+    &lt;div class="fullwrap-layout-inn"&gt;
+        &lt;div id="content_wrap"&gt;
+            &lt;div class="entry"&gt;
+        ...</pre>
+
+    <p>For the project pages(project-xxx.html), HTML should be: </p>
+    <pre class="prettyprint lang-css linenums">
+&lt;div class="content_wrap_outer fullwrap-layout"&gt;
+    &lt;div class="fullwrap-layout-inn"&gt;
+        &lt;div id="content_wrap"&gt;
+            &lt;article class="container-fluid container-class"
+                &lt;div class="entry"&gt;
+        ...</pre>
+
+    <p>For another kind of pages(page-xxx.html, home-xxx.html, portfolio-xxx.html, slider-xxx.html), HTML structure should be(refer to <span class="file-name">index.html</span>): </p>
+    <pre class="prettyprint lang-css linenums">
+&lt;div class="content_wrap_outer fullwrap-layout"&gt;
+    &lt;div class="fullwrap-layout-inn"&gt;
+        &lt;div id="content_wrap"&gt;
+            &lt;div class="entry container-fluid container-class"&gt;
+        ...</pre>
+     <h6>Fixed width</h6>
+    <div class="sub-wrap">
+    <p>The class name <code>container</code> is for the boxed width layout.</p> 
+    </div>
+    <h6>Fluid width</h6>
+    <div class="sub-wrap"><p>Add class name <code>container-fluid</code> instead of <code>container</code>.</p> 
+    </div>
+
+</div>
+
+<h5 id="container-width">Container Width</h5>
+<div class="sub-wrap">
+
+    <img src="assets/container-type.jpg" alt="Container Type" width="500" class="img-border"><br><br>
+    <h6>Fixed Width</h6>
+    <p>It is possible to define the container width by the CSS codes:</p>
+    <pre class="prettyprint lang-css linenums">
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}</pre>
+
+<h6>Fluid Width</h6>
+<p>It is possible to define the left-right padding by the CSS codes:</p>
+<pre class="prettyprint lang-css linenums">
+    body {
+        --main-fluid-padding-lr: 60px;
+    }
+</pre>
+
+</div>
+
+
+<br><br>
+</div>
+
+<h4>Responsive</h4>
+<div class="sub-wrap">
+<p>The theme is default to show the responsive layout when screen width is less 768px. You could remove the class "responsive-ux" in <span class="pre">&lt;body&gt;</span> tag to forbid it.</p>
+</div>
+
+
+<h4 id="lightbox">Lightbox</h4>
+<div class="sub-wrap">
+    <p>The HTML is for lightbox, it is necessary. Please <a href="#lightbox-single-image">refer to how to add a lightbox</a> to an image.</p>
+    
+<pre class="prettyprint lang-css linenums">&lt;div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"&gt;
+...</pre>
+    
+    <h5 id="lightbox-skin">Lightbox Skins</h5>
+    <div class="sub-wrap">
+        <p>There are 2 skins(lightbox or dark) for Lightbox, please define the skin by the class name <code>pswp-light-skin</code>(or pswp-dark-skin) in the <code>body</code> node.<br><br>
+            <img src="assets/color-lightbox.jpg" alt="Lightbox Skins" width="400" class="img-border"></div>
+</div>
+
+</section>
+
+
+
+<section id="pages">
+    <h3>Pages</h3><hr class="notop">
+        
+        <p>Please create the based on the <span class="file-name">home-xxx.html</span>(home page), portfolio-xxx.html(portfolio), page-xxx.html, blog-xxx(Blog) files. </p>
+        <p>The content is built by <a href="#modules">modules</a> like <a href="#slider">Slider</a>, <a href="#grid">Grid</a>, etc. The main content should be placed in the <code>entry</code> wrap:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="entry ..."&gt;
+        ...
+        &lt;/div&gt;</pre>
+    <h4 id="hero">Hero Section</h4>
+    <div class="sub-wrap">
+        <p>The content section will be below of the header bar. The header bar will cover the content area if you add the class name <code>page_from_top</code> into <code>body</code> node(<a href="#page_from_top">more</a>).</p>
+        
+        <h5 id="fullscreen-image">Fullscreen Image &amp; Video</h5>
+        <div class="sub-wrap">
+            <p>Please use a <a href="#group">Group</a> module to create the fullscreen image section.</p>
+            <p>Please set the Slider as fullwidth by class name <code>col-0</code> and <code>data-module-col="0"</code>, refer to <a href="#12-grids-width">12 cols width</a>.</p>
+        <pre class="prettyprint lang-css linenums">
+&lt;div id="" class="module col-0 module-id-12345" data-module-col="0"&gt;
+...</pre>
+        <p>Please refer to set the Group height <a href="#vh-unit">here</a>.</p>
+        <p>Please refer to set the image and video into the Group <a href="#group-background">here</a>.</p>
+        </div>
+
+        <h5 id="bold-text-mask">Bold Text</h5>
+        <div class="sub-wrap">
+            <p>It is possible to add a Text module to a Group module also.</p>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap row-middle row-center" data-module-col="0" data-change-color="off" data-backcolor="transparent" data-frontcolor="" data-logocolor="" data-groupsameheight="off"&gt;
+    &lt;div class="module-inside"&gt;
+        &lt;!--Put other modules here--&gt;
+        &lt;div id="" class="module col-8 ... &gt;
+            &lt;div class="text_block_out " data-animationend="fadeined" data-effect="standard"&gt;
+            ...
+                &lt;div class="text_block_centered"&gt;
+                    &lt;h1 style="text-align: center;font-size: 120px; --font-size-m: 85px;"&gt;
+                        Demo Text
+                    &lt;/h1&gt;
+                                                                    
+        &lt;/div&gt; 
+        ...
+    &lt;/div&gt; 
+&lt;/div&gt;</pre>
+<p>Please check the demo <a href="https://html5.seatheme.net/art/page-info.html">page-info.html</a>.</p>
+        </div>
+
+        <h5 id="fullscreen-slider">Fullscreen Slider</h5>
+        <div class="sub-wrap">
+        <p>Please set the Slider as fullwidth by class name <code>col-0</code> and <code>data-module-col="0"</code>, refer to <a href="#12-grids-width">12 cols width</a>.</p>
+        <pre class="prettyprint lang-css linenums">
+&lt;div id="" class="module col-0 module-id-12345" data-module-col="0"&gt;
+...</pre>
+        <p>Please set the slider height by the inline style <code>--slider-height-style1</code>(desktop) and <code>--slider-height-style1-m</code>(mobile).<a href="#vh-unit">vh is a fluid unit</a>.</p>
+        <pre class="prettyprint lang-css linenums">
+&lt;div class="slider-mod-wrap..." ... style="--slider-height-style1:100vh; --slider-height-style1-m: 100vh;"&gt;
+...</pre>
+<p>Please refer to how to set other <a href="#slider">slider</a> content. </p> 
+    </div>
+
+    </div>
+ 
+
+    <h4 id="portfolio">Portfolio</h4>
+    <div class="sub-wrap">
+        <p>You could check <a href="#project">this section</a> to create the single portfoio pages(Project Items).</p>
+        <p>Please use the <a href="#grid">Grid</a> or <a href="#masonry-grid">Masonry Grid</a> module to create the a Portfolio grid list page.</p>
+        <p>Of course, you could use different modules (like Slider and Masonry Grid) to mix a page. Refer to the <a href="https://html5.seatheme.net/art/index.html">index.html</a>, it use a Slider as Hreo, a Masonry Grid as selected potfolio.</p>
+    </div>
+
+
+    <h4 id="blog">Blog</h4>
+    <div class="sub-wrap">
+        <p>Please use the content-xxx.html fiels to create the single blog pages.</p>
+        <p>There are 2 kinds of HTML structure to create a blog(list) page.</p>
+
+        <h5>Blog archive</h5>
+        <div class="sub-wrap">
+            <p>Like the portoflio, you could use Grid module to create a blog also, please refer to the <a href="https://html5.seatheme.net/art/blog-mixed.html">blog-mixed.html</a> and <a href="https://html5.seatheme.net/art/blog-columns-2.html">blog-columns-2.html</a>. It is possible to mix with other modules by this way.</p>
+        </div>
+
+        <h5>Blog archive</h5>
+        <div class="sub-wrap">
+            <p>It is a fixed layout template, there will be the sidebar for this layout. Please refer to the <a href="https://html5.seatheme.net/art/blog.html">blog.html</a> and <a href="https://html5.seatheme.net/art/blog-archive.html">blog-archive.html</a>.</p>
+        </div>
+    </div>
+
+    <h4 id="static-page">Other Pages</h4>
+    <div class="sub-wrap">
+        <p>Please refer to the <a href="https://html5.seatheme.net/art/page-info.html">page-info.html</a> and <a href="https://html5.seatheme.net/art/page-about.html">page-about.html</a> to creat a about or contact page. It is possible to mix other modules like <a href="maps">Google Maps</a>, <a href="contact-form">Contact form</a></p>
+    </div>
+
+    
+
+</section>
+
+
+
+<section id="project">
+    <h3>Project Item</h3><hr class="notop">
+    <p>It is possible to porject item page by this template, named as: project-xxx.html</p>
+    <p>Including 2 types of template: <b>Standard</b>, <b>Gallery on right/left</b> </p>
+    <p>Please make sure that the class name <code>single-ux-portfolio</code> is added into <code>body</code> node.</p>
+
+
+<h4>Standard</h4>
+<div class="sub-wrap">
+    <p>This layout is built by the modules mainly. <br>
+    <span class="file-name">project-no-title.html </span><br><br> 
+    <img src="assets/project-standard.jpg" alt="Project Item" width="200" class="img-border"><br><br>
+    The html structure should be:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;div class="content_wrap_outer fullwrap-layout"&gt;
+    &lt;div class="fullwrap-layout-inn"&gt;
+        &lt;div id="content_wrap"&gt;
+            &lt;article class="container-fluid container-class"
+                &lt;div class="entry"&gt;
+                    &lt;div class="bm-builder clearfix "&gt;
+                        &lt;!--Put modules here--&gt;
+        ...</pre>
+        <p>Please <a href="#modules">refer to how to add the modules</a>.</p>
+
+        <p>It is possible to set the hero setion on the top of page, please add class name <code>page_from_top</code> into <code>body</code> node.</p>
+    
+
+ 
+ 
+
+ 
+
+  
+
+</div>
+
+<h4 id="gallery-on-side">Gallery on right/left</h4>
+<div class="sub-wrap">
+    <p>The “Gallery on Left/Right” is “Text column + Images column” layout(check video guide), it looks like: <br><br>
+         <img src="assets/project-2cols.jpg" alt="Project Item" width="300" class="image-border"><br><br>
+
+    The HTML structure looks like:</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="row single-gallery-col2"&gt;
+    &lt;div class="single-col2-text-wrap col-sm-12 col-md-5 sticky_column pull-right"&gt;
+        &lt;div class="entry"&gt;
+        &lt;div class="bm-builder clearfix "&gt;
+        &lt;!--Put modules here--&gt;
+
+    &lt;div class="single-col2-gallery-wrap blog-unit-gallery-wrap gallery-spacing-40 col-sm-12 col-md-7"&gt;
+        &lt;!--Gallery Grid--&gt;
+    ...    
+    </pre>
+    <p>If you want to gallery on right, remove the className "pull-right".<br>
+    If you want to the gallery images filled page top right/left, add className "single-gallery-col2-filled" to <code>&lt;div class="row single-gallery-col2"&gt;</code>
+    </p>
+
+    <p>Please add class name into <code>&lt;body&gt;</code> tag: single-portfolio-2c-body single-portfolio-gallery-left <br>
+    Or:  single-portfolio-2c-body single-portfolio-gallery-right
+    </p>
+
+    <p>
+    Please refer to:
+    <span class="file-name">project-gallery-on-left.html</span>
+    <span class="file-name">project-gallery-on-right.html</span> </p>
+
+      <h6>Gallery Grid</h6>
+    <div class="sub-wrap">
+        <p>The html struture looks like: </p>
+        <pre class="prettyprint lang-css linenums">&lt;div class="blog-unit-gallery-wrap gallery-spacing-40"&gt;
+            ...
+    &lt;div class="list-layout lightbox-photoswipe" data-gap="40"&gt;
+        &lt;!--Row--&gt;    
+        &lt;div class="list-layout-col list-layout-col1 clearfix"&gt;
+            &lt;!--Item Image Wrap--&gt;
+            &lt;div class="list-layout-col1-item list-layout-item"&gt;
+                &lt;div class="list-layout-inside">
+                    &lt;div class="single-image mouse-over" data-lightbox="true">
+                        &lt;a title="" class="lightbox-item" href="the-target-image-file.jpg" data-size="1400x788"&gt;
+                            &lt;span class="ux-lazyload-wrap" style=" padding-top: 56.285714285714%;"&gt;
+                                &lt;img src="img/blank.gif" data-src="the-thumbnail-image-file.jpg" width="1400" height="788" class="list-layout-img gallery-images-img ux-lazyload-img lazy"&gt;
+            ...
+        &lt;div class="list-layout-col list-layout-col2 clearfix"&gt;
+            &lt;div class="list-layout-col2-item list-layout-item"&gt;
+            &lt;div class="list-layout-col2-item list-layout-item"&gt;
+            ...</pre>
+        <p>The  1 - 4 images could be put into each row. You could notive the className list-layout-col1 / list-layout-col1-item, it is for one image each row. <br><br>
+
+        Please set the image file url into <code>&lt;img data-src=""&gt;</code>.  Set the target image file url into  <code>&lt;a class="lightbox-item" href=""&gt;</code>.The padding-top percentage value of ux-lazyload-wrap wrap is the thumbnail image origin size (height / width) * 100.<br>
+        <code>img/blank.gif</code> is a blank image..<br>
+        The padding-top percentage value of brick-content wrap is the thumbnail image origin size (height / width) * 100. <br><br>
+
+
+
+        Set the className and data-gap value for image spacing: <br> 
+        gallery-spacing-0 / data-gap="0"<br> 
+        gallery-spacing-2 / data-gap="2"<br> 
+        gallery-spacing-10 / data-gap="10"<br> 
+        gallery-spacing-20 / data-gap="20"<br> 
+        gallery-spacing-40 / data-gap="40"<br> 
+        gallery-spacing-60 / data-gap="60"<br> 
+        gallery-spacing-80 / data-gap="80"</p>
+    </div>
+
+</div>
+
+
+ 
+
+
+
+<br><br>
+
+</section>
+
+
+<section id="modules">
+    <h3>Modules</h3><hr class="notop">
+ 
+
+<h4 id="module-general">General</h4>
+<div class="sub-wrap">
+    <p>Most of content is built by the modules. You could create portfolio, blog, static page by the modules.<br>
+        The elemensts included: "Group", "Text Block", "Single Image", "Grid", "Masonry Grid", "Contact form",  and "Slider".<br>
+        Please use the wrap out all the modules:</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="bm-builder"&gt;
+        ...
+&lt;/div&gt;</pre>
+<h5>Structure</h5>
+<div class="sub-wrap">
+    <p>Each module should be set into wrap:</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="module col-12 module-id-1234567 ux-first-mod-row" data-module-col="12"&gt;
+    &lt;div class="module-inside"&gt;
+    ...
+    &lt;/div&gt; 
+&lt;/div&gt; </pre>
+    <p>The className <code>module-id-1234567</code> is for unique style, it is not necessary.</p>
+
+</div>
+
+    <h5 id="12-grids-width">12-Grids(width) system</h5>
+    <div class="sub-wrap">
+    <p>
+        Please define the module width 1 ~  12 columns by the class name <code>col-1</code> ~ <code>col-12</code> and attribute <code>data-module-col="1"</code> ~ <code>data-module-col="12"</code>. Please make sure that the columns of all modules in the same line(row) is less than(or equal to) 12. Please add the class name <code>ux-first-mod-row</code> for the first module of each row.<br><br>
+        If you want to set a module fullwidth, please use class name <code>col-0</code> and attribute <code>data-module-col="0"</code>.  
+        
+    </p>
+    <img src="assets/12-cols-width-system.png" width="600" alt="12-Grids system" class="image-border"><br><br>
+<pre class="prettyprint lang-css linenums">&lt;div class="module col-6 ux-first-mod-row" data-module-col="6"&gt; 
+&lt;/div&gt;
+&lt;div class="module col-6" data-module-col="6"&gt; 
+&lt;/div&gt;
+&lt;div class="module col-3 ux-first-mod-row" data-module-col="3"&gt; 
+&lt;/div&gt;
+&lt;div class="module col-9" data-module-col="9"&gt; 
+&lt;/div&gt;
+&lt;div class="module col-4 ux-first-mod-row" data-module-col="4"&gt; 
+&lt;/div&gt;
+&lt;div class="module col-4" data-module-col="4"&gt; 
+&lt;/div&gt;
+&lt;div class="module col-4" data-module-col="4"&gt; 
+&lt;/div&gt;</pre>  
+
+    <p>You could also set offset for each module by class name <span class="pre">col-offset-1</span> ~ <span class="pre">col-offset-12</span>.<br><br>
+    </p>
+    <img src="assets/width-grid-frame-offset.jpg" width="600" alt="12-Grids system offset" class="image-border"><br><br>
+<pre class="prettyprint lang-css linenums">&lt;div class="module col-8 col-offset-2 ux-first-mod-row" data-module-col="8"&gt; 
+&lt;/div&gt;</pre>
+    </div>
+
+    <h5>Top/Bottom Sapcing</h5>
+    <div class="sub-wrap">
+        <p>Please define the Top/bottom sapcing for a module by inline style in the <code>module-inside</code> tag. The inline CSS <code>--margin-top-mod-m:15px;</code> and <code>--margin-bottom-mod-m:15px;</code> is for mobile. The default top/bottom spacing(except to the bottom spacing mobile) is zero by default, but there is 20px bottom spacing for the mobile by default. It means you should add <code>--margin-bottom-mod-m:0px;</code> if you don't want the bottom sapcing for a module.</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="module col-6 ux-first-mod-row" data-module-col="6"&gt;
+    &lt;div class="module-inside" style="margin-top:20px; margin-bottom:20px; --margin-top-mod-m:15px; --margin-top-mod-m:15px;"&gt;
+</pre>            
+    </div>
+
+</div>  
+
+
+
+
+<h4 id="text-block">Text Block</h4>
+<div class="sub-wrap">
+<p>If you want to put a text module into page, add the HTML:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="text_block_out" data-animationend="fadeined"&gt;
+    &lt;div class="text_block"&gt;
+        &lt;div class="text_block_inn"&gt;
+            &lt;div class="text_block_centered " style="width:70%;"&gt;
+                &lt;h4 style="line-height: 30px; font-size: 46px; --font-size-m:32px;"&gt;I am headding text.&lt;/h4&gt;
+                &lt;p style="line-height: 24px; font-size: 20px; --font-size-m:16px;"&gt;I am text block.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>Refer <span class="file-name">index.html</span></p>
+
+<h5>Font Size</h5>
+<div class="sub-wrap">
+    <p>Please define the font size by the inline style <code>font-size: 46px;</code> for the desktop, the <code>--font-size-m</code> is for the font size on the mobile.</p>
+</div>
+
+<h5>Background Color</h5>
+<div class="sub-wrap">
+    <p>Please add the class names: withbg background_color on the text_block tag, add the bm-background-color wrap, you should set the color vaule on the bm-background-color wrap.</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="text_block_out" data-animationend="fadeined"&gt;
+    &lt;div class="text_block withbg background_color"&gt;
+    &lt;div class="bm-background-color" style="background-color:#e0e0e0"&gt;&lt;/div&gt;
+...</pre>
+</div>
+
+<h5 id="text-mask">Text with image mask</h5>
+<div class="sub-wrap">
+    <img src="assets/text-image-mask.jpg" width="300" alt="Text with image mask" class="image-border">
+    <p>Please add the class names: withbg background_image on the text_block tag, add the <code>&lt;div class="bm-text-bgimg-mask"&gt;</code> wrap, you should add the image URL to <code>--text-mask-background-image</code>. It support jpg, gif, png format. The URL must be full URL, the relative path will not work</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="text_block_out" data-animationend="fadeined"&gt;
+    &lt;div class="text_block withbg background_image"&gt; 
+    &lt;div class="bm-text-bgimg-mask"&gt;
+        &lt;div class="text_block_inn"&gt;
+            &lt;div class="text_block_centered "  style="--text-mask-background-image:url(https://image-file-URL)"&gt;
+            &lt;!--Use full URL, relative path is not accepted--&gt;
+                &lt;h1&gt;Title with a Image Mask&lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+...</pre>
+<p>Refer to <span class="file-name">project-title-with-a-image-mask.html</span></p>
+</div>
+
+<h5>Spacing</h5>
+<div class="sub-wrap">
+    <p>Define the padding arround the Text by the inline CSS in the parent's <code>module-inside</code> node:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="module-inside" style="padding-top:20px; padding-right:20px; padding-bottom:20px; padding-left:20px; --paddingtop-text-m: 10px; --paddingright-text-m: 10px; --paddingbottom-text-m: 10px; --paddingleft-text-m: 10px;" &gt;
+</pre>
+</div>
+ 
+ <h5>Inner width</h5>
+<div class="sub-wrap">
+<p>Define the inner width by the class name <code>text_block_centered_enable_width</code> and inline CSS in <code>text_block_centered</code> node:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="text_block_centered text_block_centered_enable_width" style="width:80%; --width-text-m:90%;" &gt;</pre>
+</div>
+
+</div>
+
+<h4 id="single-image">Singe Image</h4>
+<div class="sub-wrap">
+<p>Fot this module, it can(only) show one image, the HTML should be:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="single-image-out" data-animationend="fadeined"&gt;
+    &lt;div class="single-image"&gt;
+        &lt;div class="ux-hover-wrap" style="padding-top: 44.285%;"&gt;
+            &lt;a class="ux-hover-wrap-a" href="http://xxx"&gt;
+                &lt;img alt="xxx" class="single-image-img lazy" src="img/blank.gif" data-src="https://xxx.jpg" width="1400" height="620"&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>The padding-top percentage is image height / width * 100.</p>
+<p>You could put the image filt URL to the data-src. The defalt src blank.gif is for image <a href="#lazy-load" title="learn more about lazy loading">lazy loading</a>. It suppots jpg, png, gif formats file.</p> 
+<p>You could use several Single image modules to create gallery like <span class="pre">home-irregular.html</span></p>
+
+
+<h5>No link</h5>
+<div class="sub-wrap">
+<p>Please use <code>span</code> instead of <code>a</code>: </p>
+
+<pre class="prettyprint lang-css linenums">...
+&lt;span class="ux-hover-wrap-a"&gt;
+    &lt;img alt="xxx" class="single-image-img lazy" src="img/blank.gif" data-src="https://xxx.jpg" width="1400" height="620"&gt;
+&lt;/span&gt;</pre>
+</div>
+
+<h5 id="lightbox-single-image">Lightbox</h5>
+<div class="sub-wrap">
+<p>If you want to enable Lightbox(zoom image self) instead of normal link, please refer to the HTML: </p>
+<pre class="prettyprint lang-css linenums">&lt;div class="single-image-out" data-animationend="fadeined"&gt;
+    &lt;div class="single-image lightbox-photoswipe"&gt; 
+        &lt;div class="ux-hover-wrap" data-lightbox="true" &gt;
+            &lt;a class="lightbox-item ux-hover-wrap" data-size="1400x620" data-title="" title="Image Caption" style="padding-top: 44.285%;" href="https://xxx.jpg"&gt;
+                &lt;img alt="xxx" class="single-image-img lazy" src="img/blank.gif" data-src="https://xxx.jpg" width="1400" height="620"&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+</div>
+
+<h5>Mouseover Effect</h5>
+<div class="sub-wrap">
+    <ol>
+        <li><b>Gray to Colorful</b>, the class name <code>grayscale</code> should be add to the <code>img</code> node, the single-image node should be:<br><br>
+<pre class="prettyprint lang-css linenums">...
+    &lt;figure class="single-image lightbox-photoswipe bm-image-mouseover bm-gray-to-colored single-image-full"&gt; 
+    ...        
+        &lt;img alt="xxx" class="grayscale single-image-img lazy" src="img/blank.gif" data-src="https://xxx.jpg" width="1400" height="620"&gt;</pre>
+        </li>
+
+        <li><b>Colorful Gray</b>, the single-image node should be: <br><br>
+<pre class="prettyprint lang-css linenums">...
+    &lt;figure class="single-image lightbox-photoswipe bm-image-mouseover bm-colored-to-gray single-image-full"&gt; 
+    ...        </pre>
+        </li>
+
+        <li><b>Zoomed</b>, the single-image node should be:<br><br>
+<pre class="prettyprint lang-css linenums">...
+    &lt;figure class="single-image lightbox-photoswipe bm-image-mouseover bm-image-zoomed single-image-full"&gt; 
+    ...        </pre>
+        </li>
+    </ol>
+</div>
+
+<h5>SVG</h5>
+<div class="sub-wrap">
+    <p>To show SVG, please refer to the HTML: </p>
+<pre class="prettyprint lang-css linenums">&lt;div class="single-image-out single-image-svg" data-animationend="fadeined"&gt;
+    &lt;div class="single-image align-left"&gt; 
+        &lt;svg width="20" viewBox="0 0 18 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"&gt; 
+        ...
+        &lt;/svg&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>SVG doen't support Lightbox and Mouseover effect.</p>
+It supports the action what it the SVG image is clicked:
+<ol>
+    <li><b>Opening a new page</b>, the Single Image HTML should be:<br><br>
+<pre class="prettyprint lang-css linenums">&lt;div class="single-image-out single-image-svg" data-animationend="fadeined"&gt;
+    &lt;div class="single-image align-left"&gt;  
+        &lt;a class="ux-hover-wrap-a" href="http://URL"&gt;
+            &lt;svg ... &gt; ...
+            &lt;/svg&gt;
+        &lt;a&gt;</pre>
+    </li>
+    <li><b>Scrolling the current page</b>, the Single Image HTML should be: <br><br>
+<pre class="prettyprint lang-css linenums">&lt;div class="single-image-out single-image-svg" data-animationend="fadeined"&gt;
+    &lt;div class="single-image align-left"&gt;  
+        &lt;span class="ux-hover-wrap-a" data-scrolling="scroll-down"&gt;
+            &lt;svg ... </pre>
+        <p>You coudl set different option for the <code>data-scrolling</code>:</p>
+            <ol>
+                <li>scroll-top: scroll top 100% of screen height</li>
+                <li>scroll-down: scroll down 100% of screen height</li>
+                <li>top-of-page: scroll to the top of the page</li>
+                <li>bottom-of-page: scroll to the bottom of the page</li>
+            </ol>
+        
+    </li>
+</ol>
+</div>
+
+<p>Please refer to <span class="file-name">module-single-image.html</span></p>
+</div>
+
+
+<h4 id="slider">Slider</h4>
+<div class="sub-wrap">
+    <p>There are 3 kinds of slider: classic slider, text tab slider, and carousel slider.</p>
+    <p>The slider image supports jpg, png, gif format.</p>
+
+    <h5 id="classic-slider">Classic Slider</h5>
+    <div class="sub-wrap">
+        <p>Please refer to <a href="https://html5.seatheme.net/art/slider-classic.html">slider-classic.html</a>, the HTML:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;div class="slider-mod-wrap slider-style1 slide-des-bottom-left slide-number-show slide-number-bottom-right slide-arrow-show slide-arrow-show-default "  data-animationend="fadeined" style="--slider-height-style1:100vh;--slider-height-style1-m: 100vh;"&gt;
+    &lt;div id="slider-arrow-left" class="slider-arrow-left slider-arrow"&gt;&lt;svg&gt;...&lt;/div&gt;&lt;!--Left Arrow--&gt;
+    &lt;div id="slider-arrow-right" class="slider-arrow-right slider-arrow"&gt;&lt;svg&gt;...&lt;/div&gt;&lt;!--Right Arrow--&gt;
+    &lt;div class="owl-carousel " data-item="1" data-mobileitem="1" data-center="false" data-margin="0" data-marginmobile="0" data-autowidth="false" data-slideby="1" data-showdot="true" data-loop="true" data-nav="false" data-mousedrag="false" data-transition="600" data-auto="true" data-autoplayTimeout="5000" data-lazy="true"&gt;
+        &lt;!--Slider item--&gt;
+        &lt;section class="item" data-logocolor="default-logo" data-menucolor="default-menu" data-id="post-0-2352"&gt;
+        &lt;!--Slider item--&gt;
+        &lt;section class="item" data-logocolor="alt-logo" data-menucolor="alt-menu" data-id="post-1-2349"&gt;
+        ...</pre>
+
+    <p>Please enter the class name<code>slider-style1</code> to the slider-mod-wrap node. <br>
+    The default slider height is zero, please define height by inline style <code>--slider-height-style1:100vh;--slider-height-style1-m: 100vh;</code>.<a href="#vh-unit">vh is a fluid unit</a>. If you want to create a fullscreen slider, please refer to how to set the <a href="#hero">fullwidth(hero)</a> here.</p> 
+
+    <h6>Text</h6>
+    <p>The class name <code>slide-des-bottom-left</code> is for the position of text. There are alternative options: "slide-des-bottom-center", "slide-des-bottom-right". The Text could be under the image like <a href="https://html5.seatheme.net/art/slider-clean.html">slider-clean.html</a>, please use the class name <code>slide-des-under-image</code>. Please defined the font-size and padding by the CSS:</p>
+<pre class="prettyprint lang-css linenums">.slide-item-wrap-tit { 
+    font-size: 2.4vw; /* Font size for desktop */
+    --font-size-slider-style1-title-m:12px; /* Font size for mobile */
+    line-height: 1.5!important; 
+}
+.slide-item-des { 
+    padding-left: 40px;
+    padding-right: 40px;
+    --paddingleftright-slider-text-m: 20px; /* Left Right pading for mobile */
+    padding-bottom: 40px;
+    --paddingbottom-slider-text-m: 20px; /* Bottom pading for mobile */
+} </pre>
+<p>To show the title for the mobile, pleaes remove the class name <code>hidden-mobile</code>:</p>
+<pre class="prettyprint lang-css linenums">&lt;h2 class="slide-item-wrap-tit hidden-mobile"&gt;Packaging Design Works&lt;/h2&gt;</pre>
+
+    <h6>Page Number</h6>
+    <p>The page number is generated by the Owl-Carousel plugin, it can not be edited in the HTML codes directly. It will be disabled if remove the class name <code>slide-number-show</code>. The class name <code>slide-number-bottom-right</code> is for the position. There are alternative options: "slide-number-bottom-left", "slide-number-bottom-center". Please defined the font-size and padding by the CSS:</p>
+<pre class="prettyprint lang-css linenums">.slider-mod-wrap.slider-style1 .owl-dots { 
+    font-size: 24px; /* Page number size for desktop */
+    --font-size-slider-style1-number-m: 14px;  /* Page number size for mobile */
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    --margin-rightleft-pagenum-m: 20px;
+    margin-bottom: 40px;
+    --margin-bottom-pagenum-m: 20px;
+}</pre>
+
+    <h6>Navigation Arrow</h6>
+    <p>Please put the SVG codes into the <code>slider-arrow-left</code> and <code>slider-arrow-right</code> wrap. Please define the arrow padding by the CSS:</p>
+<pre class="prettyprint lang-css linenums">.slider-arrow { 
+    margin-left: 25px;
+    margin-right: 25px;
+}</pre>
+
+    <h6 id="slider-text-color-change">Dark and Light(default or alternative) rule</h6>
+    <p>It is possible to show different color(default or alternative) for different slide. Please define the <code>data-logocolor</code> and <code>data-menucolor</code> for each slider item.</p>
+<pre class="prettyprint lang-css linenums">&lt;!--Slider item--&gt;
+&lt;section class="item" data-logocolor="default-logo" data-menucolor="default-menu" data-id="post-0-2352"&gt;
+&lt;!--Slider item--&gt;
+&lt;section class="item" data-logocolor="alt-logo" data-menucolor="alt-menu" data-id="post-1-2349"&gt;
+&lt;!--Slider item--&gt;
+&lt;section class="item" data-logocolor="default-logo" data-menucolor="default-menu" data-id="post-2-2353"&gt;</pre>
+    <p>Of course, you should define both default and alternative <a href="#alt-logo-html">logo</a> and <a href="menu-color">menu color</a> CSS. <br>
+        There should be a unique <code>data-id="xxx"</code> for each item, it will help you define the Text, Page number, Arrow(SVG) color for different slide item by the CSS:</p>
+<pre class="prettyprint lang-css linenums">
+/*If the default text logo is dark color, but the slide item with id post-1-2349 is light, please add the CSS to define the light color: */
+.post-1-2349 * {
+    color: #ffffff;
+}
+.post-1-2349 svg * {
+    fill: #ffffff;
+}
+</pre>
+    <h6>Autoplay</h6>
+    <p><code>data-autoplayTimeout="5000"</code> is for Slider duration time, 1000 means 1 second. <br>
+        If set <code>data-auto="false"</code>, the slider will be disabled autoplay.
+    </p>      
+    </div>
+
+
+    <h5 id="tab-slider">Text Tab Slider</h5>
+    <div class="sub-wrap">
+        <p>Please refer to <a href="https://html5.seatheme.net/art/slider-bold-font-style.html">slider-bold-font-style.html</a>, the HTML:</p>
+<pre class="prettyprint lang-css linenums">
+&lt;div class="slider-mod-wrap slider-style2 style2-text-left text-underline slider-text-inline " data-animationend="fadeined"&gt;
+    &lt;div class="bm-tab-slider" style="height:100vh; --slider-height-style2-m:100vh;"&gt;
+
+        &lt;nav class="bm-tab-slider-trigger" style="margin-left:40px; margin-right:40px; --margin-lr-slider-trigger:20px;"&gt;
+            &lt;!--Slider item - text--&gt;
+            &lt;div class="bm-tab-slider-trigger-item"&gt;
+                &lt;!--class name bm-active is added for the 1st item--&gt;
+                &lt;a data-id="post-0-2352" data-logocolor="default-logo" data-menucolor="default-menu" class="bm-tab-slider-trigger-tilte bm-active" href="xxx"&gt;&lt;/a&gt;&lt;/div&gt;
+            &lt;!--Slider item - text--&gt;
+            &lt;div class="bm-tab-slider-trigger-item"&gt;
+                &lt;a data-id="post-1-2353" data-logocolor="default-logo" data-menucolor="default-menu" class="bm-tab-slider-trigger-tilte " href="xxx"&gt;&lt;/a&gt;&lt;/div&gt;
+            ...  
+        &lt;ul class="bm-tab-slider-img"&gt;
+            &lt;!--Slider item - image--&gt;
+            &lt;!--class name bm-active is added for the 1st item--&gt;
+            &lt;li id="post-0-2352" class="bm-tab-slider-img-item ux-background-img bm-active"&gt;
+                &lt;img class="grid-item-img lazy" src="img/blank.gif" data-src="xxx.jpg" alt="xxx"&gt;&lt;/li&gt;
+            &lt;li id="post-1-2353" class="bm-tab-slider-img-item ux-background-img "&gt;
+                &lt;img class="grid-item-img lazy" src="img/blank.gif" data-src="xxx.jpg" alt="xxx"&gt;&lt;/li&gt;
+            ...</pre>
+
+            <p>Please enter the class name<code>slider-style2</code> to the slider-mod-wrap node. <br>
+    The default slider height is 100vh, please define height by inline style <code>height:100vh; --slider-height-style2-m: 100vh;</code>. <a href="#vh-unit">vh is a fluid unit</a>. </p> 
+
+    <h6>Text</h6>
+    <p>The class name <code>slider-text-inline</code> is for the list style of text. Each item text will be listed each line if the slider-text-inline is removed, refer to the demo <a href="https://html5.seatheme.net/art/slider-tab-text-normal.html">slider-tab-text-normal.html</a>.
+        The class name <code>style2-text-left</code> is for the text alignment, there are alternative options: "style2-text-center", "style2-text-right".  </p>
+        <p>Please define the text paddding by the inline CSS on <code>bm-tab-slider-trigger</code> node:
+        <code>margin-left:40px; margin-right:40px; --margin-lr-slider-trigger:20px;</code>
+        Defined the font by the CSS:</p>
+<pre class="prettyprint lang-css linenums">.bm-tab-slider-trigger-item {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 5.4vw;  /* Font size for desktop */
+    --font-size-slider-style2-title-m: 32px; /* Font size for mobile*/
+    line-height: 1.5;
+    letter-spacing: 0px;
+}</pre>
+    <p>
+    <h6>Dark and Light(default or alternative) rule</h6>
+    <p>It is possible to show different color(default or alternative) for different slide. Please define the <code>data-logocolor</code> and <code>data-menucolor</code> for each slider item.</p>
+
+    <p>Of course, you should define both default and alternative <a href="#alt-logo-html">logo</a> and <a href="menu-color">menu color</a> CSS. <br>
+        There should be a unique <code>data-id="xxx"</code> for each item, it will help you define the Text color for different slide item by the CSS:</p>
+<pre class="prettyprint lang-css linenums">
+/*If the default text logo is dark color, but the slide item with id post-3-2349 is light, please add the CSS to define the light color: */
+.post-3-2349 .bm-tab-slider-trigger-item, 
+.post-3-2349 .bm-tab-slider-trigger-tilte.bm-active {
+    color: #ffffff;
+}
+</pre>
+</div>
+
+
+<h5 id="carousel-slider">Carousel Slider</h5>
+<div class="sub-wrap">
+    <p>Please refer to <a href="https://html5.seatheme.net/art/slider-carousel.html">slider-carousel.html</a>, the HTML:</p>
+
+    <pre class="prettyprint lang-css linenums">
+&lt;div class="slider-mod-wrap slider-style3 from-top-translate animation-default-ux animation-scroll-ux" data-animationend="fadeined" style="--slider-height-style3:60vh; --slider-height-style3-m: 40vh;"&gt;
+    &lt;div id="slider-arrow-left" class="slider-arrow slider-arrow-left" style="cursor: url(img/arrow-left.svg), auto;"&gt;&lt;/div&gt;&lt;!--Left Arrow--&gt;
+    &lt;div id="slider-arrow-right" class="slider-arrow slider-arrow-right" style="cursor: url(img/arrow-right.svg), auto;"&gt;&lt;/div&gt;&lt;!--Right Arrow--&gt;
+    &lt;div class="owl-carousel" data-item="1" data-mobileitem="3" data-center="true" data-autowidth="true" data-slideby="1" data-showdot="false" data-nav="false" data-loop="true" data-margin="40" data-marginmobile="10" data-mousedrag="false" data-auto="false" data-autoplayTimeout="5000" data-transition="300"&gt;
+        &lt;!--Slider item--&gt;
+        &lt;section class="item"&gt;
+        &lt;!--Slider item--&gt;
+        &lt;section class="item"&gt;
+        ...</pre>
+
+    <p>Please enter the class name<code>slider-style3</code> to the slider-mod-wrap node. <br>
+    The default slider height is zero, please define height by inline style <code>--slider-height-style3:60vh; --slider-height-style3-m: 40vh;</code>. <a href="#vh-unit">vh is a fluid unit</a>. </p> 
+
+     <h6>Navigation Arrow</h6>
+     <p>Please define the mouse cursor by the inline css <code>cursor: url(img/arrow-left.svg), auto;</code>. The cursor image suport png format also.</p>
+     <p>Notice: If the mouse cursor is not shown, please check if the cursor image size is less than 128 x 128px. Please make sure there is width and height value in SVG source code if you upload SVG format images(<a href="https://doc.seatheme.net/faq/how-to-edit-svg-image-size">how to edit a SVG image file</a>), like: <code>&lt;svg width="72" height="72" ...&gt;..&lt;/svg&gt;</code></p>
+
+</div>
+
+
+    
+
+
+</div>
+
+
+<h4 id="grid">Grid</h4>
+<div class="sub-wrap">
+    <img src="assets/grid.jpg" width="300" alt="Masonry Portfolio"><br><br>
+    <p>You could make the portfoio list, gallery list, or blog list by the Grid module. The HTML should be:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="container-masonry ux-portfolio-3col ux-portfolio-full ux-ratio-43 filter-left" data-ratio="0.75" data-col="3" data-found="6" data-number="6" data-mod="grid"&gt;
+        &lt;div class="masonry-list grid-list clearfix grid-list-1234567 grid-text-center" data-unique="1234567"&gt;
+            &lt;!--Grid Item--&gt;
+            &lt;section class="grid-item filter_product filter_works grid_item_2nd_class"&gt;
+            &lt;!--Grid Item--&gt;
+            &lt;section class="grid-item filter_product filter_works grid_item_2nd_class"&gt;
+        ...</pre>
+    <p>Refer to: <br>
+    <span class="file-name">index.html</span><br>
+    <span class="file-name">home-photo-gallery.html</span><br>
+    <span class="file-name">home-art-design-agency.html</span><br> 
+    <span class="file-name">portfolio-2-columns-title.html</span><br>
+    <span class="file-name">portfolio-2-columns-filter.html</span><br>
+    <span class="file-name">portfolio-2-columns-masonry.html</span><br>
+    <span class="file-name">portfolio-3-columns.html</span><br> 
+...</p>
+
+    <h5 id="marsonry-list-col">Columns</h5>
+    <div class="sub-wrap">
+        <p>You could set 1-6 columns by the <b>lass name</b> and <b>data-col</b> into <code>&lt;div class="container-masonry ... "&gt;</code> node.</p>
+        <pre class="prettyprint lang-css linenums">&lt;div class="container-masonry ux-portfolio-3col ..." data-col="3" ... &gt;</pre> 
+        
+        <table class="value">
+            <thead>
+              <tr>
+                <th class="">Columns</th>
+                <th class="">class name</th>
+                <th class="">data-col</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="">1</td>
+                <td class="">ux-portfolio-1col</td>
+                <td class="">data-col="1"</td>
+              </tr>
+              <tr>
+                <td class="">2</td>
+                <td class="">ux-portfolio-2col</td>
+                <td class="">data-col="2"</td>
+              </tr>
+              <tr>
+                <td class="">3</td>
+                <td class="">ux-portfolio-3col</td>
+                <td class="">data-col="3"</td>
+              </tr>
+              <tr>
+                <td class="">4</td>
+                <td class="">ux-portfolio-4col</td>
+                <td class="">data-col="4"</td>
+              </tr>
+              <tr>
+                <td class="">5</td>
+                <td class="">ux-portfolio-5col</td>
+                <td class="">data-col="5"</td>
+              </tr>
+              <tr>
+                <td class="">6</td>
+                <td class="">ux-portfolio-6col</td>
+                <td class="">data-col="6"</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+
+    <h5 id="grid-ratio">Grid Ratio</h5>
+    <div class="sub-wrap">
+
+        
+
+        <p>The thumbnail grid ratio could be set by <b>class name</b> and <b>data-ratio</b> in the into <code>&lt;div class="container-masonry ... "&gt;</code> node: </p> 
+        <pre class="prettyprint lang-css linenums">&lt;div class="container-masonry ux-ratio-43 ..." data-ratio="0.75" ... &gt;</pre>
+            <table class="value">
+                <thead>
+                  <tr>
+                    <th class="">Grid Ratio</th>
+                    <th class="">class name</th>
+                    <th class="">data-ratio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="">4:3</td>
+                    <td class="">ux-ratio-43</td>
+                    <td class="">data-ratio="0.75"</td>
+                  </tr>
+                  <tr>
+                    <td class="">3:2</td>
+                    <td class="">ux-ratio-32</td>
+                    <td class="">data-ratio="0.6667"</td>
+                  </tr> 
+                  <tr>
+                    <td class="">16:9</td>
+                    <td class="">ux-ratio-169</td>
+                    <td class="">data-ratio="0.5625"</td>
+                  </tr>
+                  <tr>
+                    <td class="">2:1</td>
+                    <td class="">ux-ratio-21</td>
+                    <td class="">data-ratio="0.5"</td>
+                  </tr>
+                  <tr>
+                    <td class="">3:4</td>
+                    <td class="">ux-ratio-34</td>
+                    <td class="">data-ratio="1.3333"</td>
+                  </tr>
+                  <tr>
+                    <td class="">2:3</td>
+                    <td class="">ux-ratio-23</td>
+                    <td class="">data-ratio="1.5"</td>
+                  </tr>
+                  <tr>
+                    <td class="">1:1</td>
+                    <td class="">ux-ratio-11</td>
+                    <td class="">data-ratio="1"</td>
+                  </tr>
+                  <tr>
+                    <td class="">1:12</td>
+                    <td class="">ux-ratio-12</td>
+                    <td class="">data-ratio="2"</td>
+                  </tr>
+                </tbody>
+            </table>
+            <p>By the default, the image will be cropped based on the grid ratio.<br>
+             If you add the class name <code>image-fit-grid</code> into <code>masonry-list</code> node, the images will not be cropped. </p> 
+            <pre class="prettyprint lang-css linenums">&lt;div class="masonry-list grid-list image-fit-grid ... </pre>
+            <img src="assets/image-fit-grid.jpg" alt="image-fit-grid" width="500" class="image-border">
+
+            
+                <h6 id="masonry-list">Masonry List</h6> 
+                <p>You could create the masonry layout by the Grid, please notice that it is different form the <a href="#masonry-grid">Masonry Grid</a>. The grid items can only stayed in <i>one</i> column in the Grid. The masonry list is a waterfall layout. To create the masonry list, please do not add <code>data-ratio</code>, <code>ux-ratio-xx</code> for the <code>container-masonry</code> node. Add class name <code>masonry-auto</code> into <code>masonry-list</code> node. <br>
+                Please refer to <span class="file-name">portfolio-3-columns-masonry-title.html</span>.
+            </p>
+            <img src="assets/masonry-list-demo.jpg" alt="Masonry List" width="300" class="image-border">
+
+        
+    </div>
+
+    <h5>Items Spacing</h5>
+    <div class="sub-wrap">
+        <p>Please use the inline style codes - <code>--spacing-grid:20px;</code>(for desktop) and <code>--spacing-grid-m:10px;</code>(for mobile) to deine the items spacing, add the codes into the parent module-inside node of the Grid. <br>
+            HTML: </p>
+<pre class="prettyprint lang-css linenums">&lt;div class="moudule ...&gt;
+    &lt;div class="moudule-inside" style="--spacing-grid: 20px; --spacing-grid-m: 10px;" &gt;
+        &lt;div class="container-masonry ux-ratio-43 ..."</pre>
+ 
+        
+    </div>
+
+    <h5>Grid Item</h5>
+    <div class="sub-wrap">
+        <p>Each <code class="pre">&lt;section class="grid-item ..."&gt;</code> is one thumbnail item(grid item). </p>
+<pre class="prettyprint lang-css linenums">&lt;section class="grid-item sea-grid-item filter_branding filter_ui filter_works" data-postid="332"&gt;
+    &lt;div class="grid-item-inside"&gt;
+        &lt;!--Hot Link--&gt;
+        
+        &lt;!--Text: title, meta--&gt;
+        &lt;div class="grid-item-con  sea-grid-item-con post--1500"&gt;
+            &lt;a title="" class="grid-item-mask-link" href="***"&gt;
+        &lt;!--Image: set the thumbnail image file url into data-src="" --&gt;
+        &lt;div class="brick-content ux-lazyload-wrap"&gt;
+            &lt;img class="grid-item-img lazy" width="650" height="490" alt="***" title="P15" src="img/blank.gif" data-src="***.jpg"/&gt;
+            ...</pre>
+  <p>The class names <code>filter_xxx</code> are for the <a href="#filter">filter</a>.</p>
+        <p>Please edit the target URL in the <code>href</code></p>
+        <p>Please set the thumbnail image file url into <code>data-src="xxx.jpg"</code>. It supports jpg, png, gif, svg formats. <br>
+        The padding-top percentage value of brick-content wrap is the thumbnail image origin size (height / width) * 100   </p>
+        
+        <h6 id="lazy-load">Lazy Loading</h6>
+        <p>      
+        You would notice that the <code>src</code> is set with <code class="pre">img/blank.gif</code> in the <code>img</code> node instead of real image URL. 
+        Because it is for the image lazy loading, we should not let the src is empty. The blank.gif is a placeholder image. The lazy loading means that the webpage will not wait all images on this page was loaded, it will improve the webpage loading speed. When visitor scroll the webpage to the position of the image, the image will be shown.  The class name <code>lazy</code>is for lazy loading also.</p>
+        <p>If you want to disable the lazy-loading, please remove the class name <code>lazy</code> and <code>src="img/blank.gif"</code>, change data-src as src:</p>
+<pre class="prettyprint lang-css linenums">&lt;img src="xxx.jpg" alt="xx" class="grid-item-img ux-background-img-1st"></pre>
+
+        <h6 id="grid-mouseover-effect">Mouseover Effect</h6>
+        <ol>
+        <li>Static Color Mask + Text (refer: <span class="file-name">home-art-design-agency.html</span>)
+            <div class="sub-wrap">
+                <p> Put the text into, like:
+<pre class="prettyprint lang-css linenums">
+&lt;div class="grid-item-con-text"&gt; 
+    &lt;h2 class="grid-item-tit"&gt; 
+        &lt;a href="#" title="Title" class="grid-item-tit-a"&gt;Title&lt;/a&gt; 
+    &lt;/h2&gt; 
+&lt;/div&gt; </pre>
+                   <p> The "Text align" option could be set as class name for <code>&lt;div class="masonry-list..."&gt;</code> node:
+                    <br><br>  
+                    Center: <code>grid-text-center</code><br>
+                    Left: <code>grid-text-left</code><br>
+                    Right: <code>grid-text-right</code><br>
+                    Top Left: <code>grid-text-top-center</code><br>
+                    Top Left: <code>grid-text-top-left</code><br>
+                    Top Right: <code>grid-text-top-right</code><br>
+                    Bottom Center: <code>grid-text-bottom-center</code><br>
+                    Bottom Left: <code>grid-text-bottom-left</code><br>
+                    Bottom Right: <code>grid-text-bottom-right</code>
+                </p>
+
+                <p>Set the grid item background color and text style by the inline css in the parent <code>module-inside</code> node:</p>
+<pre class="prettyprint lang-css linenums">--textcolor-grid:#fff; /* Text color */
+--bgcolor-grid-hover: #000; /* Mask BG color*/
+--padding-lr-grid-text:50px; /* Text padding on left-right for desktop */
+--padding-lr-grid-text-m:10px; /* Text padding on left-right for mobile */
+--padding-tb-grid-text:50px; /* Text padding on top-bottom for desktop */
+--padding-tb-grid-text-m:10px; /* Text padding on top-bottom for mobile */
+--fontsize-grid-title:35px;  /* Text font size for desktop */
+--fontsize-grid-title-m:12px; /* Text font size for mobile */</pre>
+
+<p>HTML:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="module col-12" data-module-col="12"&gt;
+    &lt;div class="module-inside " style="--spacing-grid:40px; --spacing-grid-m:10px; --padding-lr-grid-text:50px; --padding-lr-grid-text-m:10px; --padding-tb-grid-text:50px; --padding-tb-grid-text-m:10px; --fontsize-grid-title:35px; --fontsize-grid-title-m:12px; --textcolor-grid:#fff;--bgcolor-grid-hover: #000; "&gt;
+     &lt;div class="container-masonry</pre> 
+            </div>
+        </li>
+
+        <li>Show Second Image (refer <span class="file-name">portfolio-2-columns-masonry-no-gap.html</span>)
+        <div class="sub-wrap">
+            <p>Please set className <code>grid_item_2nd_class</code> for grid item <code>&lt;section class="grid-item..."&gt;</code> wrap.</p>
+            <p>The 2 img tags:</p>
+<pre class="prettyprint lang-css linenums">&lt;img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="xxx.jpg" alt="xxx"&gt;&lt;!--The image shown by default--&gt;
+&lt;img class="grid-item-img ux-background-img-2nd lazy" src="img/blank.gif" data-src="xxx.jpg" alt="Title with a Image Mask"&gt; &lt;!--The image shown on hover--&gt; </pre>
+            
+        </div>    
+        </li>
+
+        <li>No Effect (refer <span class="file-name">portfolio-2-columns-filter.html</span>)
+            <div class="sub-wrap">
+                <p>Please set className <code>mouseover-no-effect</code> for grid item <code>&lt;section class="grid-item..."&gt;</code> wrap</p>
+            </div> 
+        </li>
+
+    </ol>
+    
+    <b>Tap Once to Open Item on Touch Screen</b> 
+    <p>On the mobile, you will tap twice to open the single portfolio. The 1st tab is for showing the text(the 1st and 2nd mouseover-effect), like the mouseover on the desktop. The 2nd tab is for the opening single portfolio. If you remove the class name <code>bm-touch-tab</code> from <code>grid-item-inside</code> node, it will open a portfolio by once tab on the mobile.<br>
+    Notice: if enable the Lightbox, it will always be opened by the once tab.</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="grid-item-inside ... bm-touch-tab " &gt;
+        ...</pre> 
+    
+        
+    </div>
+
+    <h5 id="marsonry-list-width">Title shown by default</h5>
+    <div class="sub-wrap">
+        <p><img src="assets/grid-show-title-default.jpg" alt="Grid show title default" width="500" class="image-border"></p>
+        <p>Add className "grid-list-tit-shown" on <code>&lt;div class="container-masonry ... "&gt;</code> wrap:<br> 
+        </p>
+<pre class="prettyprint lang-css linenums">&lt;div class="masonry-list grid-list clearfix grid-list-402 grid-list-tit-shown..."&gt;
+</pre>
+        <p>The grid item wrap should be:</p>
+<pre class="prettyprint lang-css linenums">&lt;section class="grid-item"&gt;
+    &lt;div class="grid-item-inside" data-animationend="fadeined"&gt;
+        &lt;div class="grid-item-con"&gt;
+            &lt;a title="item" class="grid-item-mask-link" href="#"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="brick-content ux-lazyload-wrap" style=" padding-top: 100%;"&gt;
+            &lt;img class="grid-item-img ux-background-img-1st lazy" data-src="***.jpg"&gt;&lt;/div&gt; 
+        &lt;/div&gt;
+        &lt;div class="grid-item-con-text-tit-shown grid-text-center "&gt;
+            &lt;h2 class="grid-item-tit"&gt;HoloLens&lt;/h2&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</pre>
+
+<p>Set the grid item text style by the inline css in the gird's parent <code>module-inside</code> node:</p>
+<pre class="prettyprint lang-css linenums">--textcolor-grid:#fff; /* Title Text color */ 
+--color-grid-cate:#777; /* Category text color */ 
+--fontsize-grid-title: 24px; /* Title Text font size for desktop */ 
+--fontsize-grid-title-m: 14px;  /* Title Text font size for mobile */
+--margintop-grid-title: 20px;  /* Title Text Padding on top for desktop */ 
+--margintop-grid-title-m: 8px;  /* Title Text Padding on top for mobile */
+--margintop-grid-cate: 8px; /* Category Text Padding on top for desktop */ 
+--margintop-grid-cate-m: 5px; /* Category Text Padding on top for mobile */  
+--spacingGridItemCateLr: 6px; /* Category Items Padding on left-right for desktop */  
+--spacingGridItemCateLrM: 2px; /* Category Items Padding on left-right for mobile */  </pre>
+
+<p>Refer to <span class="file-name">portfolio-2-columns-title.html</span></p>
+    </div>
+
+
+
+    <h5 id="lightbox-masonry-grid">Open item By Lightbox</h5>
+    <div class="sub-wrap">
+        <img src="assets/grid-lightbox.gif" width="300" alt="Lightbox">
+        <p>Lightbox is available in the Grid module. <br>
+            Please add className "lightbox-photoswipe" into <code>&lt;div class="masonry-list ... "&gt;</code> wrap, add <code>data-lightbox="true"</code> into <code>&lt;div class="grid-item-con ... "&gt;</code> wrap for each thumbnail item, the data-size is target image origin size(width x height), add the image URL int to <code>href</code>:<br>
+        </p>
+
+<pre class="prettyprint lang-css linenums">&lt;div class="masonry-list masonry-grid grid-mask-boxed-left lightbox-photoswipe"&gt;
+    ...
+    &lt;section class="grid-item *** "&gt;
+    ...
+        &lt;div class="grid-item-con" data-lightbox="true"&gt;
+        ...
+            &lt;a title="Image Caption" class="lightbox-item grid-item-mask-link" href="the_image_url_shown_in_lightbox.jpg" data-size="1000x665"&gt; </pre>
+            <p>
+                If you want to add the image caption into lightbox, please add the caption text into <code>title="Image Caption"</code><br>
+            Refer to <span class="file-name">portfolio-6-columns-no-gap-lightbox.html</span></p>
+    </div>
+
+    <h5 id="filter">Filter</h5>
+    <div class="sub-wrap">
+        <p><img src="assets/filters.jpg" alt="Filter" width="500" class="image-border"></p>
+        <p>The filter wrap should be put into <code>&lt;div class="container-masonry ... "</code> node:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="container-masonry ... "&gt;
+    &lt;div class="filters clearfix"&gt;
+        &lt;ul class="filters-ul"&gt;
+            &lt;li class="filters-li active"&gt;
+                &lt;a id="all" class="filters-a" href="#" data-filter="*"&gt;All&lt;span class="filter-num"&gt;6&lt;/span&gt;&lt;/a&gt;
+            &lt;/li&gt;
+
+            &lt;li class="filters-li"&gt;
+                &lt;a class="filters-a" data-filter=".filter_branding" href="#" data-catid="250" data-postid="2959"&gt;Branding&lt;span class="filter-num"&gt;5&lt;/span&gt;&lt;/a&gt;
+            &lt;/li&gt;
+            ...
+        &lt;/ul&gt;
+    &lt;/div&gt;</pre>
+        <p>Each <code>&lt;li&gt;</code> tag with class <code>filters-li</code> is one filter item. Please set the value with <code>data-filter</code> within <code>&lt;a ...&gt;</code> tag with class <code>filters-a</code>, there is the same className within the grid item:</p>
+        <p>Filter item:</p>
+<pre class="prettyprint lang-css linenums">&lt;li class="filters-li active"&gt;
+    &lt;a class="filters-a" data-filter=".filter_branding" href="#" data-catid="250" data-postid="2959"&gt;Branding...&lt;/a&gt;</pre>
+    <p>Grid item:</p>
+<pre class="prettyprint lang-css linenums">&lt;section class="grid-item filter_all filter_fashion"&gt;
+    ...
+&lt;/div&gt;</pre>
+        <p>There is not the dot within className. There should be className <code>filter_all</code> in all grid items</p>
+
+        <p>Refer to <span class="file-name">portfolio-2-columns-filter.html</span></p>
+    </div>
+
+</div>
+
+    <h5 id="load-more">Pagination</h5>
+    <div class="sub-wrap">
+        <p><img src="assets/pagination.jpg" alt="Pagination - Load More" width="500" class="image-border"></p>
+        <p>The "Load More" style pagination html wrap looks like:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="clearfix pagenums tw_style page_twitter" data-moduleid="grid" data-unique="1573192048568" data-pagetext="Load More" data-loadingtext="Loading"&gt;
+    &lt;a class="tw-style-a ux-btn" data-postid="8" href="javascript:;" style="border-width: 0px 0px 0px 0px; font-size: 16px;--fontsize-grid-loadmore-m: 14px; padding-left: 30px; padding-right: 30px;"&gt;Load More&lt;/a&gt;
+&lt;/div&gt;</pre>
+<p>The sencond page is in /nextpage/grid-ajax-pagination2.html, it is linked by JavaScript codes in the <code>head</code> tag:</p>
+<pre class="prettyprint lang-css linenums">&lt;script&gt;
+    ...
+    var ajaxurl = "nextpage/grid-ajax-pagination2.html"; 
+&lt;/script&gt;</pre>
+<p>The number in the data-unique should be the same as the number in the masonry-list node</p>
+<img src="assets/unique-id.jpg" alt="data-unique" width="500" class="image-border">
+<p>Please add the grid item codes into the grid-ajax-pagination2.html</p>
+
+<p>Refer to <span class="file-name">portfolio-2-columns-masonry-loadmore.html</span></p>
+
+
+
+</div>
+
+
+ 
+
+<h4 id="masonry-grid">Masonry Grid</h4> 
+
+
+<p>The Masonry Grid layout looks like the screenshot(below). You will notice that the grids in the Masonry Grid could be stayed in 2(more) columns, it is the biggest different from the <a href="#masonry-list">masonry list</a> by Grid module. </p>
+
+
+<div class="sub-wrap">
+    <img src="assets/masonry-grid.jpg" width="300" alt="Masonry Grid"><br><br>
+    <p>This template HTML structure looks like:</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="ux-portfolio-full bm-masonry-grid"&gt;
+        &lt;div class="grid-stack grid-stack-157111350525 hidden" data-spacing="40" data-item-style="image" data-number="-1"&gt;
+            &lt;!--Masonry Grid Item--&gt;
+            &lt;div class="grid-stack-item sea-grid-item" data-gs-x="0" data-gs-y="0" data-gs-width="12" data-gs-height="8"&gt;
+        ...</pre>
+    <p>Refer: <span class="file-name">portfolio-masonry-grid.html</span>, <span class="file-name">index.html</span></p>
+    
+
+    <h5>Grid Item</h5>
+    <div class="sub-wrap">
+    <p>Each <code>&lt;div class="grid-stack-item sea-grid-item ..."&gt;</code>is one thumbnail item(masonry grid item). 
+    </p>
+<pre class="prettyprint lang-css linenums">&lt;divclass="grid-stack-item sea-grid-item grid_item_2nd_class filter_larsstieger" data-gs-x="0" data-gs-y="0" data-gs-width="12" data-gs-height="7"&gt;
+     &lt;div class="grid-stack-item-content"&gt;
+        &lt;div class="grid-item-inside bm-touch-tab" data-animationend="fadeined"&gt;
+            &lt;div class="grid-item-con sea-grid-item-con post--01"&gt;
+                &lt;a href="xxx.html" title="" class="grid-item-mask-link"&gt;&lt;/a&gt;
+                &lt;div class="grid-item-con-text"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="brick-content ux-lazyload-wrap"&gt;
+                &lt;img src="img/blank.gif" class="grid-item-img ux-background-img-1st lazy" data-src="***.jpg" style="padding-top: 66.666666666667%;"&gt; 
+            &lt;/div&gt;
+        &lt;/div&gt; 
+    &lt;/div&gt;
+    ...
+</pre>
+    <p>
+    The list container of "Masonry Grid" will be averaged into some square cells, each cell width/height is 1/24 of container width. The each thumbnail size(data-gs-width, data-gs-height) and position(data-gs-x, data-gs-y) is based on the cell.<br>
+    it looks like:<br><br>
+    <img src="assets/custom-line.jpg" alt="portfolio-custom-grid-auxiliary-line" class="img-border" width="600"><br><br>
+    The data-gs-x is for X coordinate value of item position, it depends on how many grids the upper left corner of the picture is in from the <i>left</i> of images list. If it is on the 13th grid, the data-gs-x should be 12 (13-1)<br>
+    The data-gs-y is for Y coordinate value of item position, it depends on how many grids the upper left corner of the picture is in from the <i>top</i> of images list. If it is on the 13th grid, the data-gs-y should be 5 (6-1)<br>
+    The data-gs-width is for width of item, it depends on the number of grids the picture occupies horizontally. If it occupies 6 grids, the data-gs-width should be 6. <br>
+    The data-gs-height is for height of item，it depends on the number of grids the picture occupies vertically. If it occupies 5 grids, the data-gs-height should be 5.<br><br> 
+    <br><br>
+   <!--  <a href="assets/custom-line-2.jpg" class="lightbox"><img src="assets/custom-line-2.jpg" alt="portfolio-custom-grid-auxiliary-line" class="img-border" width="700"></a><br><br>  -->
+    The class names filter_xxx are for the filter.<br>
+    Please set the thumbnail image file url into <code>data-src=""</code>. It supports jpg, png, gif, svg formats. <br> 
+    The <code>src="img/blank.gif"</code> is a blank image, it is a placeholder file for the image <a href="lazy-load">lazy-load</a>.
+    The padding-top percentage value of brick-content wrap is the thumbnail image origin size (height / width) * 100. 
+    </p>
+</div>
+
+    <h5>Items Spacing</h5>
+    <div class="sub-wrap">
+        <p>The items spacing is set by the value of <code>data-spacing="40"</code>(for desktop) and <code>data-spacing-mobile="20"</code>(for mobile). Please add the inline style code <code>--spacing-masonrygrid-m: 20px;</code> into the <code>module-inside</code>(the masronry grid's parent) </p>
+    </div>
+
+    <h5>Mouseover Effect</h5>
+    
+    <ol>
+        <li>Static Color Mask + Text (refer: <span class="file-name">portfolio-masonry-grid.html</span>)
+            <div class="sub-wrap">
+                <p> Put the text into, like:
+<pre class="prettyprint lang-css linenums">
+&lt;div class="grid-item-con-text"&gt; 
+    &lt;h2 class="grid-item-tit"&gt; 
+        &lt;a href="#" title="Title" class="grid-item-tit-a"&gt;Title&lt;/a&gt; 
+    &lt;/h2&gt; 
+&lt;/div&gt; </pre>
+                    <p>The "Text align" option could be set as className for <code>&lt;div class="grid-stack..."&gt;</code> wrap:
+                    <br><br>  
+                    Center: <code>grid-text-center</code><br>
+                    Left: <code>grid-text-left</code><br>
+                    Right: <code>grid-text-right</code><br>
+                    Top Left: <code>grid-text-top-center</code><br>
+                    Top Left: <code>grid-text-top-left</code><br>
+                    Top Right: <code>grid-text-top-right</code><br>
+                    Bottom Center: <code>grid-text-bottom-center</code><br>
+                    Bottom Left: <code>grid-text-bottom-left</code><br>
+                    Bottom Right: <code>grid-text-bottom-right</code>
+                </p>
+
+                <p>Set the grid item text style by the inline css in the gird's parent <code>module-inside</code> node:</p>
+
+<pre class="prettyprint lang-css linenums">--textcolor-grid:#fff; /* Text color */
+--bgcolor-grid-hover: #000; /* Mask BG color*/
+--padding-lr-grid-text:50px; /* Text padding on left-right for desktop */
+--padding-lr-grid-text-m:10px; /* Text padding on left-right for mobile */
+--padding-tb-grid-text:50px; /* Text padding on top-bottom for desktop */
+--padding-tb-grid-text-m:10px; /* Text padding on top-bottom for mobile */
+--fontsize-grid-title:35px;  /* Text font size for desktop */
+--fontsize-grid-title-m:12px; /* Text font size for mobile */</pre>          
+
+<p>HTML:</p>
+<pre class="prettyprint lang-css linenums">&lt;div class="module col-12" data-module-col="12"&gt;
+    &lt;div class="module-inside " style="--spacing-grid:40px; --spacing-grid-m:10px; --padding-lr-grid-text:50px; --padding-lr-grid-text-m:10px; --padding-tb-grid-text:50px; --padding-tb-grid-text-m:10px; --fontsize-grid-title:35px; --fontsize-grid-title-m:12px; --textcolor-grid:#fff;--bgcolor-grid-hover: #000; "&gt; 
+        &lt;div class="ux-portfolio-full"&gt;
+            &lt;div class="grid-stack grid-stack-6001" data-spacing="40" ...&gt;</pre> 
+            </div>
+        </li>
+
+        <li>Show Second Image
+        <div class="sub-wrap">
+            <p>Please add the class name <code>grid_item_2nd_class</code> for grid item <code>&lt;div class="grid-stack-item..."&gt;</code></p>
+<p>The 2 img tags:</p>
+<pre class="prettyprint lang-css linenums">&lt;img class="grid-item-img ux-background-img-1st lazy" src="img/blank.gif" data-src="xxx.jpg" alt="xxx"&gt;&lt;!--The image shown by default--&gt;
+&lt;img class="grid-item-img ux-background-img-2nd lazy" src="img/blank.gif" data-src="xxx.jpg" alt="Title with a Image Mask"&gt; &lt;!--The image shown on hover--&gt; </pre>
+            
+        </div>    
+        </li>
+
+        <li>No Effect 
+            <div class="sub-wrap">
+                <p>Please add the class name <code>mouseover-no-effect</code> for grid item <code>&lt;div class="grid-stack-item..."&gt;</code> node.</p> 
+            </div> 
+        </li>
+
+    </ol>
+         
+
+
+    <h5>Open item By Lightbox</h5>
+    <div class="sub-wrap">
+        <p>Please add className "lightbox-photoswipe" into <code>&lt;div class="grid-stack ... "&gt;</code> wrap, add <code>data-lightbox="true"</code> into <code>&lt;div class="grid-item-inside ... "&gt;</code> wrap for each thumbnail item, the data-size is target image origin size(width x height):<br>
+        Tips: If you want to add the image caption into lightbox, please add the caption text into <code>title="Image Caption"</code>
+        </p>
+<pre class="prettyprint lang-css linenums">&lt;div class="grid-stack lightbox-photoswipe ..." data-spacing="30" data-item-style="img" data-perpage="-1"&gt;
+    ...
+    &lt;div class="grid-stack-item ..." ... &gt;
+        &lt;div class="grid-item-inside" data-lightbox="true"&gt;
+        ...
+            &lt;a title="" class="lightbox-item grid-item-mask-link" href="the_image_url_shown_in_lightbox.jpg" data-size="1280x851"&gt;
+</pre> 
+
+    </div>
+
+</div>
+
+    <h4 id="contact-form">Contact Form</h4>
+
+    <div class="sub-wrap"> 
+        <p>Please refer <span class="file-name">page-info.html</span>. Set contact form receive email address in file <span class="file-name">contact.php</span> here: </p>
+<pre class="prettyprint lang-css linenums">$mailTo = 'yourmail@yourmal.com';</pre>
+        <p>Please make sure the mail server works fine on PHP space. <br>
+            Or you could consider use the 3rd mail platform to forward the mail, like https://formspree.io/ https://www.enformed.io (<a href="https://seatheme.net/forums/topic/php-mail-form-doesnt-working/" title="can not receive the mail">refer</a>)</p>
+
+    </div>
+
+    <h4 id="maps">Google maps</h4>
+    <div class="sub-wrap"> 
+        <p>Please refer <span class="file-name">page-maps.html</span>, the google map js is necessary(you could get the Google ApiKey <a href="https://developers.google.com/maps/documentation/javascript/" title="Get APIKey" target="_blank">here</a>):</p>
+        <pre class="prettyprint lang-css linenums">&lt;script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.exp&#038;key=Google AikKey'&gt;&lt;/script&gt;</pre>
+
+        <p>The map html structure:</p>    
+        <pre class="prettyprint lang-css linenums">
+    &lt;div class="module-map-canvas" 
+    data-add="Sydney, NSW"
+    data-l="-33.8674869" data-r="151.20699020000006"
+    data-zoom="17"
+    data-pin="t"
+    data-view="map"
+    data-dismouse="f"
+    data-pin-custom=""
+    data-style="f"
+    data-pin-custom="xxx.png"
+    style="height: 360px;"&gt;
+    &lt;/div&gt;</pre>
+
+        <p>Data-view options are: map, satellite, map_terrain. option value "t" present true and "f" present false</p>
+    </div>
+
+    <h4>Social Share</h4>
+    <div class="sub-wrap"> 
+    <p>The HTML wrap should be:  </p>
+<pre class="prettyprint lang-css linenums">&lt;div class="social-media-wrap ux-left ux-horizontal ux-horizontal-m" data-animationend="fadeined"&gt;
+&lt;ul class="module-social"&gt;
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-facebook-wrap" href="http://www.facebook.com/sharer.php?u=<b>page url</b>" onclick="window.open('http://www.facebook.com/sharer.php?u=<b>page url</b>','Facebook','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;"&gt;
+
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-twitter-wrap" href="javascript:void(0)" onclick="window.open('http://twitter.com/share?url=page url&amp;text=Page Name','Twitter share','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" &gt;
+        &lt;span class="fa fa-twitter postshareicon-twitter"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+                
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-pinterest-wrap" href="javascript:void(0)" onclick="javascript:window.open('http://pinterest.com/pin/create/bookmarklet/?url=page url&amp;is_video=false&amp;media=Page Image Url','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;
+        &lt;span class="fa fa-pinterest  postshareicon-pinterest"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-digg-wrap" href="javascript:void(0)" onclick="window.open('http://www.digg.com/submit?url=page url','Digg','width=715,height=330,left='+(screen.availWidth/2-357)+',top='+(screen.availHeight/2-165)+''); return false;"&gt;
+        &lt;span class="fa fa-digg postshareicon-digg"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-reddit-wrap" href="javascript:void(0)" onclick="window.open('http://reddit.com/submit?url=page url&amp;title=Page Name','Reddit','width=617,height=514,left='+(screen.availWidth/2-308)+',top='+(screen.availHeight/2-257)+''); return false;"&gt;
+        &lt;span class="fa fa-reddit postshareicon-reddit"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-linkedin-wrap" href="javascript:void(0)" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=page url','Linkedin','width=863,height=500,left='+(screen.availWidth/2-431)+',top='+(screen.availHeight/2-250)+''); return false;"&gt;
+        &lt;span class="fa fa-linkedin postshareicon-linkedin"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-stumbleupon-wrap" href="javascript:void(0)" onclick="window.open('http://www.stumbleupon.com/submit?url=page url&amp;title=Page Name','Stumbleupon','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;"&gt;
+        &lt;span class="fa fa-stumbleupon postshareicon-stumbleupon"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-tumblr-wrap" href="javascript:void(0)" onclick="window.open('http://www.tumblr.com/share/link?url=page url&amp;name=Page Name','Tumblr','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;"&gt;
+        &lt;span class="fa fa-tumblr postshareicon-tumblr"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="social-li"&gt;
+        &lt;a class="share postshareicon-mail-wrap" href="mailto:?Subject=Page Name&amp;Body=page url"&gt;
+        &lt;span class="fa fa-envelope-o postshareicon-mail"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+&lt;ul&gt;</pre>
+    </div>
+
+
+<h4 id="group">Group</h4>
+<div class="sub-wrap">
+<p>The Group module is a special module which is similar to a <i>container</i>, other modules could be put into the Group module. </p>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-12 bm-wrap row-middle row-center" data-module-col="0" data-change-color="off" data-backcolor="transparent" data-frontcolor="" data-logocolor="" data-groupsameheight="off"&gt;
+    &lt;div class="module-inside"&gt;
+        &lt;!--Put other modules here--&gt;
+        &lt;div id="" class="module col-8 ... &gt;
+        &lt;/div&gt; 
+        ...
+    &lt;/div&gt; 
+&lt;/div&gt;</pre>    
+<p>The class name <code>bm-wrap</code> is necessary for a Group module.</p>
+
+<h5>Height</h5>
+<div class="sub-wrap">
+<p>If you want to define height for a group module by inline style in the <code>module-inside</code> tag of the Group.. </p>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap" ... "&gt;
+    &lt;div class="module-inside" style="--height-group:100vh; --height-group-m:100vh;"&gt;
+...</pre>
+<h6 id="vh-unit">VH unit</h6>
+<p><code>vh</code> is a fluid unit. 100vh means 100% of window height. It could be set as a fullscreen section. It could be as <code>px</code> unit. The height style is not necessary. If it is set as 50vh, it would be:</p>
+<img src="assets/group-height.jpg" width="400" alt="Group Height">
+<p>But if the height of the module is more than 50% of the screen height, the group would be with modules height.</p> 
+<p>The <code>--height-group-m</code> would work on portrait mode.</p>
+
+</div>
+
+<h5>Force Content to fit Fullwidth</h5>
+<div class="sub-wrap">
+    <img src="assets/group-force-fullwidth.jpg" width="400" alt="Force Content to fit Fullwidth">
+    <p>If you want to make the modules fullwidth in the Group, please add class "bm-force-full" in the <code>module</code> tag of the Group. </p>
+    <pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap bm-force-full" ... "&gt;
+        ...</pre>
+</div>
+
+<h5>Disable Column Spacing</h5>
+<div class="sub-wrap">
+    <img src="assets/group-without-gap.jpg" width="400" alt="Disable Column Spacing">
+    <p>If you want to remove the column spacing between the modules in the Group, please add class "bm-wrap-no-gap" in the <code>module</code> tag of the Group. </p>
+    <pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap bm-wrap-no-gap" ... "&gt;
+        ...</pre>
+    </div>
+
+<h5 id="group-background">Background</h5>
+<div class="sub-wrap">
+    <p>The Group could be set a background color:</p>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap" ... "&gt;
+    &lt;div class="module-inside"&gt;
+        &lt;!--Group Background color--&gt;
+        &lt;div class="bm-background-color" style="background-color:#141495; "&gt;&lt;/div&gt;
+    ...</pre>
+
+    <p>The Group could be set a background image:</p>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap" ... "&gt;
+    &lt;div class="module-inside"&gt;
+        &lt;!--Group Background image--&gt;
+        &lt;div class="bm-background-img" style="background-image:url(http://image-file-URL);"&gt;&lt;/div&gt;
+    ...</pre>  
+    <p>It supports jpg, png, gif formats.</p>
+
+    <p>The Group could be set the hosted background video:</p>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap" ... "&gt;
+    &lt;div class="module-inside"&gt;
+        &lt;!--Group Background video--&gt;
+        &lt;div class="bm-background-img" style="background-image:url(http://image-file-URL);"&gt;&lt;/div&gt;
+        &lt;div class="background-video"&gt;
+            &lt;video class="lazy" loop autoplay muted playsinline="" &gt;
+                &lt;source data-src="http://video-file-URL" type="video/mp4"&gt; &lt;--the video file suffix should be .mp4--&gt;
+                &lt;source data-src="http://video-file-URL" type="video/ogg"&gt; &lt;--the video file suffix should be .ogg or .ogv--&gt;
+                &lt;source data-src="http://video-file-URL" type="video/webm"&gt; &lt;--the video file suffix should be .webm--&gt;
+            &lt;/video&gt;
+        &lt;/div&gt;
+    ...</pre>  
+    <p>You could use some online tools to convert the video file like <a href="https://cloudconvert.com/mp4-to-webm" rel="noreferrer noopener nofollow" target="_blank">Cloudconvert</a>, <a href="https://www.zamzar.com/convert/mp4-to-ogg/" rel="noreferrer noopener nofollow" target="_blank">Zamzar.com</a>.</p>
+    </div>
+
+ 
+
+<h5>Alignment</h5>
+<div class="sub-wrap">
+
+    <p>To set the alignment of modules inside the Group module, please write the class in the <code>module</code> tag  of the Group.<br>
+<pre class="prettyprint lang-css linenums">&lt;div class="module col-12 bm-wrap row-middle row-center"&gt;
+    &lt;div class="module-inside"&gt;
+        &lt;!--Put other modules here--&gt;
+        ...</pre>         
+    <p>Alignment on horizon: row-left, row-right, row-center, row-equal_spacing_h<br>
+    Alignment on vertical: row-top, row-middle, row-bottom, row-equal_spacing_v </p>
+    <img src="assets/group-align.jpg" alt="Group Alignment" width="600" class="image-border"><br>
+</div>
+
+<h5>Scroll to change color</h5>
+<div class="sub-wrap">
+<video autoplay controls loop muted width="400" src="assets/bc-group-unver-color.mp4"></video>
+<pre class="prettyprint lang-css linenums">&lt;div id="" class="module col-0 bm-wrap" data-change-color="on" data-backcolor="#000000" data-frontcolor="#ffffff" data-logocolor="alt-logo-univer"&gt;
+...</pre>
+    <p>If the <code>data-change-color</code> is set as <code>on</code> in the <code>module</code> tag, the page background and text will change color when the group scrolled into browser viewport.<br>
+    <code>data-backcolor</code> is for the background color, <br>
+        <code>data-frontcolor</code> is for the text color, <br>
+        <code>data-logocolor</code> if for the logo color, it could be <code>alt-logo-univer</code>(to show the alternative logo) or <code>default-logo-univer</code>(to show the default logo). </p>
+</div>
+
+<h5>Keep Original Layout on Mobile</h5>
+<div class="sub-wrap">
+    <p>The default layout rule of the mobile is shown by one column. If you want to keep the original layout(of the modules in the group) with desktop, please write  
+    <code>keep-origin-layout-mobile in the class</code>  in the <code>module</code> tag of the group.</p>
+    <pre class="prettyprint lang-css linenums">&lt;div class="module col-12 bm-wrap keep-origin-layout-mobile"&gt;
+        ...</pre>
+        <p>Check the <span class="file-name">home-irregular.html</span></p>
+</div>
+
+
+</div>    
+ 
+
+<h4 id="scrolled-animation">Scrolled Animation</h4>
+<div class="sub-wrap">
+    <p>It is possible to add the scrolled animation for a module. <br>
+
+        Please add class name <code>moudle_has_animation</code> to <code>module</code> node.<br>
+        The animation class name and attribute would be added the module node self(the child module of <code>module-inside</code>).</p> 
+<pre class="prettyprint lang-css linenums">&lt;div class="slider-mod-wrap ... from-top-translate animation-default-ux animation-scroll-ux" data-animationend="from-top-translated"&gt;
+...</pre>
+<p>Refer to <a href="https://html5.seatheme.net/art/slider-carousel.html">slider-carousel.html</a></p>
+<p>All animation class name and attribute: </p>
+<table class="value">
+            <thead>
+              <tr>
+                <th class="">Animation</th>
+                <th class="">Class name</th>
+                <th class="">Attribute</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="">default(no animation)</td>
+                <td class=""></td>
+                <td class="">data-animationend="fadeined"</td>
+              </tr>
+              <tr>
+                <td class="">Fadein</td>
+                <td class="">animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="fadeined"</td>
+              </tr>
+              <tr>
+                <td class="">FadeIn from Top</td>
+                <td class="">from-top-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="from-top-translated"</td>
+              </tr>
+              <tr>
+                <td class="">FadeIn from Bottom</td>
+                <td class="">from-bottom-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="from-bottom-translated"</td>
+              </tr>
+              <tr>
+                <td class="">FadeIn from Left</td>
+                <td class="">from-left-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="from-left-translated"</td>
+              </tr>
+              <tr>
+                <td class="">FadeIn from Right</td>
+                <td class="">from-right-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="from-right-translated"</td>
+              </tr>
+              <tr>
+                <td class="">ZoomIn</td>
+                <td class="">zoomin animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="zoomined"</td>
+              </tr>
+              <tr>
+                <td class="">ZoomOut</td>
+                <td class="">zoomout animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="zoomouted"</td>
+              </tr>
+               <tr>
+                <td class="">BouncdeIn from Top</td>
+                <td class="">bouncdein-top-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="bouncdein-top-translated"</td>
+              </tr>
+              <tr>
+                <td class="">BouncdeIn from Bottom</td>
+                <td class="">bouncdein-bottom-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="bouncdein-bottom-translated"</td>
+              </tr>
+              <tr>
+                <td class="">BouncdeIn from Left</td>
+                <td class="">bouncdein-left-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="bouncdein-left-translated"</td>
+              </tr>
+              <tr>
+                <td class="">BouncdeIn from Right</td>
+                <td class="">bouncdein-right-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="bouncdein-right-translated"</td>
+              </tr>
+              <tr>
+                <td class="">Flip X</td>
+                <td class="">flip-x-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="flip-x-translated"</td>
+              </tr>
+              <tr>
+                <td class="">Flip Y</td>
+                <td class="">flip-y-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="flip-y-translated"</td>
+              </tr>
+              <tr>
+                <td class="">RotateIn from DownLeft </td>
+                <td class="">rotate-downleft-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="rotate-downleft-translated"</td>
+              </tr>
+              <tr>
+                <td class="">RotateIn from DownRight </td>
+                <td class="">rotate-downright-translate animation-default-ux animation-scroll-ux</td>
+                <td class="">data-animationend="rotate-downright-translated"</td>
+              </tr>
+
+          </tbody>
+      </table>
+
+
+
+<p>
+For Grid and Masonry Grid module.<br>
+Please add className/data-animationend to each sub-items :</p>
+<pre class="prettyprint lang-css linenums">&lt;!--Grid item--&gt;
+&lt;section class="grid-item sea-grid-item ... &gt;
+ &lt;div class="grid-item-inside from-left-translate animation-default-ux animation-scroll-ux  " data-animationend="from-left-translated"&gt;</pre>
+
+<pre class="prettyprint lang-css linenums">&lt;!--Masonry Grid item--&gt;
+&lt;div class="grid-stack-item sea-grid-item ... &gt;
+ &lt;div class="grid-stack-item-content"&gt;
+  &lt;div class="grid-item-inside from-bottom-translate animation-default-ux animation-scroll-ux" data-animationend="from-bottom-translated"&gt;</pre>
+
+<p>Refer to <a href="https://html5.seatheme.net/art/scroll-animation-portfolio-2-columns-title.html">scroll-animation-portfolio-2-columns-title.html</a>, <a href="https://html5.seatheme.net/art/portfolio-masonry-grid.html">portfolio-masonry-grid.html</a></p>
+
+
+</div>
+
+</section>
+
+
+
+<section id="css-fonts">
+    <div class="page-header"><h3>CSS &amp; Fonts</h3><hr class="notop"></div>
+
+    <h4>CSS files</h4>
+    <div class="sub-wrap">
+<p>The main CSS files located in the "<span class="file">css</span>" folder.</p>
+
+<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+<p>Open the styles folder, you'll find all css files.</p>
+        <ul>
+            <li><a href="https://github.com/twbs/bootstrap" title="Bootstrap Framwork" rel="nofollow">Bootstrap v3.3.5</a> - css/bootstrap.css -  Bootstrap framework</li>
+            <li><a href="https://owlcarousel2.github.io/OwlCarousel2/index.html" title="OwlCarousel2" rel="nofollow">OwlCarousel2 css</a> - css/owl.carousel.css -  Slider plugin css</li>
+            <li><a href="http://photoswipe.com" title="photoswipe" rel="nofollow">Photoswipe</a> - css/photoswipe.css, css/skin/photoswipe - Lightbox plugin css</li>
+            <li><a href="https://fontawesome.com/v4.7.0/icons/" title="Font Awesome" rel="nofollow">Font Awesome</a> - css/font-awesome.min.css</li>
+            <li><a href="https://www.seatheme.net" title="for gallery on right/left project">post-portfolio.css</a> - css/post-portfolio.css - css for gallery on right/left project</li>
+            <li><a href="https://www.seatheme.net" title="Menu icon">menuicon-default.css</a> - css/menuicon-default.css - hamburg icon(2 lines)</li>
+            <li><a href="https://www.seatheme.net" title="Menu icon">menuicon-hamburg.css</a> - css/menuicon-hamburg.css - hamburg icon(3 lines)</li>
+            <li><a href="https://www.seatheme.net" title="Header icon">headericon-default.css</a> - css/headericon-default.css - head icon(6 dots)</li>
+            <li><a href="https://www.seatheme.net" title="Header icon">headericon-classic.css</a> - css/headericon-classic.css - head icon(9 dots)</li>
+            <li><a href="https://www.seatheme.net">modules-style.css</a> - css/modules-style.css - Modules main css</li>
+            <li><a href="https://www.seatheme.net" title="Art Theme main CSS file">style.css</a> - css/style.css -  theme main css</li>
+            <li><a href="https://www.seatheme.net" title="Art Theme RTL CSS file">RTL css</a> - css/rtl.css -  theme RTL css</li>
+            <li><a href="https://www.seatheme.net" title="Art Theme custom CSS file">custom.css</a> - css/custom.css -  general setting, font, color - You could clone the custom.css file to create your own custom css.</li>
+        </ul> 
+</div>
+        <h4>How to custom CSS</h4>
+        <div class="sub-wrap">
+            <p>Most of the style is set in the custom.css, like the global style, color, font style. we suggest you clone it as your own CSS file. Edit the new CSS file.</p>
+        </div>
+
+        <h4 id="fonts">Fonts</h4>
+        <div class="sub-wrap">
+            <h5>Hosted font</h5>
+        <p>The default font is Sea Font, you could use it. If you want to use anohter font, please define the CSS in the custom.css(Secton 3). (We suggest you use a new CSS file to define your own CSS codes.) Please use the <code> @font-face </code> to define the hosted font. We use woff2 format. We suggest you use woff2 format. But you don't have this format. It supports woff, ttf formats also. The CSS should be:</p>
+<pre class="prettyprint lang-css linenums"> @font-face {
+  font-family: "xxx";  
+  src: url("xxx.woff") format("woff"); 
+}
+@font-face {
+  font-family: "xxx";  
+  src: url('xxx.ttf') format('truetype');
+}</pre>
+
+
+        <h5 id="google-fonts">Google Fonts</h5>
+        <p>ART template suppots Google fonts also, you could visit <a href="https://fonts.google.com/" target="_blank" rel="nofollow noopener noreferrer">Google font</a> website to find a font, select a font: you will find there is a panel is shown on the right side:</p>
+        <img src="assets/google-font.jpg" alt="Google Font" width="500" class="image-border">
+        <ol>
+            <li>Paste the codes into <code>head</code> tag of all HTML files:
+<pre class="prettyprint lang-css linenums">&lt;link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display%3Aregular&#038;subset=latin' type='text/css' media='all' /&gt;</pre>
+            </li>
+            <li>Assign the font to the element in your own css file:
+<pre class="prettyprint lang-css linenums">body { font-family: 'Playfair Display', serif; } </pre></li>
+        </ol>
+
+        <h5 id="adobe-fonts">Adobe Fonts</h5>
+        <p></p>
+        <ol>
+            <li>Please go to <a href="https://fonts.adobe.com/fonts/" target="_blank" rel="nofollow noopener noreferrer">Adobe font</a> website(You should have an Adobe account), find a font. Click the button, the panel will popup.<br><br>
+                <img src="assets/adobe-font-1.jpg" alt="Adobe Font" width="500" class="image-border"><br><br>
+            </li>
+            <li>Add a new project(or put the font into existed project)</li>
+            <li>Please visit the <a href="https://fonts.adobe.com/my_fonts#web_projects-section" target="_blank" rel="nofollow noopener noreferrer">Web Projects</a> page, find the project CSS file, paste it into <code>head</code> tag of all HTML files<br><br> 
+                 <img src="assets/adobe-font-2.jpg" alt="Adobe Font" width="500" class="image-border"><br><br>
+                 <pre class="prettyprint lang-css linenums">&lt;link rel="stylesheet" href="https://use.typekit.net/xxxx.css" /&gt;</pre>
+            </li>
+            <li>Find the font name, sssign the font to the element in your own css file: 
+<pre class="prettyprint lang-css linenums">body { font-family: 'Joschmi', serif; } </pre></li>
+        </ol>
+</div>
+
+</section>
+
+<section id="javascript">
+    <div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+
+    <p>The main Javascript files located in the "<span class="file">js</span>" folder.</p>
+        <ol>
+            <li><a href="https://jquery.org/" title="jQuery" rel="nofollow">jQuery</a> - js/library/jquery.min.js</li>
+            <li><a href="https://jquery.org/" title="jQuery" rel="nofollow">jQuery-migrate</a> - js/library/jquery-migrate.min.js</li>
+            <li><a href="https://twitter.github.com/bootstrap/javascript.html#transitions" title="Bootstrap Framwork" rel="nofollow">Bootstrap</a> -  js/bootstrap.js - Bootstrap framework js</li>
+            <li><a href="https://modernizr.com" title="Modernizr" rel="nofollow">Modernizr</a> -  js/modernizr-custom.js - Respond user's browser features</li>
+            <li><a href="https://imakewebthings.com/waypoints/" title="Waypoints" rel="nofollow">Waypoints</a> - js/jquery.waypoints.min.js - Trigger something scrolling a anchor</li>
+            <li><a href="https://isotope.metafizzy.co" title="Isotope" rel="nofollow">Isotope</a> - js/isotope.pkgd.min.js - Masonry layout plugin</li>
+            <li><a href="https://raw.githubusercontent.com/metafizzy/isotope-packery/master/packery-mode.pkgd.min.js" rel="nofollow">Packery - js/packery-mode.pkgd.min.js - PACKAGED</a> - For Isotope packery layout</li>
+            <li><a href="http://photoswipe.com" title="PhotoSwipe" rel="nofollow">PhotoSwipe - js/photoswipe.min.js - PhotoSwipe v4.1.2</a> - Lightbox plugin</li>
+            <li><a href="https://imagesloaded.desandro.com/" title="ImagesLoaded" rel="nofollow">ImagesLoaded</a> - js/imagesloaded.pkgd.min.js -  Judge images loaded or not</li>
+            <li><a href="https://owlcarousel2.github.io/OwlCarousel2/index.html" title="OwlCarousel" rel="nofollow"> OwlCarousel  v2.2.1</a> - js/owl.carousel.min.js - Slider plugin</li>
+            <li><a href="https://github.com/verlok/lazyload" title="LazyLoad" rel="nofollow">LazyLoad</a> -/js/lazyload.min.js - Image lazy load plugin</li> 
+            <li><a href="https://www.jplayer.org" rel="nofollow">jPlayer</a> - js/jquery.jplayer.min.js -  HTML5 media player plugin</li>
+            <li><a href="https://www.seatheme.com">modules-global.js</a> - Modules main js</li>
+            <li><a href="https://www.seatheme.com">mod/text.js</a> - Text module js</li>
+            <li><a href="https://www.seatheme.com">mod/single-image.js</a> - Single Image module js</li>
+            <li><a href="https://www.seatheme.com">mod/slider.js</a> - Slide module js</li>
+            <li><a href="https://www.seatheme.com">mod/grid.js</a> - Grid module js</li>
+            <li><a href="https://www.seatheme.com">mod/masonry-grid.js</a> - Masonry Grid module js</li>
+            <li><a href="https://www.seatheme.com">mod/embed.js</a> - Embed module js</li>
+            <li><a href="https://www.seatheme.com">mod/contact-form.js</a> - Contact Form module js</li>
+            <li><a href="https://www.seatheme.com">portfolio-2col.js</a> - for Gallery on Left/Right layout js</li>
+            <li><a href="https://www.seatheme.com">custom.theme.js</a> - js/custom.theme.js -  Art theme main js</li>
+        </ol>   
+        <p>Note:</p>
+        <ol>
+            <li>
+                Make the <span class="pre">custom.theme.js</span> and <span class="pre">modules js files</span> are at last lines(below other js files).
+            </li>
+        </ol>
+
+
+
+</section>
+
+
+
+</div>
+<script src="assets/js/jquery191.min.js"></script> <!-- 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script> -->
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap4.min.js"></script> 
+<script src="assets/lightbox/jquery.lightbox.min.js"></script>
+<script>document.createElement('section');var duration='500',easing='swing';
+    $(document).ready(function() {
+           $('.lightbox').lightbox();
+    }); 
+</script>
+</body>
+</html>

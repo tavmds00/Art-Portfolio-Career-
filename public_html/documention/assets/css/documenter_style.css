@@ -1,0 +1,249 @@
+/*!
+ * Documenter 2.0
+ * http://rxa.li/documenter
+ *
+ * Copyright 2013, Xaver Birsak
+ * http://revaxarts.com
+ *
+ */
+html { 
+	-webkit-text-size-adjust:none;
+	color:#6F6F6F;
+	background-color:#efefef;
+}
+html, body{max-width:100%;}
+body{ padding-bottom: 40px;font-size:101%; color: #666;
+	font-family:Arial,verdana,arial,sans-serif;
+	font-size:12px;
+}
+a:hover { text-decoration:underline }
+p, ul, ol{
+	margin:18px 0;
+	line-height:1.5em;
+}
+ul ul, ul ol, ol ol, ol ul {
+	margin-bottom: 18px;
+}
+li{
+	list-style:none;
+}
+li.placeholder{
+	height:70px;
+	width:100%;
+	font-size:16px;
+}
+#documenter_buttons {
+	position:absolute;
+	right:50px;
+	margin-top:-50px;
+}
+.btn{
+	cursor:pointer;
+	width:auto;
+	padding:7px 7px 8px;
+	border-radius:3px;
+	border:1px solid #ccc;
+	background: none;
+    text-shadow: none;
+    font-size: 14px;
+}
+.btn:hover,.btn:active,.btn:focus{
+	color: #333;
+	border:1px solid #B1B4B0;
+	box-shadow:none;
+	text-decoration:none;
+	text-shadow: none;
+	background: none;
+} 
+#documenter_content h1 {
+	font-size: 30px;
+    font-weight: 700;
+}
+#documenter_sidebar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    margin-bottom: 0;
+}
+#documenter_sidebar ul.nav {
+	position: relative; top: 50%; font-size: 12px; text-align: right;
+    font-weight: 700;
+    min-height: 150px; 
+    overflow: auto;
+	-webkit-transform: translateY(-50%); transform: translateY(-50%); 
+}
+#documenter_sidebar ul a { padding: 4px 15px 5px 0; }
+#documenter_content{
+	margin-left: 220px; padding-right: 50px;
+}
+#documenter-cover{
+	min-height: 600px;
+}
+#documenter_content ol li {
+    list-style: decimal;
+    margin-left: 42px;
+}
+#documenter_copyright {
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+    right: 15px;
+    width: 200px;
+    text-align: right;
+    z-index: 1;
+}
+.masthead h1{
+	margin-top: 48px;
+}
+
+section h3,
+section h4,
+section h5,
+section h6 {
+	padding: 0;
+	clear: both;
+	line-height: 1.2em;
+	margin-top: 2em;
+}
+section h3{ font-size:2em;}
+section h4{ font-size:1.5em;}
+section h5{ font-size:1.2em;}
+section h6{ font-size:1.1em;}
+
+section table{
+	border-top:1px solid;
+	margin: 18px 0 18px;
+}
+section table td, section table th{
+	border-bottom:1px solid;
+	text-align:left;
+	padding: 10px 10px 10px 3px;
+}
+section table th{
+	font-weight: 900;
+}
+
+hr.notop{
+	margin-top:3px;
+}
+	
+footer{
+	padding-bottom:500px;
+}
+.container{
+	width: auto;
+	padding-bottom:3px;
+	position: relative;
+}
+.navbar a.brand{ 
+	height: 100px; margin-left: 20px; float: none;
+	background-position:center left;
+	background-repeat:no-repeat;
+	background-size: auto 45px;
+	text-indent:-9999px;  
+}
+
+.page-header{
+	border:0;
+}
+.navbar .navbar-inner { padding: 0; border-width: 0; background: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;}
+.navbar .nav { 
+	float: none; margin-left: 20px;
+}
+.navbar.navbar-fixed-left .navbar-inner {
+	position: fixed; left: 0; top: 0; bottom: 0; width: 200px; margin-bottom: 0; background-color: #f0f0f0;
+}
+.navbar.navbar-fixed-left .container {
+	position: relative; top: 50%;
+    -webkit-transform: translateY(-50%); transform: translateY(-50%);
+}
+.navbar .nav > li {
+	float: none;
+}
+.navbar .nav li a{ 
+	display:block;
+	white-space:nowrap;
+	padding: 0; 
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-decoration:none;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+.navbar .nav li ul{
+	border-radius:5px;
+	display:none;
+	position:absolute;
+	list-style-type:none;
+	min-width:100px;
+	padding:3px;
+	box-shadow:0 0 3px rgba(0,0,0,0.3);
+
+}
+.navbar .nav > li:hover ul{
+	display:block;
+}
+
+.marketing-byline {
+	list-style:none;
+	margin-left: 0;
+	margin-bottom: 24px;
+}
+.marketing-byline li{
+	display:inline;
+	padding:0 2px;
+}
+.download-info{
+	clear:both;
+}
+section{
+	margin-top:300px;
+}
+img{
+	height:auto !important;
+}
+iframe{
+	max-width:100% !important;
+}
+
+@media (max-width: 979px) {
+	#documenter_content{
+		padding-top: 0px;
+	}
+	.navbar .nav {
+		margin: 10px 10px 0 0;
+	}
+	.navbar .nav > li > a{
+		padding:6px 11px 7px;
+		max-width:100%;
+		overflow:hidden;
+		text-overflow:ellipsis;
+	}
+	.navbar .nav li ul{
+		display:none;
+		box-shadow:none;
+		position:static;
+	}
+	.navbar .nav li:hover ul{
+		display:block;
+	}
+	.navbar .nav li ul li{
+		display:block;
+	}
+	.navbar .nav li a{
+		max-width:100%;
+	}
+
+	section{
+		margin-top:80px;
+	}
+}
+@media (max-width: 480px) {
+	section{
+		margin-top:30px;
+	}
+}
