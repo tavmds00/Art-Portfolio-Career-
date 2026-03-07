@@ -127,9 +127,6 @@
 		});
 	}
 	
-	//document ready
-	UxCBMod.doc.ready(function(){ });
-	
 	//UxCBMod init
 	UxCBMod.fnInit = function(){
 		UxCBMod.module = $('.bm-builder > .module');
