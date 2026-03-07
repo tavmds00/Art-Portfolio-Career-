@@ -417,19 +417,13 @@
 <script src='js/portfolio-2col.js'></script>
 <script src='js/custom.theme.js'></script>
 
-<!-- Self-contained filter — completely independent of theme JS -->
+<!-- Self-contained filter -->
 <script>
-jQuery(window).on('load', function() {
-    var $ = jQuery;
-    var list = $('.masonry-list');
+window.addEventListener('load', function() {
+    var list = document.querySelector('.masonry-list');
+    if (!list) return;
 
-    // Destroy any existing isotope instance first to prevent duplication
-    if (list.data('isotope')) {
-        list.isotope('destroy');
-    }
-
-    // Initialize fresh single instance
-    var iso = list.isotope({
+    var iso = jQuery(list).isotope({
         itemSelector: '.grid-item',
         layoutMode: 'fitRows',
         percentPosition: true,
@@ -437,16 +431,16 @@ jQuery(window).on('load', function() {
         visibleStyle: { opacity: 1 }
     });
 
-    // Store it so theme JS won't re-init
-    UxCBModModuleIsotope['1573192737761'] = iso;
-
-    // Filter clicks
-    $('.filters [data-filter]').on('click', function(e) {
-        e.preventDefault();
-        var filterVal = $(this).attr('data-filter');
-        iso.isotope({ filter: filterVal });
-        $('.filters-li').removeClass('active');
-        $(this).parent().addClass('active');
+    document.querySelectorAll('.filters [data-filter]').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            var filterVal = this.getAttribute('data-filter');
+            iso.isotope({ filter: filterVal });
+            document.querySelectorAll('.filters-li').forEach(function(li) {
+                li.classList.remove('active');
+            });
+            btn.parentElement.classList.add('active');
+        });
     });
 });
 </script>
