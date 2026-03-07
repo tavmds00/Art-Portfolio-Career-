@@ -725,10 +725,10 @@ UxCBModModuleIsotope = [];
 					$(window).trigger('resize'); 
 				}
 				
-				if(UxCBMod.body.hasClass('page') || UxCBMod.body.hasClass('single') || UxCBMod.body.hasClass('blog')){
-					if(module.find('.filters').length){
-						UxCBMod.fnModuleFilters(module);
-					}
+				if(module.find('.filters').length){
+    				UxCBMod.fnModuleFilters(module);
+				}
+
 					if(module.find('.page_twitter').length){
 						UxCBMod.fnModuleLoadmore(module);
 					}

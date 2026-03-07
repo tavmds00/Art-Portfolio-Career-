@@ -141,10 +141,7 @@
 		UxCBMod.gridHovertap = UxCBMod.module.find('.bm-touch-tab');
 		UxCBMod.gridactiveTitLink = UxCBMod.module.find('.grid-active-titlelink');
 		
-		//call isotope (portfolio)
-		if(UxCBMod.isotope.length){
-			UxCBMod.fnIsotope(UxCBMod.isotope);
-		}
+	
 		
 		//remove title of tag a
 		if(UxCBMod.gridMaskLink.length) {
