@@ -4736,6 +4736,7 @@ ins {
 		padding-right: var(--main-fluid-padding-lr, 60px)!important;
 		max-width: var(--main-fluid-max-width, none );
 	}
+	
 	/* Filter */
 .filters-top-spacing,
 .filters-top-spacing .filters-ul {
