@@ -1138,4 +1138,4 @@ function UxCBInitPhotoSwipeFromDOM(gallerySelector){
 }
 
 
-content.find('.grid-item').addClass(filterValue.replace('.', ''));
+
