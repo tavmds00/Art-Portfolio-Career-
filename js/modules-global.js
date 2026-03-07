@@ -730,14 +730,12 @@ UxCBModModuleIsotope = [];
 				}
 
 					if(module.find('.page_twitter').length){
-						UxCBMod.fnModuleLoadmore(module);
-					}
-					if(module.find('.infiniti-scroll').length){
-						setTimeout(function(){
-							UxCBMod.fnModuleInfinitiScroll(module);
-						},20);
-						
-					}
+					UxCBMod.fnModuleLoadmore(module);
+				}
+				if(module.find('.infiniti-scroll').length){
+					setTimeout(function(){
+						UxCBMod.fnModuleInfinitiScroll(module);
+					},20);
 				}
 			});
 			

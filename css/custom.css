@@ -632,15 +632,15 @@ textarea:focus::placeholder {
 
 /*   Secton 3. Fonts   */
 
-  @font-face {
+@font-face {
   font-family: "Noto Nastaliq Urdu"; 
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/NotoNastaliqUrdu-VariableFont_wght.ttf") format("wght.ttf");
   font-display: swap; 
-	  }
+}
 
- @font-face {
+@font-face {
   font-family: "Sea Font"; 
   font-style: normal;
   font-weight: 400;
@@ -674,7 +674,6 @@ body {
 	letter-spacing: 2px;
 }
 
-
 .logo-text,
 .menu li > a,
 h1,
@@ -683,7 +682,6 @@ h3,
 h4,
 h5, 
 h6,
-
 .ux-btn-text {
   font-weight: 600;
 }
@@ -774,7 +772,6 @@ input[type="submit"] {
 /* Footer */
 .footer-info,.footer-info .menu li a { 
   font-size: 14px; 
-
 }
 
 /* Social links on footer */
@@ -787,7 +784,6 @@ input[type="submit"] {
 
 	/* Font settings Mobile */
 
-	/* Main Content Font Size */
 	.responsive-ux .entry p,
 	.responsive-ux .text_block p,
 	.responsive-ux .text_block span,
@@ -817,22 +813,18 @@ input[type="submit"] {
 		font-size: 16px;
 	}
 
-	/* Text logo font size */
 	.responsive-ux #header .logo-text {
     	font-size: 16px;
 	}
 
-	/* Logo footer */
 	.responsive-ux #logo-footer .logo-text {
 		font-size: 14px;
 	}
 
-	/* Tagline */
 	.responsive-ux .taglines {
 		font-size: 10px;
 	}
 
-	/* Menu header*/
 	body.show-menu-item-mobile.responsive-ux .navi-header {
 		margin-left: 0px!important;
 	}
@@ -847,7 +839,6 @@ input[type="submit"] {
 	    font-size: 16px;
 	}
 
-	/*Menu on panel*/
 	.responsive-ux .navi .menu li > a {
 		font-size: 40px;
 	}
@@ -855,21 +846,18 @@ input[type="submit"] {
 		font-size: 20px;
 	}
 
-	/* Page & Post title*/
 	body.single.responsive-ux .title-wrap-tit,
 	.responsive-ux .title-wrap-h1 {
 		font-size: 38px;
 	}
 
-	/* h1 - h6 default */
 	.responsive-ux h1 {
 		font-size: 32px;
 	}
 
 	.responsive-ux h2 {
 		font-size: 20px;
-		 font-family: NotoNastaliqUrdu;
-
+		font-family: NotoNastaliqUrdu;
 	}
 
 	.responsive-ux h3 {
@@ -888,7 +876,6 @@ input[type="submit"] {
 		font-size: 16px;
 	}
 
-	/* Meta */
 	.responsive-ux .article-meta, 
 	.responsive-ux .comment-form .logged-in-as,
 	.responsive-ux .comment-meta,
@@ -897,93 +884,71 @@ input[type="submit"] {
 		font-size: 0.8em;
 	} 
 
-	/* Caption of single portfolio */
 	.responsive-ux .list-layout-inside-caption,
 	.responsive-ux figcaption {
 		font-size: 0.8em;
 	}
 
-	/* Button*/
 	.responsive-ux button, .responsive-ux input[type="submit"] {
 		font-size: 14px;
 	}
 
-	/* Form */
 	.responsive-ux textarea, 
 	.responsive-ux input {
-		font-size: 16px
+		font-size: 16px;
 	}
 
-	/* Footer */
 	.responsive-ux .footer-info {
 		font-size: 12px;
-
 	}
 
-	/* Post navi*/
 	.responsive-ux .post-navi-single,
 	.responsive-ux .post-navi-unit-tit {
 		font-size: 1em;
 	}
 
-	/* Archive title */
 	.responsive-ux .archive-title .title-wrap-tit {
 		font-size: 26px;
 	} 
 
-	/* Archive items title */
 	.responsive-ux .archive-tit {
 		font-size: 22px;
 	} 
 
-	/* widget title */
 	.responsive-ux .widget-title {
 		font-size: 18px;
 	} 
 
-	/* widget content */
 	.responsive-ux .widget-container {
 		font-size: 16px;
 	}
 
-	
-
-	/* Colors */
-
-
-	/* Menu icon & Header icon default color on mobile */
 	.default-logo-menu-mobile .navi-trigger,
 	.default-logo-menu-mobile .portfolio-icon {
 		color: #313139;
 	}
 
-	/* Text logo default color mobile*/
 	.default-logo-menu-mobile .logo-text {
 		color: #313139;
 	}
 
-	/* Tagline default color mobile*/
 	.default-logo-menu-mobile .taglines {
 		color: #313139;
 	}
 
-	/* Menu icon & Header icon alternative color mobile*/
 	.alt-logo-menu-mobile .navi-trigger,
 	.alt-logo-menu-mobile .portfolio-icon {
 		color: #f7f7f8;
 	}
 
-	/* Text logo alternative color mobile*/
 	.alt-logo-menu-mobile .logo-text {
 		color: #f7f7f8;
 	}
 
-	/* Tagline default color mobile*/
 	.default-logo-menu-mobile .taglines {
 		color: #313139;
 	}
 
-	/* Menu icon & Header icon color when expanded panel is opened on mobile */
 	.show_mobile_menu .navi-trigger,
 	.show_popup .navi-trigger,
 	.show_mobile_menu .portfolio-icon,
@@ -991,21 +956,85 @@ input[type="submit"] {
 		color: #313139;
 	}
 
-	/* Logo color when expanded panel is opened on mobile */
 	.show_mobile_menu .logo-text,
 	.show_popup .logo-text {
 		color: #313139;
 	}
 
-	/* Tagline color when expanded panel is opened on mobile */
 	.show_mobile_menu .taglines,
 	.show_popup .taglines {
 		color: #313139;
 	}
 
-	@media (max-width: 1200px){
- .bm-builder {
-    min-height: calc(100vh - 140px);
- }
 }
 
+@media (max-width: 1200px) {
+	.bm-builder {
+		min-height: calc(100vh - 140px);
+	}
+}
+
+/* =============================================
+   Works Grid — Typography & Tile Refinements
+   ============================================= */
+
+/* Title */
+.grid-item-tit {
+    font-family: "Sea Font", serif !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    font-style: normal !important;
+    color: #414145 !important;
+    letter-spacing: 0px;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+/* Year + medium */
+.grid-item-meta {
+    font-family: "Sea Font", serif !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    color: #414145 !important;
+    letter-spacing: 0px;
+    margin-top: 3px;
+    line-height: 1.4;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+/* Text padding under each tile */
+.standard-text-padding {
+    padding: 8px 4px 12px 4px !important;
+}
+
+/* Fix isotope height clipping */
+.grid-item-inside {
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.grid-item-con-text-tit-shown {
+    position: relative !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.grid-item {
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.brick-content {
+    position: relative !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .grid-item-tit { font-size: 11px !important; }
+    .grid-item-meta { font-size: 10px !important; }
+}
