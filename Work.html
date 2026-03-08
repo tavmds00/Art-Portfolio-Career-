@@ -71,6 +71,25 @@
             .filters-ul { justify-content: flex-start; gap: 5px; }
             .filters-a { font-size: 10px; padding: 4px 10px; }
         }
+
+        /* Fix: ensure meta text is visible and not clipped */
+        .grid-item-inside {
+            overflow: visible !important;
+        }
+        .grid-item-con-text-tit-shown {
+            position: relative !important;
+            overflow: visible !important;
+            height: auto !important;
+        }
+        .grid-item-meta {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            font-size: 11px;
+            color: #777;
+            margin-top: 4px;
+            letter-spacing: 0.3px;
+        }
         </style>
     </head>
   
