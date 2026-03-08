@@ -968,9 +968,24 @@ input[type="submit"] {
 
 }
 
-@media (max-width: 1200px) {
-	.bm-builder {
-		min-height: calc(100vh - 140px);
+/* Remove extra space on homepage */
+body.postid-2006 #wrap-outer {
+	height: auto !important;
+	min-height: 0 !important;
+	position: relative !important;
+}
+body.postid-2006 #wrap-outer:after {
+	display: none !important;
+}
+
+/* Stack two-column layout at tablet and below (1024px) */
+@media (max-width: 1024px) {
+	.sidebar-layout .col-md-9,
+	.sidebar-layout .col-md-3,
+	.single-col2-text-wrap,
+	.single-col2-gallery-wrap {
+		width: 100% !important;
+		float: none !important;
 	}
 }
 
@@ -1037,4 +1052,22 @@ input[type="submit"] {
 @media (max-width: 767px) {
     .grid-item-tit { font-size: 11px !important; }
     .grid-item-meta { font-size: 10px !important; }
+}
+
+
+
+.text-link-work {
+    display: inline-block;
+    margin-bottom: 15px !important; /* Added padding below for even spacing */
+    font-size: 16px; 
+    opacity: 0.7;    
+    color: #000 !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text-link-work:hover {
+    text-decoration: underline !important;
+    opacity: 1; 
 }
