@@ -51,21 +51,7 @@
 		
 		 <!-- BDynamic caption plugin for PhotoSwipe -->
 	
-	<link rel="stylesheet" href="https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css">
-
-		<script type="module">
-		import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
-		// or 'photoswipe-dynamic-caption-plugin' if using package manager
-		import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
-			const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
-  // Plugins options, for example:
-  type: 'auto',
-});
-
-// make sure you init photoswipe core after plugins are added
-lightbox.init();
-</script>
-
+	
         <script>
             var photoSwipeLocalize = [];photoSwipeLocalize.push({id:"facebook", label:"Share on Facebook", url:"https://www.facebook.com/sharer/sharer.php?u={{url}}"});photoSwipeLocalize.push({id:"twitter", label:"Tweet", url:"https://twitter.com/intent/tweet?text={{text}}&url={{url}}"});photoSwipeLocalize.push({id:"pinterest", label:"Pin it", url:"http://www.pinterest.com/pin/create/button/"+ "?url={{url}}&media={{image_url}}&description={{text}}"});photoSwipeLocalize.push({id:"download", label:"Download image", url:"{{raw_image_url}}", download:true});
             var isFilterClick = false;
@@ -243,7 +229,7 @@ lightbox.init();
 																							The installation includes a selection from the artist's personal archive of hip, jive, Pachuco, and Caló dictionaries. Among them is Cab Calloway's 
 																							<i>Hepster's Dictionary: A Guide to the Language of Jive</i> — one of the earliest slang dictionaries published by an African American author and the 
 																							conceptual point of departure for the project. Additional materials include <i>Barrio Language Dictionary: First Dictionary of Caló</i> (1974) 
-																							by Dagoberto Fuentes and José A. López and <i>Lowrider: Dictionary of Pachuco Slang</i> by Mr. Cantu.<br /><br />
+																							by Dagoberto Fuentes and José A. López and <i>Lowrider: Dictionary of Pachuco Slang</i> by Mr. Cantu.<br /><br /></p>
 																					</div>
 																				</div>
 																			</div>
@@ -568,9 +554,7 @@ lightbox.init();
         <!-- Theme main js -->
         <script src='js/custom.theme.js'></script>
 					
-		<script src='https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js'></script>
-
-        <script src='js/photoswipe-dynamic-caption-plugin.esm.js'></script>
+		
 
 
     </body>
