@@ -859,7 +859,7 @@ input[type="submit"] {
 
 	.responsive-ux h2 {
 		font-size: 20px;
-		font-family: Sea Font;
+		font-family: Sea;
 	}
 
 	.responsive-ux h3 {
@@ -1144,8 +1144,12 @@ input[type="submit"] {
 }
 
 .svg-style02-line-rect {
-    height: 20px !important;
+    height: 1px !important;
 	fill: #313139 !important;
+}
+
+#wrap {
+    min-height: unset !important;
 }
 
 .navi-trigger-out {
