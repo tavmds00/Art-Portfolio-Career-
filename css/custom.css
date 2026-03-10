@@ -1049,8 +1049,22 @@ input[type="submit"] {
 
 /* Mobile */
 @media (max-width: 767px) {
-    .grid-item-tit { font-size: 11px !important; }
-    .grid-item-meta { font-size: 10px !important; }
+    .grid-item-tit { font-size: 17px !important; }
+    .grid-item-meta { font-size: 14px !important; }
+	
+	/* Project page title */
+    .single-col2-text-wrap h1,
+    .single-col2-text-wrap h2 {
+        font-size: 32px !important;
+    }
+    
+    /* Project page body text */
+    .single-col2-text-wrap p,
+    .single-col2-text-wrap span {
+        font-size: 18px !important;
+        line-height: 1.6 !important;
+    }
+}
 }
 
 
