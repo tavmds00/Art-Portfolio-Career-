@@ -1144,12 +1144,8 @@ input[type="submit"] {
 }
 
 .svg-style02-line-rect {
-    height: 1px !important;
-	fill: #313139 !important;
-}
-
-#wrap {
-    min-height: unset !important;
+    height: 20px !important;
+	fill: #000000 !important;
 }
 
 .navi-trigger-out {
