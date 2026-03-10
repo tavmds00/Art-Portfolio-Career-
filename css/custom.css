@@ -1169,5 +1169,5 @@ input[type="submit"] {
 /* Optional: fix layout so footer flows normally */
 .wrap-all, #wrap-outer {
     position: relative !important;
-    min-height: 100% !important;
+    min-height: 40% !important;
 }
