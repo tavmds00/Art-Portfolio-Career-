@@ -72,7 +72,7 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/code-menu-b219d0b48e8c.js"></script>
   
 
-  <title>photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dimsemenov/photoswipe-dynamic-caption-plugin · GitHub</title>
+  <title>/.esm.js at main · dimsemenov/ · GitHub</title>
 
 
 
@@ -117,13 +117,13 @@
 
     <meta name="viewport" content="width=device-width">
     
-      <meta name="description" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dimsemenov/photoswipe-dynamic-caption-plugin">
+      <meta name="description" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - /.esm.js at main · dimsemenov/">
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/b751302c5ccd9985cab6d6901d65c10b22c35dd2b44a984ac2dd869c66ea6e45/dimsemenov/photoswipe-dynamic-caption-plugin" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dimsemenov/photoswipe-dynamic-caption-plugin" /><meta name="twitter:description" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dims..." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/b751302c5ccd9985cab6d6901d65c10b22c35dd2b44a984ac2dd869c66ea6e45/dimsemenov/photoswipe-dynamic-caption-plugin" /><meta property="og:image:alt" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dims..." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dimsemenov/photoswipe-dynamic-caption-plugin" /><meta property="og:url" content="https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin" /><meta property="og:description" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js at main · dims..." />
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/dimsemenov//blob/main/.esm.js" />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/b751302c5ccd9985cab6d6901d65c10b22c35dd2b44a984ac2dd869c66ea6e45/dimsemenov/" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="/.esm.js at main · dimsemenov/" /><meta name="twitter:description" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - /.esm.js at main · dims..." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/b751302c5ccd9985cab6d6901d65c10b22c35dd2b44a984ac2dd869c66ea6e45/dimsemenov/" /><meta property="og:image:alt" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - /.esm.js at main · dims..." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="/.esm.js at main · dimsemenov/" /><meta property="og:url" content="https://github.com/dimsemenov/" /><meta property="og:description" content="A dynamic caption plugin for PhotoSwipe v5. Automatically positions the caption aside or below the image. - /.esm.js at main · dims..." />
       
 
 
@@ -146,13 +146,13 @@
 
         <meta data-hydrostats="publish">
 
-  <meta name="go-import" content="github.com/dimsemenov/photoswipe-dynamic-caption-plugin git https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin.git">
+  <meta name="go-import" content="github.com/dimsemenov/ git https://github.com/dimsemenov/.git">
 
-  <meta name="octolytics-dimension-user_id" content="1061115" /><meta name="octolytics-dimension-user_login" content="dimsemenov" /><meta name="octolytics-dimension-repository_id" content="387351574" /><meta name="octolytics-dimension-repository_nwo" content="dimsemenov/photoswipe-dynamic-caption-plugin" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="387351574" /><meta name="octolytics-dimension-repository_network_root_nwo" content="dimsemenov/photoswipe-dynamic-caption-plugin" />
+  <meta name="octolytics-dimension-user_id" content="1061115" /><meta name="octolytics-dimension-user_login" content="dimsemenov" /><meta name="octolytics-dimension-repository_id" content="387351574" /><meta name="octolytics-dimension-repository_nwo" content="dimsemenov/" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="387351574" /><meta name="octolytics-dimension-repository_network_root_nwo" content="dimsemenov/" />
 
 
 
-    <link rel="canonical" href="https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/dimsemenov//blob/main/.esm.js" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-out env-production page-responsive page-blob">
 
 
@@ -207,7 +207,7 @@
         <div class="flex-1">
           <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo"
             class="d-inline-block d-lg-none flex-order-1 f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e11591425b1fd17738f814024f58f5f795ef833d28b48d807f8770a41463b203"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e11591425b1fd17738f814024f58f5f795ef833d28b48d807f8770a41463b203"
           >
             Sign&nbsp;up
           </a>
@@ -569,7 +569,7 @@
 <div class="header-search flex-auto position-relative js-site-search flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="387351574" data-scoped-search-url="/dimsemenov/photoswipe-dynamic-caption-plugin/search" data-owner-scoped-search-url="/users/dimsemenov/search" data-unscoped-search-url="/search" data-turbo="false" action="/dimsemenov/photoswipe-dynamic-caption-plugin/search" accept-charset="UTF-8" method="get">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="387351574" data-scoped-search-url="/dimsemenov//search" data-owner-scoped-search-url="/users/dimsemenov/search" data-unscoped-search-url="/search" data-turbo="false" action="/dimsemenov//search" accept-charset="UTF-8" method="get">
       <label class="form-control header-search-wrapper input-sm p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
         <input type="text"
           class="form-control js-site-search-focus header-search-input jump-to-field js-jump-to-field js-site-search-field is-clearable"
@@ -770,17 +770,17 @@
             </div>
 
           <div class="position-relative mr-lg-3 d-lg-inline-block">
-            <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fdimsemenov%2Fphotoswipe-dynamic-caption-plugin%2Fblob%2Fmain%2Fphotoswipe-dynamic-caption-plugin.esm.js"
+            <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fdimsemenov%2F%2Fblob%2Fmain%2F.esm.js"
               class="HeaderMenu-link HeaderMenu-link--sign-in flex-shrink-0 no-underline d-block d-lg-inline-block border border-lg-0 rounded rounded-lg-0 p-2 p-lg-0"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="47a461f8f084c5f1b02ec98858fe12fe10b844be43c7e9368caec6d32729bdef"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="47a461f8f084c5f1b02ec98858fe12fe10b844be43c7e9368caec6d32729bdef"
               data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
               Sign in
             </a>
           </div>
 
-            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=dimsemenov%2Fphotoswipe-dynamic-caption-plugin"
+            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=dimsemenov%2F"
               class="HeaderMenu-link HeaderMenu-link--sign-up flex-shrink-0 d-none d-lg-inline-block no-underline border color-border-default rounded px-2 py-1"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="47a461f8f084c5f1b02ec98858fe12fe10b844be43c7e9368caec6d32729bdef"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="47a461f8f084c5f1b02ec98858fe12fe10b844be43c7e9368caec6d32729bdef"
               data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out&quot;}"
             >
               Sign up
@@ -890,7 +890,7 @@
 </a>    </span>
     <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
     <strong itemprop="name" class="mr-2 flex-self-stretch">
-      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/dimsemenov/photoswipe-dynamic-caption-plugin">photoswipe-dynamic-caption-plugin</a>
+      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/dimsemenov/"></a>
     </strong>
 
     <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
@@ -905,13 +905,13 @@
       
 
   <li>
-            <a href="/login?return_to=%2Fdimsemenov%2Fphotoswipe-dynamic-caption-plugin" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ca48fd005f81a32f06447f2b517074ba5f2ae27d8b8e63bcf30d2197f9ec40ce" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+            <a href="/login?return_to=%2Fdimsemenov%2F" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ca48fd005f81a32f06447f2b517074ba5f2ae27d8b8e63bcf30d2197f9ec40ce" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
     <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
 </svg>Notifications
 </a>  </li>
 
   <li>
-          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2Fdimsemenov%2Fphotoswipe-dynamic-caption-plugin" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:387351574,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4fa1d120e6439475a33df3fd367988b4ae9d118f09f08f9756a4679615e1abe6" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2Fdimsemenov%2F" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:387351574,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4fa1d120e6439475a33df3fd367988b4ae9d118f09f08f9756a4679615e1abe6" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
 </svg>Fork
     <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="7" data-view-component="true" class="Counter">7</span>
@@ -920,7 +920,7 @@
 
   <li>
         <div data-view-component="true" class="BtnGroup d-flex">
-        <a href="/login?return_to=%2Fdimsemenov%2Fphotoswipe-dynamic-caption-plugin" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:387351574,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="988ab5bae1d5f39c18bcffc43eee2e6240a01151bc5792e00f254727ecbe9ca0" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+        <a href="/login?return_to=%2Fdimsemenov%2F" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:387351574,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="988ab5bae1d5f39c18bcffc43eee2e6240a01151bc5792e00f254727ecbe9ca0" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
     <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
@@ -947,7 +947,7 @@
 
   <ul data-view-component="true" class="UnderlineNav-body list-style-none">
       <li data-view-component="true" class="d-inline-flex">
-  <a id="code-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /dimsemenov/photoswipe-dynamic-caption-plugin" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+  <a id="code-tab" href="/dimsemenov/" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /dimsemenov/" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
@@ -959,7 +959,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="issues-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /dimsemenov/photoswipe-dynamic-caption-plugin/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="issues-tab" href="/dimsemenov//issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /dimsemenov//issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
@@ -971,7 +971,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="pull-requests-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /dimsemenov/photoswipe-dynamic-caption-plugin/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="pull-requests-tab" href="/dimsemenov//pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /dimsemenov//pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
@@ -983,7 +983,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="actions-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /dimsemenov/photoswipe-dynamic-caption-plugin/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="actions-tab" href="/dimsemenov//actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /dimsemenov//actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
@@ -995,7 +995,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="projects-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /dimsemenov/photoswipe-dynamic-caption-plugin/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="projects-tab" href="/dimsemenov//projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /dimsemenov//projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
     <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
@@ -1007,18 +1007,18 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="security-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /dimsemenov/photoswipe-dynamic-caption-plugin/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="security-tab" href="/dimsemenov//security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /dimsemenov//security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
 </svg>
         <span data-content="Security">Security</span>
-          <include-fragment src="/dimsemenov/photoswipe-dynamic-caption-plugin/security/overall-count" accept="text/fragment+html"></include-fragment>
+          <include-fragment src="/dimsemenov//security/overall-count" accept="text/fragment+html"></include-fragment>
 
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="insights-tab" href="/dimsemenov/photoswipe-dynamic-caption-plugin/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /dimsemenov/photoswipe-dynamic-caption-plugin/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="insights-tab" href="/dimsemenov//pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /dimsemenov//pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
@@ -1040,31 +1040,31 @@
 </summary>
     <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">          <ul>
               <li data-menu-item="i0code-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /dimsemenov/photoswipe-dynamic-caption-plugin" href="/dimsemenov/photoswipe-dynamic-caption-plugin">
+                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /dimsemenov/" href="/dimsemenov/">
                   Code
 </a>              </li>
               <li data-menu-item="i1issues-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /dimsemenov/photoswipe-dynamic-caption-plugin/issues" href="/dimsemenov/photoswipe-dynamic-caption-plugin/issues">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /dimsemenov//issues" href="/dimsemenov//issues">
                   Issues
 </a>              </li>
               <li data-menu-item="i2pull-requests-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /dimsemenov/photoswipe-dynamic-caption-plugin/pulls" href="/dimsemenov/photoswipe-dynamic-caption-plugin/pulls">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /dimsemenov//pulls" href="/dimsemenov//pulls">
                   Pull requests
 </a>              </li>
               <li data-menu-item="i3actions-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /dimsemenov/photoswipe-dynamic-caption-plugin/actions" href="/dimsemenov/photoswipe-dynamic-caption-plugin/actions">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /dimsemenov//actions" href="/dimsemenov//actions">
                   Actions
 </a>              </li>
               <li data-menu-item="i4projects-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /dimsemenov/photoswipe-dynamic-caption-plugin/projects" href="/dimsemenov/photoswipe-dynamic-caption-plugin/projects">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /dimsemenov//projects" href="/dimsemenov//projects">
                   Projects
 </a>              </li>
               <li data-menu-item="i5security-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /dimsemenov/photoswipe-dynamic-caption-plugin/security" href="/dimsemenov/photoswipe-dynamic-caption-plugin/security">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /dimsemenov//security" href="/dimsemenov//security">
                   Security
 </a>              </li>
               <li data-menu-item="i6insights-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /dimsemenov/photoswipe-dynamic-caption-plugin/pulse" href="/dimsemenov/photoswipe-dynamic-caption-plugin/pulse">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /dimsemenov//pulse" href="/dimsemenov//pulse">
                   Insights
 </a>              </li>
           </ul>
@@ -1096,7 +1096,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/b54b52dd39508a934385f30c529a59090ced0ce5/photoswipe-dynamic-caption-plugin.esm.js">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dimsemenov//blob/b54b52dd39508a934385f30c529a59090ced0ce5/.esm.js">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -1104,7 +1104,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ae912fa960511dce071eab893db50ea6ddea3d40c1eee023d9e576f60d0c108d">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ae912fa960511dce071eab893db50ea6ddea3d40c1eee023d9e576f60d0c108d">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -1155,7 +1155,7 @@
               tab-selected:ref-selector#tabSelected
               focus-list:ref-selector#focusFirstListMember
             "
-            query-endpoint="/dimsemenov/photoswipe-dynamic-caption-plugin/refs"
+            query-endpoint="/dimsemenov//refs"
             
             cache-key="v0:1626673210.310048"
             current-committish="bWFpbg=="
@@ -1185,7 +1185,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/{{ urlEncodedRefName }}/photoswipe-dynamic-caption-plugin.esm.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/dimsemenov//blob/{{ urlEncodedRefName }}/.esm.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
@@ -1195,7 +1195,7 @@
 </template>
 
 
-              <footer class="SelectMenu-footer"><a href="/dimsemenov/photoswipe-dynamic-caption-plugin/branches">View all branches</a></footer>
+              <footer class="SelectMenu-footer"><a href="/dimsemenov//branches">View all branches</a></footer>
           </ref-selector>
 
         </div>
@@ -1209,7 +1209,7 @@
               focus-list:ref-selector#focusFirstListMember
             "
             data-targets="input-demux.sinks"
-            query-endpoint="/dimsemenov/photoswipe-dynamic-caption-plugin/refs"
+            query-endpoint="/dimsemenov//refs"
             cache-key="v0:1626673210.310048"
             current-committish="bWFpbg=="
             default-branch="bWFpbg=="
@@ -1227,7 +1227,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/{{ urlEncodedRefName }}/photoswipe-dynamic-caption-plugin.esm.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/dimsemenov//blob/{{ urlEncodedRefName }}/.esm.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
@@ -1245,7 +1245,7 @@
 </svg>
               </div>
             </div>
-              <footer class="SelectMenu-footer"><a href="/dimsemenov/photoswipe-dynamic-caption-plugin/tags">View all tags</a></footer>
+              <footer class="SelectMenu-footer"><a href="/dimsemenov//tags">View all tags</a></footer>
           </ref-selector>
         </div>
       </tab-container>
@@ -1288,9 +1288,9 @@
 
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/dimsemenov/photoswipe-dynamic-caption-plugin"><span>photoswipe-dynamic-caption-plugin</span></a></span></span><span class="separator">/</span><strong class="final-path">photoswipe-dynamic-caption-plugin.esm.js</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/dimsemenov/"><span></span></a></span></span><span class="separator">/</span><strong class="final-path">.esm.js</strong>
       <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
-    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="02a755d30c110037ba1fc3294e0356b6e4e7eecb81b9e12eef6fcbec6785ea63" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="02a755d30c110037ba1fc3294e0356b6e4e7eecb81b9e12eef6fcbec6785ea63" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
     <span data-menu-button>Jump to</span>
@@ -1318,103 +1318,103 @@
         </div>
       <div class="SelectMenu-list">
         <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
-            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L17">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L17">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>PhotoSwipeDynamicCaption</span>
               <span class="flex-auto d-flex flex-justify-end">Class</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L32">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L32">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>initCaption</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L89">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L89">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>adjustPanArea</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L102">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L102">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>useMobileLayout</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L116">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L116">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>hideCaption</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L138">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L138">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>setCaptionYOffset</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L142">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L142">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>showCaption</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L161">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L161">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>setCaptionPosition</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L171">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L171">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>setCaptionWidth</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L179">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L179">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>setCaptionType</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L188">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L188">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>updateCaptionPosition</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L227">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L227">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>onCalcSlideSize</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L352">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L352">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>measureCaptionSize</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L365">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L365">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>recalculateZoomLevelAndBounds</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L370">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L370">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>storeAdjustedPanAreaSize</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L380">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L380">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>storeOriginalPanAreaSize</span>
               <span class="flex-auto d-flex flex-justify-end">Method</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js#L390">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:387351574,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a8072225ecdfdf15ef7a271ed4d3e88a93c63ac1d9e8272b1ebff14142620c6" href="/dimsemenov//blob/main/.esm.js#L390">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
@@ -1433,7 +1433,7 @@
 </details>
 
   </h2>
-    <a href="/dimsemenov/photoswipe-dynamic-caption-plugin/find/main" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
+    <a href="/dimsemenov//find/main" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
     <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
       <summary role="button" data-view-component="true" class="btn">    <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
@@ -1442,7 +1442,7 @@
 </summary>
     <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f50174b432c19315d6511acb252f4590964663935c772847724f6f06d6a25a7c" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/dimsemenov/photoswipe-dynamic-caption-plugin/find/main">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f50174b432c19315d6511acb252f4590964663935c772847724f6f06d6a25a7c" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/dimsemenov//find/main">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -1460,13 +1460,13 @@
 </button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="photoswipe-dynamic-caption-plugin.esm.js" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value=".esm.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/b54b52dd39508a934385f30c529a59090ced0ce5/photoswipe-dynamic-caption-plugin.esm.js" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/dimsemenov//blob/b54b52dd39508a934385f30c529a59090ced0ce5/.esm.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -1494,10 +1494,10 @@
   
 </div></div>
 
-    <include-fragment src="/dimsemenov/photoswipe-dynamic-caption-plugin/spoofed_commit_check/b54b52dd39508a934385f30c529a59090ced0ce5" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/dimsemenov//spoofed_commit_check/b54b52dd39508a934385f30c529a59090ced0ce5" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/dimsemenov/photoswipe-dynamic-caption-plugin/contributors/main/photoswipe-dynamic-caption-plugin.esm.js" class="commit-loader">
+  <include-fragment src="/dimsemenov//contributors/main/.esm.js" class="commit-loader">
     <div class="Box-header d-flex flex-items-center">
       <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
       <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1536,11 +1536,11 @@
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/dimsemenov/photoswipe-dynamic-caption-plugin/raw/b54b52dd39508a934385f30c529a59090ced0ce5/photoswipe-dynamic-caption-plugin.esm.js" href="/dimsemenov/photoswipe-dynamic-caption-plugin/raw/main/photoswipe-dynamic-caption-plugin.esm.js" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
+        <a data-permalink-href="/dimsemenov//raw/b54b52dd39508a934385f30c529a59090ced0ce5/.esm.js" href="/dimsemenov//raw/main/.esm.js" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
       <span class="Button-label">Raw</span>
     </span>
 </a>  
-          <a data-permalink-href="/dimsemenov/photoswipe-dynamic-caption-plugin/blame/b54b52dd39508a934385f30c529a59090ced0ce5/photoswipe-dynamic-caption-plugin.esm.js" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blame/main/photoswipe-dynamic-caption-plugin.esm.js" group_item="true" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
+          <a data-permalink-href="/dimsemenov//blame/b54b52dd39508a934385f30c529a59090ced0ce5/.esm.js" href="/dimsemenov//blame/main/.esm.js" group_item="true" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
       <span class="Button-label">Blame</span>
     </span>
 </a>  
@@ -1549,7 +1549,7 @@
     <div class="d-flex">
         
 <div class="ml-1" >
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/dimsemenov/photoswipe-dynamic-caption-plugin/edit/main/photoswipe-dynamic-caption-plugin.esm.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dS62nwFfMpAhK_PE_ofbYGdN9FeVuhuKOiKbzS6EY0aJqqkW5VrNcS89j8VWe8N_AEIqvOaxTIzgVmifWTiBGw" autocomplete="off" />
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/dimsemenov//edit/main/.esm.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dS62nwFfMpAhK_PE_ofbYGdN9FeVuhuKOiKbzS6EY0aJqqkW5VrNcS89j8VWe8N_AEIqvOaxTIzgVmifWTiBGw" autocomplete="off" />
       <button title="You must be signed in to make or propose changes" data-hotkey="e" data-disable-with="" type="submit" disabled="disabled" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
 </svg>
@@ -1559,7 +1559,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/dimsemenov/photoswipe-dynamic-caption-plugin/edit/main/photoswipe-dynamic-caption-plugin.esm.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ysPRLbb1FVRw5Ym2mijf4-svjUmvI-dzwIIg185sdnM2R86kUvDqtX7z9bcy1Mf8jCBTotwosHUa9tOFudCULg" autocomplete="off" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/dimsemenov//edit/main/.esm.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ysPRLbb1FVRw5Ym2mijf4-svjUmvI-dzwIIg185sdnM2R86kUvDqtX7z9bcy1Mf8jCBTotwosHUa9tOFudCULg" autocomplete="off" />
               <button title="You must be signed in to make or propose changes" type="submit" disabled="disabled" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-muted text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -1575,10 +1575,10 @@
 
         
 <div >
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/dimsemenov/photoswipe-dynamic-caption-plugin/raw/b54b52dd39508a934385f30c529a59090ced0ce5/photoswipe-dynamic-caption-plugin.esm.js" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/dimsemenov//raw/b54b52dd39508a934385f30c529a59090ced0ce5/.esm.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fed31bc3f3dca32488070d8e8ae1344d1d8792ad04d569f1fd0feed36b2e8447" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fed31bc3f3dca32488070d8e8ae1344d1d8792ad04d569f1fd0feed36b2e8447" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
@@ -1635,15 +1635,15 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/dimsemenov/photoswipe-dynamic-caption-plugin/raw/main/photoswipe-dynamic-caption-plugin.esm.js">
+            <a class="dropdown-item" href="/dimsemenov//raw/main/.esm.js">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/dimsemenov/photoswipe-dynamic-caption-plugin/raw/main/photoswipe-dynamic-caption-plugin.esm.js" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/dimsemenov//raw/main/.esm.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/blob/main/photoswipe-dynamic-caption-plugin.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fed31bc3f3dca32488070d8e8ae1344d1d8792ad04d569f1fd0feed36b2e8447">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:387351574,&quot;originating_url&quot;:&quot;https://github.com/dimsemenov//blob/main/.esm.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fed31bc3f3dca32488070d8e8ae1344d1d8792ad04d569f1fd0feed36b2e8447">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -1666,7 +1666,7 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blame/main/photoswipe-dynamic-caption-plugin.esm.js">
+              <a class="dropdown-item" href="/dimsemenov//blame/main/.esm.js">
                 View blame
               </a>
             </li>
@@ -1705,7 +1705,7 @@
 </svg>
 </span></template>
 
-  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path="photoswipe-dynamic-caption-plugin.esm.js">
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path=".esm.js">
         <tr>
           <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
           <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/**</span></td>
@@ -1716,7 +1716,7 @@
         </tr>
         <tr>
           <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
-          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin</span></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * https://github.com/dimsemenov/</span></td>
         </tr>
         <tr>
           <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
@@ -3449,8 +3449,8 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/dimsemenov/photoswipe-dynamic-caption-plugin/blame/b54b52dd39508a934385f30c529a59090ced0ce5/photoswipe-dynamic-caption-plugin.esm.js">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/dimsemenov/photoswipe-dynamic-caption-plugin/issues/new">Reference in new issue</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/dimsemenov//blame/b54b52dd39508a934385f30c529a59090ced0ce5/.esm.js">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/dimsemenov//issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
   </details>
@@ -3474,7 +3474,7 @@
 
     <div class="Popover anim-scale-in js-tagsearch-popover"
      hidden
-     data-tagsearch-url="/dimsemenov/photoswipe-dynamic-caption-plugin/find-definition"
+     data-tagsearch-url="/dimsemenov//find-definition"
      data-tagsearch-ref="main"
      data-tagsearch-code-nav-context="BLOB_VIEW">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">

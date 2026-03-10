@@ -30,11 +30,11 @@ function getMinifyPlugin() {
 const outputDir = 'dist/';
 
 const esmDynamicCaptionJS = {
-    input: 'photoswipe-dynamic-caption-plugin.esm.js',
+    input: '.esm.js',
     output: {
         name: 'PhotoSwipeDynamicCaption',
         banner: getBanner('PhotoSwipe Dynamic Caption plugin'),
-        file: outputDir + 'photoswipe-dynamic-caption-plugin.esm.min.js',
+        file: outputDir + '.esm.min.js',
         format: 'esm'
     },
     plugins: [getMinifyPlugin()]
@@ -42,11 +42,11 @@ const esmDynamicCaptionJS = {
 
 
 const umdDynamicCaptionJS = {
-    input: 'photoswipe-dynamic-caption-plugin.esm.js',
+    input: '.esm.js',
     output: {
         name: 'PhotoSwipeDynamicCaption',
         banner: getBanner('PhotoSwipe Dynamic Caption plugin'),
-        file: outputDir + 'photoswipe-dynamic-caption-plugin.umd.min.js',
+        file: outputDir + '.umd.min.js',
         format: 'umd'
     },
     plugins: [getMinifyPlugin()]
