@@ -111,28 +111,29 @@
 </header>
 
 <style>
-    /* MOBILE: Left-aligned with the logo at 23px */
+/* MOBILE */
+.text-header-wrap { 
+    padding: 50px 20px 5px 23px !important; 
+}
+.responsive-image {
+    height: auto !important;
+    width: 100%;
+    display: block;
+}
+
+/* Desktop & iPad */
+@media (min-width: 768px) {
     .text-header-wrap { 
-        padding: 50px 20px 20px 23px !important; 
+        padding: 0px 20px 0px 0px !important; 
     }
     .responsive-image {
-        height: auto !important; /* Let it flow naturally on mobile */
+        height: auto !important;
         width: 100%;
+        max-width: 700px;
         display: block;
-        object-fit: cover;
+        margin: 0 auto;
     }
-
-   /* Desktop & iPad: Above the fold logic */
-    @media (min-width: 768px) {
-        .text-header-wrap { 
-            padding: 0px 20px 10px 0px !important; 
-        }
-        .responsive-image {
-            /* This 'min' function prevents the stretch on iPad */
-            /* It says: Use the 'above the fold' height, but NEVER go taller than 600px */
-            height: min(calc(100vh - 250px), 800px) !important;
-        }
-    }
+}
 </style>
 
 <div id="content_wrap" class="content_wrap_outer">
@@ -143,15 +144,15 @@
                 
                 <div class="text-header-wrap">
                     <div class="textwidget">
-                        <strong style="font-size: 18px; display: block;">Tomás Villalobos Moreno</strong>
-                        <p style="margin-top: 10px; opacity: 0.7;">Recomposing material history into spatial and sonic counter-narratives</p>
-                        <a href="Work.html" class="text-link-work">Work</a>
-                    </div>
+    <strong style="font-size: 18px; display: block;">Tomás Villalobos Moreno</strong>
+    <p style="margin-top: 10px; margin-bottom: 0; opacity: 0.7;">Recomposing material history into spatial and sonic counter-narratives</p>
+<a href="Work.html" class="text-link-work" style="margin-top: 15px; display: inline-block;">Work</a>
+</div>
                 </div>
 
                 <div class="single-image-yield" style="overflow: hidden;">
-                    <a href="Multiplication.html" style="display: block;">
-                        <img src="img/Betty/1.jpg" alt="Work" class="responsive-image">
+                    <a href="A Hip Alphabet.html" style="display: block;">
+                        <img src="img/home/10.jpg" alt="Work" class="responsive-image">
                     </a>
                 </div>
 

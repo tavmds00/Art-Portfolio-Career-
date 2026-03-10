@@ -967,15 +967,14 @@ input[type="submit"] {
 	}
 
 }
-
-/* Remove extra space on homepage */
-body.postid-2006 #wrap-outer {
-	height: auto !important;
-	min-height: 0 !important;
-	position: relative !important;
+/* Homepage gap fix */
+#content {
+    min-height: 0 !important;
 }
-body.postid-2006 #wrap-outer:after {
-	display: none !important;
+
+#wrap-outer {
+    min-height: 0 !important;
+    height: auto !important;
 }
 
 /* Stack two-column layout at tablet and below (1024px) */
