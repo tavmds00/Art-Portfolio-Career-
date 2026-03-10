@@ -1049,26 +1049,27 @@ input[type="submit"] {
 
 /* Mobile */
 @media (max-width: 767px) {
-    .grid-item-tit { font-size: 17px !important; }
-    .grid-item-meta { font-size: 14px !important; }
-	
-	/* Project page title */
-    .single-col2-text-wrap h1,
-    .single-col2-text-wrap h2 {
-        font-size: 32px !important;
+    .grid-item-tit { font-size: 22px !important; }
+    .grid-item-meta { font-size: 16px !important; }
+
+	.single-col2-text-wrap .text_block_centered span,
+    .single-col2-text-wrap .text_block_centered p {
+        --font-size-m: 18px !important;
     }
     
-    /* Project page body text */
-    .single-col2-text-wrap p,
-    .single-col2-text-wrap span {
-        font-size: 18px !important;
-        line-height: 1.6 !important;
+    .single-col2-text-wrap .text_block_centered b {
+        font-size: 20px !important;
     }
 }
+
+@media (max-width: 767px) {
+    .text_block_centered {
+        text-align: left !important;
+    }
 }
 
 
-
+/* Mobile Filter */
 .text-link-work {
     display: inline-block;
     margin-bottom: 15px !important; /* Added padding below for even spacing */
@@ -1083,4 +1084,63 @@ input[type="submit"] {
 .text-link-work:hover {
     text-decoration: underline !important;
     opacity: 1; 
+}
+
+/* Mobile Filter */
+@media (max-width: 768px) {
+    .filters-ul {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 4px;
+    }
+
+    .filters-ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filters-li {
+        flex-shrink: 0 !important;
+    }
+}
+/* Wrap the filters div in a relative container for the fade effect */
+
+@media (max-width: 768px) {
+
+    /* Fade-out wrapper — add class="filters-scroll-wrap" to the outer .filters div */
+    .filters-scroll-wrap {
+        position: relative;
+    }
+
+    .filters-scroll-wrap::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 100%;
+        background: linear-gradient(to right, transparent, #f5f5f5); /* match your page bg color */
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .filters-scroll-wrap .filters-ul {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 4px;
+        padding-right: 48px; /* keeps last item clear of the fade */
+    }
+
+    .filters-scroll-wrap .filters-ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filters-scroll-wrap .filters-ul .filters-li {
+        flex-shrink: 0 ;
+    }
 }
