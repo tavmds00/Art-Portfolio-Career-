@@ -1156,18 +1156,33 @@ input[type="submit"] {
     display: none;
 }
 
-/* Force footer spacing regardless of JS */
-#footer,
-#footer .footer-info,
-#footer .footer-cols-item,
-#footer .footer-one-col-item {
-    padding-top: 90px !important;
-    padding-bottom: 40px !important;
-    margin: 0 !important;
+/* Force header sticky on mobile */
+@media (max-width: 768px) {
+    #header {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+    }
+
+    #wrap-outer {
+        position: relative !important;
+        min-height: 100% !important;
+        overflow: visible !important;
+    }
+
+    body {
+        padding-top: 70px !important; /* height of header */
+    }
+
+    /* Footer spacing */
+    footer#footer {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
 }
 
-/* Optional: fix layout so footer flows normally */
-.wrap-all, #wrap-outer {
-    position: relative !important;
-    min-height: 40% !important;
+#wrap-outer::after {
+    display: none !important;
 }
