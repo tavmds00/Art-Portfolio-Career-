@@ -1155,3 +1155,19 @@ input[type="submit"] {
 .show_mobile_menu .svg-style02-line3 {
     display: none;
 }
+
+/* Force footer spacing regardless of JS */
+#footer,
+#footer .footer-info,
+#footer .footer-cols-item,
+#footer .footer-one-col-item {
+    padding-top: 90px !important;
+    padding-bottom: 40px !important;
+    margin: 0 !important;
+}
+
+/* Optional: fix layout so footer flows normally */
+.wrap-all, #wrap-outer {
+    position: relative !important;
+    min-height: 100% !important;
+}
