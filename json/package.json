@@ -3,11 +3,11 @@
   "version": "1.2.7",
   "description": "A caption plugin for PhotoSwipe v5+ that smartly positions it aside or below the image.",
   "main": "photoswipe-dynamic-caption-plugin.esm.js",
-  "style": "photoswipe-dynamic-caption-plugin.css",
+  "style": "",
   "type": "module",
   "exports": {
     ".": "./photoswipe-dynamic-caption-plugin.esm.js",
-    "./photoswipe-dynamic-caption-plugin.css": "./photoswipe-dynamic-caption-plugin.css"
+    "./": "./"
   },
   "devDependencies": {
     "@babel/core": "^7.18.0",
