@@ -863,6 +863,6 @@
 	        $('#wrap').css('opacity','1');
 	    }
 	};
-
 	
 })(jQuery); 
+
