@@ -1166,23 +1166,26 @@ input[type="submit"] {
         z-index: 9999 !important;
     }
 
-    #wrap-outer {
-        position: relative !important;
-        min-height: 100% !important;
-        overflow: visible !important;
-    }
-
     body {
-        padding-top: 70px !important; /* height of header */
+        padding-top: 70px !important;
     }
 
-    /* Footer spacing */
     footer#footer {
         padding-top: 20px !important;
         padding-bottom: 20px !important;
     }
 }
 
-#wrap-outer::after {
-    display: none !important;
+/* Footer gap fix — override theme's absolute positioning on short pages */
+#wrap-outer {
+    position: relative !important;
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+#wrap {
+    position: relative !important;
+    top: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
 }
