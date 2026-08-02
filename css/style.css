@@ -4841,3 +4841,10 @@ ins {
 	.bm-builder {
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
+
+.text-header-wrap a.text-link-work {
+    text-decoration: underline !important;
+    font-size: 18px !important;
+	font-weight: 600 !important;
+
+}
