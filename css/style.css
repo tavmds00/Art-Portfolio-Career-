@@ -4829,10 +4829,6 @@ ins {
     display: none;
 	}
 	
- mobileLayoutBreakpoint: (pswp, captionPlugin) => {
-  return (window.innerWidth < 750);
-}
-	
 		.pswp--custom-icon-colors {
   --pswp-icon-color: #00fff;
   --pswp-icon-color-secondary: #333;
@@ -4840,6 +4836,7 @@ ins {
 
 	.bm-builder {
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
+	}
 }
 
 .text-header-wrap a.text-link-work {
