@@ -1,4 +1,4 @@
-//mod -> contact-form
+// mod -> contact-form
 
 (function($){
 
@@ -13,42 +13,42 @@
 
         UxCBMod.contactform.each(function(){
 
-            var form = $(this),
-                formSubmit = form.find('input[type="submit"]');
+            var form = $(this);
+            var formSubmit = form.find('.idi_send');
 
-            form.submit(function(e){
+            form.on('submit', function(e){
 
                 e.preventDefault();
 
-                var hasError = false;
+                var name = $.trim(form.find('#idi_name').val());
+                var email = $.trim(form.find('#idi_mail').val());
+                var message = $.trim(form.find('#idi_text').val());
 
-                form.find('.requiredField').each(function(){
-
-                    if($.trim($(this).val()) === ''){
-
-                        hasError = true;
-
-                    }else if($(this).hasClass('email')){
-
-                        var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-                        if(!emailReg.test($.trim($(this).val()))){
-
-                            hasError = true;
-
-                        }
-
-                    }
-
-                });
-
-                if(hasError){
-
+                if(name === ''){
+                    alert('Please enter your name.');
                     return false;
-
                 }
 
-                formSubmit.val('Sending...').attr('disabled','disabled');
+                if(email === ''){
+                    alert('Please enter your email address.');
+                    return false;
+                }
+
+                var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if(!emailReg.test(email)){
+                    alert('Please enter a valid email address.');
+                    return false;
+                }
+
+                if(message === ''){
+                    alert('Please enter your message.');
+                    return false;
+                }
+
+                formSubmit
+                    .val('Sending...')
+                    .attr('disabled', 'disabled');
 
                 var formData = new FormData(form[0]);
 
@@ -57,36 +57,52 @@
                     body: formData
                 })
                 .then(function(response){
+
+                    if(!response.ok){
+                        throw new Error('Network response was not OK');
+                    }
+
                     return response.json();
+
                 })
                 .then(function(data){
 
                     if(data.success){
 
-                        form.slideUp("fast", function(){
+                        form.fadeOut('fast', function(){
 
                             form.before(
-                                '<p class="success" style="text-align:center">Sent successfully!</p>'
+                                '<p class="success" style="text-align:center;">SUCCESS<br><br>Your message has been sent.</p>'
                             );
 
                         });
 
                     }else{
 
-                        formSubmit.val('Send').removeAttr('disabled');
+                        formSubmit
+                            .val('Send')
+                            .removeAttr('disabled');
 
-                        alert('There was a problem sending your message. Please try again.');
+                        alert(
+                            data.message || 'There was a problem sending your message. Please try again.'
+                        );
 
                     }
 
                 })
-                .catch(function(){
+                .catch(function(error){
 
-                    formSubmit.val('Send').removeAttr('disabled');
+                    console.error('Contact form error:', error);
+
+                    formSubmit
+                        .val('Send')
+                        .removeAttr('disabled');
 
                     alert('There was a problem sending your message. Please try again.');
 
                 });
+
+                return false;
 
             });
 
@@ -120,7 +136,7 @@
 
     UxCBMod.doc.ready(function(){
 
-        if(UxCBModGlobal){
+        if(typeof UxCBModGlobal !== 'undefined'){
 
             UxCBModGlobal['contact-form'] = UxCBMod;
 
