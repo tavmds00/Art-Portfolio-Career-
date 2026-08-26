@@ -3,109 +3,131 @@
 (function($){
 
     "use strict";
-	
-	var UxCBMod = [];
-	
-	//window
-	UxCBMod.win = $(window);
-	UxCBMod.doc = $(document);
-	
-	//fn contact form
-	UxCBMod.fnContactForm = function(){
-		UxCBMod.contactform.each(function(){
-			
-			var form = $(this),
-				formMessage = form.find('input[type=\"hidden\"].info-tip').data('message'),
-				formSending = form.find('input[type=\"hidden\"].info-tip').data('sending'),
-				privacyPolicy = form.find('input[name=\"idi_privacy_policy\"]'),
-				formSubmit = form.find('input[type=\"submit\"]');
-			
-				if(privacyPolicy.length){
-					privacyPolicy.change(function(){
-						if($(this).is(':checked')){
-							formSubmit.removeAttr('disabled');
-						}else{
-							formSubmit.attr('disabled','disabled');
-						}
-					});
-				}
-				
-				form.submit(function() {
-					var hasError = false;
-					
-					form.find('.requiredField').each(function(){
-						if($.trim($(this).val()) == '' || $.trim($(this).val()) == 'Name*' || $.trim($(this).val()) == 'Email*' || $.trim($(this).val()) == 'Required' || $.trim($(this).val()) == 'Invalid email'){
-						
-							$(this).attr("value", "Required");
-							hasError = true;
-							
-						}else if($(this).hasClass('email')){
-							var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-							
-							if(!emailReg.test($.trim($(this).val()))){
-								$(this).attr("value", "Invalid email");
-								hasError = true;
-							}
-						
-						}
 
-					});
+    var UxCBMod = [];
 
-					//After verification, print some infos. 
-					if(!hasError){	
-						if(form.hasClass('single-feild')){
-							form.find('.idi_send').val(formSending).attr('disabled','disabled');
-						}else{	
-							form.find('.idi_send').fadeOut('normal', function(){
-								form.append('<p class="sending">' + formSending + '</p>');
-							});
-						}
-						var formInput = form.serialize();
-						
-						$.post(form.attr('action'), formInput, function(){
-							form.slideUp("fast", function() {
-								if(form.hasClass('single-feild')){
-									form.before('<p class="success" style=" text-align:center">' + formMessage + '</p>');
-								}else{
-									form.before('<p class="success">' + formMessage + '</p>');
-									form.find('.sending').fadeOut();
-								}
-							});
-						});
-					}
-					
-					return false;
-				});
-				
-		});//End each
-	}
-	
-	//UxCBMod init
-	UxCBMod.fnInit = function(){
-		UxCBMod.module = $('.bm-builder > .module');
-		if(!UxCBMod.module.length){
-			if($('.bm-builder > .bm-row').length){
-				UxCBMod.module = $('.bm-builder > .bm-row > .module');
-			}
-		}
-		
-		UxCBMod.contactform = UxCBMod.module.find('.contact_form');
-		
-		//Contact Form
-		if(UxCBMod.contactform.length) {
-			UxCBMod.fnContactForm();
-		}
-		
-	};
-	
-	//document ready
-	UxCBMod.doc.ready(function(){
-		if(UxCBModGlobal){
-			UxCBModGlobal['contact-form'] = UxCBMod;
-		}
-		
-		UxCBMod.fnInit();
-	});
-	
-	
+    UxCBMod.win = $(window);
+    UxCBMod.doc = $(document);
+
+    UxCBMod.fnContactForm = function(){
+
+        UxCBMod.contactform.each(function(){
+
+            var form = $(this),
+                formSubmit = form.find('input[type="submit"]');
+
+            form.submit(function(e){
+
+                e.preventDefault();
+
+                var hasError = false;
+
+                form.find('.requiredField').each(function(){
+
+                    if($.trim($(this).val()) === ''){
+
+                        hasError = true;
+
+                    }else if($(this).hasClass('email')){
+
+                        var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                        if(!emailReg.test($.trim($(this).val()))){
+
+                            hasError = true;
+
+                        }
+
+                    }
+
+                });
+
+                if(hasError){
+
+                    return false;
+
+                }
+
+                formSubmit.val('Sending...').attr('disabled','disabled');
+
+                var formData = new FormData(form[0]);
+
+                fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(function(response){
+                    return response.json();
+                })
+                .then(function(data){
+
+                    if(data.success){
+
+                        form.slideUp("fast", function(){
+
+                            form.before(
+                                '<p class="success" style="text-align:center">Sent successfully!</p>'
+                            );
+
+                        });
+
+                    }else{
+
+                        formSubmit.val('Send').removeAttr('disabled');
+
+                        alert('There was a problem sending your message. Please try again.');
+
+                    }
+
+                })
+                .catch(function(){
+
+                    formSubmit.val('Send').removeAttr('disabled');
+
+                    alert('There was a problem sending your message. Please try again.');
+
+                });
+
+            });
+
+        });
+
+    };
+
+    UxCBMod.fnInit = function(){
+
+        UxCBMod.module = $('.bm-builder > .module');
+
+        if(!UxCBMod.module.length){
+
+            if($('.bm-builder > .bm-row').length){
+
+                UxCBMod.module = $('.bm-builder > .bm-row > .module');
+
+            }
+
+        }
+
+        UxCBMod.contactform = UxCBMod.module.find('.contact_form');
+
+        if(UxCBMod.contactform.length){
+
+            UxCBMod.fnContactForm();
+
+        }
+
+    };
+
+    UxCBMod.doc.ready(function(){
+
+        if(UxCBModGlobal){
+
+            UxCBModGlobal['contact-form'] = UxCBMod;
+
+        }
+
+        UxCBMod.fnInit();
+
+    });
+
 })(jQuery);
