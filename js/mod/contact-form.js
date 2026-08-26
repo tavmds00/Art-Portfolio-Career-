@@ -1,4 +1,4 @@
-// mod -> contact-form
+//mod -> contact-form
 
 (function($){
 
@@ -13,42 +13,42 @@
 
         UxCBMod.contactform.each(function(){
 
-            var form = $(this);
-            var formSubmit = form.find('.idi_send');
+            var form = $(this),
+                formSubmit = form.find('input[type="submit"]');
 
-            form.on('submit', function(e){
+            form.submit(function(e){
 
                 e.preventDefault();
 
-                var name = $.trim(form.find('#idi_name').val());
-                var email = $.trim(form.find('#idi_mail').val());
-                var message = $.trim(form.find('#idi_text').val());
+                var hasError = false;
 
-                if(name === ''){
-                    alert('Please enter your name.');
+                form.find('.requiredField').each(function(){
+
+                    if($.trim($(this).val()) === ''){
+
+                        hasError = true;
+
+                    }else if($(this).hasClass('email')){
+
+                        var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                        if(!emailReg.test($.trim($(this).val()))){
+
+                            hasError = true;
+
+                        }
+
+                    }
+
+                });
+
+                if(hasError){
+
                     return false;
+
                 }
 
-                if(email === ''){
-                    alert('Please enter your email address.');
-                    return false;
-                }
-
-                var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-                if(!emailReg.test(email)){
-                    alert('Please enter a valid email address.');
-                    return false;
-                }
-
-                if(message === ''){
-                    alert('Please enter your message.');
-                    return false;
-                }
-
-                formSubmit
-                    .val('Sending...')
-                    .attr('disabled', 'disabled');
+                formSubmit.val('Sending...').attr('disabled','disabled');
 
                 var formData = new FormData(form[0]);
 
@@ -57,52 +57,36 @@
                     body: formData
                 })
                 .then(function(response){
-
-                    if(!response.ok){
-                        throw new Error('Network response was not OK');
-                    }
-
                     return response.json();
-
                 })
                 .then(function(data){
 
                     if(data.success){
 
-                        form.fadeOut('fast', function(){
+                        form.slideUp("fast", function(){
 
                             form.before(
-                                '<p class="success" style="text-align:center;">SUCCESS<br><br>Your message has been sent.</p>'
+                                '<p class="success" style="text-align:center">Sent successfully!</p>'
                             );
 
                         });
 
                     }else{
 
-                        formSubmit
-                            .val('Send')
-                            .removeAttr('disabled');
+                        formSubmit.val('Send').removeAttr('disabled');
 
-                        alert(
-                            data.message || 'There was a problem sending your message. Please try again.'
-                        );
+                        alert('There was a problem sending your message. Please try again.');
 
                     }
 
                 })
-                .catch(function(error){
+                .catch(function(){
 
-                    console.error('Contact form error:', error);
-
-                    formSubmit
-                        .val('Send')
-                        .removeAttr('disabled');
+                    formSubmit.val('Send').removeAttr('disabled');
 
                     alert('There was a problem sending your message. Please try again.');
 
                 });
-
-                return false;
 
             });
 
@@ -136,7 +120,7 @@
 
     UxCBMod.doc.ready(function(){
 
-        if(typeof UxCBModGlobal !== 'undefined'){
+        if(UxCBModGlobal){
 
             UxCBModGlobal['contact-form'] = UxCBMod;
 
