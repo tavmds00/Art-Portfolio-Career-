@@ -69,10 +69,9 @@
 
 						$('#contact-title').text('SUCCESS');
 
-						form.slideUp("fast", function(){
-
-							form.before(
-								'<p class="success" style="text-align:center">Your message has been sent.</p>'
+								form.html(
+									
+								'<p class="success">Your message has been sent.</p>'
 							);
 
     						});
