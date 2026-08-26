@@ -1,4 +1,4 @@
-//mod -> contact-form
+// mod -> contact-form
 
 (function($){
 
@@ -48,7 +48,9 @@
 
                 }
 
-                formSubmit.val('Sending...').attr('disabled','disabled');
+                formSubmit
+                    .val('Sending...')
+                    .attr('disabled','disabled');
 
                 var formData = new FormData(form[0]);
 
@@ -57,7 +59,9 @@
                     body: formData
                 })
                 .then(function(response){
+
                     return response.json();
+
                 })
                 .then(function(data){
 
@@ -73,20 +77,28 @@
 
                     }else{
 
-                        formSubmit.val('Send').removeAttr('disabled');
+                        formSubmit
+                            .val('Send')
+                            .removeAttr('disabled');
 
-                        alert('There was a problem sending your message. Please try again.');
+                        alert(
+                            data.message || 'There was a problem sending your message. Please try again.'
+                        );
 
                     }
 
                 })
                 .catch(function(){
 
-                    formSubmit.val('Send').removeAttr('disabled');
+                    formSubmit
+                        .val('Send')
+                        .removeAttr('disabled');
 
                     alert('There was a problem sending your message. Please try again.');
 
                 });
+
+                return false;
 
             });
 
@@ -120,7 +132,7 @@
 
     UxCBMod.doc.ready(function(){
 
-        if(UxCBModGlobal){
+        if(typeof UxCBModGlobal !== 'undefined'){
 
             UxCBModGlobal['contact-form'] = UxCBMod;
 
