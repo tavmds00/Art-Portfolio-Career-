@@ -7,7 +7,6 @@
     var UxCBMod = [];
 
     UxCBMod.win = $(window);
-
     UxCBMod.doc = $(document);
 
     UxCBMod.fnContactForm = function(){
@@ -15,60 +14,57 @@
         UxCBMod.contactform.each(function(){
 
             var form = $(this),
-                formSubmit = form.find('input[type="submit"]');
+                formSubmit = form.find('.idi_send');
 
-            form.submit(function(e){
+            form.on('submit', function(e){
 
                 e.preventDefault();
 
-                var hasError = false;
+                var name = $.trim(form.find('#idi_name').val());
+                var email = $.trim(form.find('#idi_mail').val());
+                var message = $.trim(form.find('#idi_text').val());
 
-                form.find('.requiredField').each(function(){
-
-                    if($.trim($(this).val()) === ''){
-
-                        hasError = true;
-
-                    }else if($(this).hasClass('email')){
-
-                        var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-                        if(!emailReg.test($.trim($(this).val()))){
-
-                            hasError = true;
-
-                        }
-
-                    }
-
-                });
-
-                if(hasError){
-
+                if(name === ''){
+                    alert('Please enter your name.');
                     return false;
+                }
 
+                if(email === ''){
+                    alert('Please enter your email address.');
+                    return false;
+                }
+
+                var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if(!emailReg.test(email)){
+                    alert('Please enter a valid email address.');
+                    return false;
+                }
+
+                if(message === ''){
+                    alert('Please enter your message.');
+                    return false;
                 }
 
                 formSubmit
                     .val('Sending...')
-                    .attr('disabled','disabled');
+                    .attr('disabled', 'disabled');
 
                 var formData = new FormData(form[0]);
 
                 fetch('https://api.web3forms.com/submit', {
-
                     method: 'POST',
-
                     body: formData
-
                 })
-
                 .then(function(response){
+
+                    if(!response.ok){
+                        throw new Error('Network response was not OK');
+                    }
 
                     return response.json();
 
                 })
-
                 .then(function(data){
 
                     if(data.success){
@@ -92,8 +88,9 @@
                     }
 
                 })
+                .catch(function(error){
 
-                .catch(function(){
+                    console.error('Contact form error:', error);
 
                     formSubmit
                         .val('Send')
