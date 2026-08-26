@@ -7,6 +7,7 @@
     var UxCBMod = [];
 
     UxCBMod.win = $(window);
+
     UxCBMod.doc = $(document);
 
     UxCBMod.fnContactForm = function(){
@@ -55,26 +56,28 @@
                 var formData = new FormData(form[0]);
 
                 fetch('https://api.web3forms.com/submit', {
+
                     method: 'POST',
+
                     body: formData
+
                 })
+
                 .then(function(response){
 
                     return response.json();
 
                 })
+
                 .then(function(data){
 
-									if(data.success){
+                    if(data.success){
 
-						$('#contact-title').text('SUCCESS');
+                        $('#contact-title').text('SUCCESS');
 
-								form.html(
-									
-								'<p class="success">Your message has been sent.</p>'
-							);
-
-    						});
+                        form.html(
+                            '<p class="success">Your message has been sent.</p>'
+                        );
 
                     }else{
 
@@ -89,6 +92,7 @@
                     }
 
                 })
+
                 .catch(function(){
 
                     formSubmit
