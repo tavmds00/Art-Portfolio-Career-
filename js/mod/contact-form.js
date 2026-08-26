@@ -71,9 +71,9 @@
 
                         $('#contact-title').text('SUCCESS');
 
-                        form.html(
-                            '<p class="success">Your message has been sent.</p>'
-                        );
+                       form.html(
+								'<p class="success" style="text-align:left;!important;">Your message has been sent.</p>'
+								);
 
                     }else{
 
