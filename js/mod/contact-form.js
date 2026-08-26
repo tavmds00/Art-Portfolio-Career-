@@ -65,15 +65,17 @@
                 })
                 .then(function(data){
 
-                    if(data.success){
+									if(data.success){
 
-                        form.slideUp("fast", function(){
+						$('#contact-title').text('SUCCESS');
 
-                            form.before(
-                                '<p class="success" style="text-align:center">Sent successfully!</p>'
-                            );
+						form.slideUp("fast", function(){
 
-                        });
+							form.before(
+								'<p class="success" style="text-align:center">Your message has been sent.</p>'
+							);
+
+    						});
 
                     }else{
 
